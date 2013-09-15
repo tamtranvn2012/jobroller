@@ -1,0 +1,28 @@
+.chatWrapper {
+display:-moz-box; /* Firefox */
+display:-webkit-box; /* Safari and Chrome */
+display:box;
+height:100%;
+width:100%;
+-moz-box-orient: vertical;
+-webkit-box-orient: vertical;
+box-orient: vertical;
+}
+
+.textChat{
+-moz-box-flex:1.0; /* Firefox */
+-webkit-box-flex:1.0; /* Safari and Chrome */
+box-flex:1.0;
+margin-left:20px;
+position:relative; 
+overflow:auto;
+height:80%;
+}
+
+.sendField {
+-moz-box-flex:1.0; /* Firefox */
+-webkit-box-flex:1.0; /* Safari and Chrome */
+box-flex:1.0;
+margin:20px;
+position:relative;
+}

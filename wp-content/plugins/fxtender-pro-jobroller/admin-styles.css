@@ -1,0 +1,120 @@
+.jr_fx_admin_container {
+	padding: 5px;	
+}
+
+.jr_fx_admin_container h4{
+	margin: 0;
+}
+
+.jr_fx_admin_me{
+	float: left;
+}
+
+.jr_fx_admin_thumb {
+	padding: 3px;
+	border: 1px solid #ccc;
+	width: 50px;
+}
+
+.jr_fx_admin_logo {
+	padding: 5px;
+}
+
+input.jr_fx_bt_upgrade {
+	margin: 0 10px 0 5px;
+	padding: 2px;	
+}
+
+.jr_fx_ver_free_ico {
+	padding: 0 5px 0 5px;
+	float: left;
+}
+
+.jr_fx_upgrade_ico {
+	padding: 0 5px 0 5px;
+	float: left;	
+}
+
+.jr_fx_unlock_ico {
+	padding: 0 5px 0 5px;
+}
+
+.jr_fx_upgrade_url {
+	text-decoration: underline;
+	float: right;
+	padding-right: 10px;
+}
+
+.jr_fx_limited_time_price {
+	font-size: 10px;
+	float: right;
+	font-style: italic;
+}
+
+.jr_fx_feat_toggle_label {
+	float: right;
+	color: #A3A3A3;
+}
+
+.jr_fx_buy_now, .jr_fx_toggle_features {
+	float: right !important;
+}
+
+.jr_fx_feat_example {
+	float: left;
+	width: 100%;
+}
+
+#easyTooltip {
+	width:500px !important;
+}
+
+.tzCheckBox {
+	margin-bottom: 5px !important;
+}
+
+.jr_fx_gateway_logo {
+	padding: 0 0 0 10px;	
+}
+
+img.jr_fx_ver_pro_ico {
+	margin-top: 8px !important;
+}
+
+img.jr_fx_ver_free_ico {
+	float: left;
+	margin-top: 8px !important;
+}
+
+.jr_fx_highlight_value {
+	-background-color: #EAEAEA;
+	color: #6E6E6E;
+	padding: 5px;
+	font-size: 11px;
+	border: 1px solid #D6D6D6;
+	line-height: 2.5em;
+	min-width: 35em;
+}
+
+.jr_fx_admin_logo_wrap {
+	float: left;
+}
+
+.pad, .nopad{
+	padding-right: 15px;
+}
+
+.jr_fx_company_logo_placeholder {
+	margin-top: 5px;
+	float: left;
+	border: 1px solid #DADBDD;
+	padding: 5px;
+	-khtml-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.form-table th {
+	font-weight: bold;
+}

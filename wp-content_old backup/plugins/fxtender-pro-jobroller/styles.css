@@ -1,0 +1,435 @@
+/**
+ * Messages
+ */
+.jr_fx_message {
+	display: none;
+}
+
+p.jr_fx_error {
+    background: #F2D3DB;
+    border: 2px solid #F5BFCC;
+    padding: 12px;
+    color: #9C5163;
+    margin: 0 0 20px !important;
+}
+
+.jr_fx_free_job_offer_text_wrap {
+	border: 1px solid #ccc;
+	padding:10px;
+	font-weight: bold;
+}
+
+/**
+ * Custom Fields
+ */
+.jr_fx_custom_field_div{
+	padding: 15px 0 15px 0; 
+}
+.jr_fx_custom_field_div .expire_days {
+	width: 50px !important;
+}
+
+.jr_fx_custom_field_div .email_applications {
+	width: 450px  !important;
+}
+.jr_fx_job_duration_limit {
+	font-size: 10px;
+}
+
+.jr_fx_custom_field_div .optional_apply_online,
+.jr_fx_custom_field_div .optional_apply_ld {
+	width: inherit !important;
+}
+
+/**
+ * Widgets
+ */
+ul.widgets li.widget.widget_jr_fx_company_logo {
+	border: none !important;
+}
+ 
+
+/**
+ * thumbs/Logos
+ */
+.jr_fx_temp_thumb {
+	display: none;
+}
+ 
+.jr_fx_job_listing_thumb {
+	padding: 0px;
+	margin: 0px;
+}
+ 
+.jr_fx_job_listing_thumb img {
+    background-color: #fff;
+}
+
+.jr_fx_side_logo{
+	text-align: center;
+	padding: 5px 0px 5px 0px;	
+}
+
+/*
+ * Thumbs Float Right
+ */
+.jr_fx_job_listing_thumb.jr_fx_r {
+	float: right;
+}
+
+/*
+ * Thumbs Float Left
+ */
+.jr_fx_job_listing_thumb.jr_fx_l {
+	float: left;
+}
+
+/**
+ * Company Profile Logo
+ */
+.jr_fx_company_logo_placeholder {
+	margin-top: 5px;
+	border: 1px solid #DADBDD;
+	padding: 5px;
+	-khtml-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.jr_fx_def_company_logo {
+	margin-top: 10px;
+}
+
+.jr_fx_def_company_logo input {
+	float: left;
+	margin-right: 5px;
+}
+
+.jr_fx_logo_loading {
+	padding-left: 10px;
+	height: 16px;
+}
+
+.jr_fx_delete_logo_wrapper{
+	float: left;
+	position: absolute;
+}
+
+.jr_fx_delete_logo{
+	border: 1px solid #D9D9D9; 
+	padding: 0px 3px 1px 3px; 
+	background-color: #000; 
+	color: #fff; 
+}
+
+.jr_fx_delete_logo:hover{
+	color: #fff;
+}
+
+/**
+ * Breadcrumbs
+ */
+.jr_fx_breadcrumbs_wrap{
+	padding: 5px 5px 5px 0;
+}
+.jr_fx_breadcrumbs_wrap ul, .jr_fx_breadcrumbs_wrap li {
+	list-style-type:none;
+	padding:0;
+	padding-bottom: 8px;
+	margin-left: 0 !important;
+}
+ .jr_fx_breadcrumbs_wrap li {
+	float:left;
+	line-height:2.5em;
+	padding-left:3px;
+	font-size: 11px;
+	color: #969696;
+}
+
+.jr_fx_breadcrumbs_wrap li:first-child {
+	padding-left:0;
+}
+
+/**
+ * Social
+ */
+.jr_fx_social {
+	padding: 20px 0 10px;
+	border-top: 1px dotted #D8D8D8;
+}
+.jr_fx_social a {
+	font-size: 17px;
+	font-weight: bold;
+	color: #444;
+	text-shadow: 1px 1px 0 #EBEBEB;
+}
+.jr_fx_social_buzz{
+	background: url("images/google-plus-baloon.png") no-repeat scroll right 15px transparent;
+	margin-top: 10px;
+}
+.jr_fx_social_youtube{
+	background: url("images/youtube-baloon.png") no-repeat scroll right 15px transparent;
+	margin-top: 10px;
+}
+.jr_fx_social_fb{
+	background: url("images/facebook-baloon.png") no-repeat scroll right 15px transparent;
+	margin-top: 10px;
+}
+
+/**
+ * Featured
+ */
+.jr_fx_feat_jobs_container  {
+	display: none;
+}
+
+/**
+ * Days Left
+ */
+.jr_fx_days_left {
+	font-size: 12px !important;
+	color: #ADADAD !important; 
+	padding-right: 5px !important;
+}
+
+/**
+ * Gateways
+ */
+#jr_fx_gateway_container {
+	border: 2px dashed #ccc; 
+	height: 85px; 
+	margin-bottom: 20px;
+}
+
+#jr_fx_gateway_container .jr_fx_gateway_input {
+	float: left;
+}
+
+#jr_fx_gateway_container .jr_fx_gateway_input.left {
+	margin-left: 20px;
+}
+
+#jr_fx_gateway_container img {
+	vertical-align: middle;
+	float: right;
+}
+
+.jr_fx_choose_gateway {
+	font-size: 10px;
+	-float: right;
+	padding-left: 10px;
+	-text-decoration:underline;
+}
+/*
+ * Ajax Loaders
+ */
+.jr_fx_ajax_gateway_loader {
+	border: 1px solid #ccc;	
+    width:300px;
+    height: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: url("images/ajax-loader.gif") no-repeat center #fff;	
+    text-align:center;
+    padding:10px;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index:2;
+    overflow: auto;
+	cursor: hourglass;
+}
+
+.jr_fx_shadow {
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.jr_fx_left {
+  float: left;
+}
+
+.jr_fx_right {
+  float: right;
+}
+
+/*
+ * qtip - job preview - change the preview stylings below
+ */
+ 
+.jr_fx_preview_thumb {
+	height: 300px !important;
+}
+
+.ui-tooltip-title {
+	text-align: left;
+	font-weight: bold !important;
+}
+ 
+.ui-tooltip-jr-fx{
+	max-width: 650px !important;
+}
+	
+.ui-tooltip-jr-fx .ui-tooltip-content{
+	padding: 10px;	
+	line-height: 12.5px;
+}
+
+.ui-tooltip-jr-fx h1{
+	margin: 0 0 7px;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+.ui-tooltip {
+	width: 650px !important;
+}
+
+.ui-tooltip-jr-fx img{ padding: 4px !important; }
+.ui-tooltip-jr-fx p { margin-bottom: 9px; }
+.ui-tooltip-jr-fx .note{ margin-bottom: 0; font-style: italic; color: #888; }
+
+/*
+ * Resumes
+ */
+#jr_fx_upload_cv_file {
+    font-size: 1.2em;
+    outline: 0;
+    border: 0;
+    background: #D8D8D8;
+    color: #555;
+    padding: 7px 10px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    vertical-align: middle;
+    float: left;
+    margin: 0;
+    text-decoration: none !important;
+	margin-bottom: 10px;
+} 
+
+.jr_fx_cv_parent {
+	font-size: 1em;
+	color: #A1A1A1;
+}
+
+.jr_fx_cv_ico {
+	padding: 0;
+	margin: 0;
+	background: url("images/document.png") no-repeat top;
+}
+
+/*
+ * Apply form CV's list container
+ */
+.jr_fx_uploaded_cvs_wrap {
+	background-color: #fff;
+	border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background: #fff;
+    color: #777;
+    font-size: 1.1em;
+    padding: 7px;
+	padding-left: 15px;
+	margin-top: 10px;
+    width: 50%;
+    outline: 0;
+    -khtml-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px; /* optional rounded corners for browsers that support it */
+}
+
+/*
+ * Uploaded CV radio buttons
+ */
+.jr_fx_sel_uploaded_cv {
+	margin: 10px 0 10px 0;
+}
+
+/*
+ * Uploaded CV text note
+ */
+.jr_fx_uploaded_cvs_note{
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-bottom: 8px;
+}
+
+/*
+ * Upload CV note
+ */
+.jr_fx_upload_cv_note {
+	font-size: 0.85em;
+	color: #828282;
+}
+
+/*
+ * Download CV Files
+ */
+ .jr_fx_download_cvs_wrap {
+	border: 1px solid #ccc;
+	margin: 10px 0 20px 0;
+	padding: 10px;	
+}
+
+.jr_fx_cv_file {
+	margin-top: 5px;
+}
+
+/*
+ * S2Member
+ *
+ */
+.jr_fx_call_to_action_icon {
+	width: 32px;
+	height: 32px;
+	padding: 3px;
+	float: left;
+}
+
+.jr_fx_upgrade_acccount {
+	font-size: 12px !important;
+}
+
+/*
+ * You can replace the images bellow to fit your needs
+ * You can have a different image for each S2Member level 
+ */
+.jr_fx_s2_level1 {
+	background: url("images/level1.png") no-repeat;
+}
+
+.jr_fx_s2_level2 {
+	background: url("images/level1.png") no-repeat;
+}
+
+.jr_fx_s2_level3 {
+	background: url("images/level1.png") no-repeat;
+}
+
+/*
+ * LinkedIn
+ */
+ 
+#jr_fx_linkedin_apply {
+	float: right;
+	margin: 15px 10px 0 10px;	
+ }
+
+
+/*
+ * Other
+ */
+ .jr_fx_sep {
+ 	color: #ccc;
+ }

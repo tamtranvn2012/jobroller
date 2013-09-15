@@ -1,0 +1,6 @@
+ui-tooltip-rounded|Rounded
+ui-tooltip-youtube|YouTube
+ui-tooltip-jtools|jTools
+ui-tooltip-cluetip|ClueTip
+ui-tooltip-tipped|Tipped
+ui-tooltip-tipsy|Tipsy

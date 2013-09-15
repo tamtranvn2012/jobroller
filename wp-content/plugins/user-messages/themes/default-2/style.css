@@ -1,0 +1,23 @@
+tr.msg-unread td { font-weight: bold; }
+
+.fixed th.icon { width: 24px; }
+.fixed th.um-from-column { width: 20%; }
+.fixed th.um-subject-colum { width: 75%; }
+.fixed th.um-time-column { width: 15%; }
+
+.um-msg { margin-top: 20px; }
+.um-msg th { width: 150px; padding: 10px; text-align: right; vertical-align: top; }
+.um-msg td { padding: 10px; vertical-align: top; }
+.um-msg input.wide, .um-msg textarea.wide, .um-msg select.wide { width: 600px; }
+.um-msg textarea, .um-msg #um-subject { font-family: monospace; font-size: 1em;}
+div.um-msg-subject { font-weight: bold; padding-bottom: 10px; }
+div.um-msg-content { padding: 10px 0; }
+
+img.link-icon { margin-right: 10px; } 
+img.um-msg-type { margin-right: 10px; } 
+img.um-msg-status { margin-right: 10px; } 
+img.um-button-icon { margin: 0 5px -4px 5px; }
+
+a.um-write-to { background: url("./send-message-to-link-icon.png") no-repeat; padding: 2px 0 2px 20px; }
+
+#contextual-help-wrap ul { list-style: disc; margin-left: 15px; }

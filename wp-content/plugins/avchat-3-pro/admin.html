@@ -1,0 +1,207 @@
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AVChat 3.0 Admin Interface</title>
+<link rel="icon" href="favicon.ico">
+<script src="tinycon.min.js"></script>
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript">
+	var flashvars = {
+		lstext : "Loading Settings...",
+		sscode : "php",
+		userId : ""
+	};
+	var params = {
+		quality : "high",
+		bgcolor : "#272727",
+		play : "true",
+		loop : "false",
+		allowFullScreen : "true"
+	};
+	var attributes = {
+		name : "index_embed",
+		id :   "index_embed",
+		align : "middle"
+	};
+	
+	swfobject.embedSWF("admin.swf", "myContent", "100%", "100%", "10.3.0", "", flashvars, params, attributes);
+	
+	var mobile = false;
+	var ua = navigator.userAgent.toLowerCase();
+	if(navigator.appVersion.indexOf("iPad") != -1 || navigator.appVersion.indexOf("iPhone") != -1 || ua.indexOf("android") != -1 || ua.indexOf("ipod") != -1 || ua.indexOf("windows ce") != -1 || ua.indexOf("windows phone") != -1){
+		mobile = true;
+	}
+</script>
+<!-- JS callback API --> 
+<script>
+	function onSendGift(giftsUrl){
+		//alert("onSendGift("+giftsUrl+")");
+		//this function is called when "Send Gift" button is pressed inside user's side menu if sendGiftThroughJSApi is set to 1 in avc_settings.xxx
+		//giftURL: the value of the giftsUrl variable received from avc_settings.xxx
+	}
+	
+	function onViewProfile(profileURL){
+		//alert("onViewProfile("+profileURL+")");
+		//this function is called when "Open Profile" button is pressed inside user's side menu if viewProfileThroughJSApi is set to 1 in avc_settings.xxx
+		//profileURL: the profileUrl sent via avc_settings.xxx through profileUrl option
+	}
+	
+	function maxStreamsReached(siteId,username, maxStreams){
+		//alert("maxStreamsReached("+siteId+","+username+","+maxStreams+")");
+		//this function is called when "View Cam" button is pressed in the user side menu in the users list and the user has reached the maxStreams limit in avc_settings.xxx
+		//siteId: the siteId value as sent by avc_settings.xxx
+		//username: the username
+		//maxStreams : the maxStreams value from avc_settings.xxx
+	}
+	
+	function freeVideoTimeLimitReached(siteId,username, freeVideoTime){
+		//alert("freeVideoTimeLimitReached("+siteId+","+username+","+freeVideoTime+")");
+		//this function is called when "View Cam" button is pressed in the user side menu in the users list and the user has reached the freeVideoTime/day limit in avc_settings.xxx
+		//username: the username
+		//freeVideoTime : the freeVideoTime value from avc_settings.xxx
+	}
+</script>
+</head>
+<body style="padding:0px;margin:0px">
+<div id="fb-root"></div>
+<!-- This script below is used to prevent ghost users on Internet Explorer --> 
+<script type="text/javascript">
+window.onbeforeunload = function(){
+	// pure JS
+	if (navigator.appName == 'Microsoft Internet Explorer'){
+		var swf = document.getElementById('index_embed');
+		swf.disconnect();
+	}
+}
+</script> 
+
+<!-- This script below is used to the video chat from being open in a iframe by another website --> 
+<script type="text/javascript">
+if (top.location.href != self.location.href)
+  top.location.href = self.location.href;
+</script> 
+
+<!-- this script calls the Facebook api--> 
+<script>
+  // Additional JS functions here
+  window.fbAsyncInit = function() {
+  
+  var dir = location.pathname.substring(0,location.pathname.lastIndexOf('/')+1);
+  
+    FB.init({
+      appId      : '258600982306', // App ID
+      channelUrl : window.location.protocol+'//' + dir + '/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+
+  };
+  
+   function onLogin(){
+	FB.getLoginStatus(function(response) {
+	  if (response.status === 'connected') {
+		// connected
+		 getFacebookData();	
+	  } else if (response.status === 'not_authorized') {
+		// not_authorized
+		 login();
+	  } else {
+		// not_logged_in
+		login();
+	  }
+	 });
+  }
+  
+  function login() {
+    FB.login(function(response) {
+        if (response.authResponse) {
+            // connected
+			getFacebookData();
+        } else {
+            // cancelled
+        }
+    });
+}
+
+function getFacebookData() {
+    FB.api('/me', function(response) {
+		var flashObj = document.getElementById('index_embed');
+		flashObj.afterLogin(response);
+    });
+}
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document));
+</script>
+
+<!-- This script changes the window title when a user receives a new message in chat -->
+<script>
+	var isActive;
+	var count = 0;
+	var localTotal = 0;
+	
+	window.onfocus = function () { 
+		console.log("window.onfocus")
+		isActive = true; 
+		count=0;	
+		//we update the favicon
+		updateFavIcon()
+	}; 
+	
+	window.onblur = function () { 
+		console.log("window.onblur")
+		count=0;
+		isActive = false; 
+	};
+	
+	function newTotalUnreadMsgInInactiveTabs(total){
+		console.log("newTotalUnreadMsgInInactiveTabs("+total+")")
+		//total is the number of unread messages in inactive tabs inside AVChat
+
+		//we also save the value locally in ase it needs to be used by onNewMessageReceivedInActiveTab
+		localTotal=total;
+		
+		//we update the favicon
+		updateFavIcon()
+	}
+	
+	function updateFavIcon(){
+		Tinycon.setBubble(parseInt(localTotal)+parseInt(count))
+	}
+	
+	function  onNewMessageReceivedInActiveTab(){
+		console.log("onNewMessageReceivedInActiveTab()")
+		//this function is called when a new message is received in the active tab inside AVChat
+		
+		//we only update the favicon when the browser tab containing AVChat is not active
+		if (!isActive){
+			count++
+			updateFavIcon()
+		}
+	}
+</script>
+
+<div id="myContent">
+  <div id="av_message" style="color:#ff0000">&nbsp;</div>
+</div>
+<script type="text/javascript">
+
+var dir = location.pathname.substring(0,location.pathname.lastIndexOf('/')+1);
+
+	if(mobile == true){
+		/*document.getElementById('av_message').innerHTML = 'This content requires Adobe Flash Player, which is not supported by your device. This content can be viewed on a desktop computer or on mobile devices that support Flash Player.';*/
+		window.location.href = dir + "m/m.php";
+	}else{
+		document.getElementById('av_message').innerHTML = 'You do not have the proper Flash Player installed. Click below to download the 	newest version of Flash Player: <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>';
+	
+	}
+</script>
+</div>
+</body>
+</html>

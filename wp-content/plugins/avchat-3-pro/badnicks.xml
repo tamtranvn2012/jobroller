@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<badnicks>
+	<nicks>
+		<bad>nick_not_allowed</bad>
+	</nicks>
+	<wildcards>
+		<bad>wildcard_not_allowed</bad>
+	</wildcards>	
+</badnicks>

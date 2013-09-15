@@ -1,0 +1,120 @@
+/*.backgroundArea controls the looks of the background*/
+.backgroundArea{
+	backgroundImageUrl: wall.jpg ;
+	backgroundImageScale:stretch; /*values: tile, stretch, none or any number where 1 means showing the background at 100% (tile does not yet work with swf's)*/
+	backgroundImageAlpha:100;
+}
+
+/* fontInputText controls the font used for the input text chat area */
+/* to control the actual text size used in the text chat area use the "fontsize" poperty of the .textarea class below*/
+.fontInputText{
+	fontsize:16;
+	fontfamily:_sans;
+	color:#000000;
+}
+
+/* .textarea controls the looks of the text chat areas, you can change the background color, background opacity and welcome text color + history text color*/
+.textarea{
+	backgroundcolor:#ffffff;
+	welcometextcolor:#ff0000;
+	historytextcolor:#666666;
+	opacity:0.8;
+	fontsize:12;
+}
+
+/* .userlist controls the looks of the users list area, you can control the background color and background opacity*/
+.userlist{
+	backgroundcolor:#ffffff;
+	opacity:0.8;
+}
+
+/*.istypingbox controls the looks of the IS TYPING BOX that shows up at the top of the text chat when someone is typing*/
+.istypingbox{
+	backgroundcolor:#ffffcc;
+	fontfamily:_sans;
+	color:#ff0000;
+	fontsize:12;
+	rotationDegrees:-1;
+}
+
+/*.windows controls the looks of the big modules containing the users list, rooms list, banned users, settings panel, top status bar, etc.*/
+.windows{
+	margin:4;
+	padding:6;
+	backgroundcolor:#123456;
+	cornerradius:4;
+	windowsCastShadows:true;
+}
+
+/*.fontWindowTitle controls the font used as the title for each window*/
+.fontWindowTitle{
+	fontsize:16;
+	fontweight:bold;
+	fontfamily:_sans;
+	color:#ffffcc;
+}
+
+/*.fontWindowTitle controls the font used for the text in the top status bar*/
+.fontStatusBar{
+	fontfamily:_sans;
+	color:#ffffcc;
+}
+
+/* the following 5 css groups control the font used for the different elements in side menus*/
+.fontSideMenuTitle{
+	fontsize:12;
+	fontweight:bold;
+	fontfamily:_sans;
+	color:#ffffff;
+}
+.fontSideMenuOption{
+	fontsize:12;
+	fontweight:normal;
+	fontfamily:_sans;
+	color:#d0d0d0;
+}
+.fontSideMenuOptionOver{
+	fontsize:12;
+	fontweight:normal;
+	fontfamily:_sans;
+	color:#ffffff;
+}
+.fontSideMenuOptionDisabled{
+	fontsize:12;
+	fontweight:normal;
+	fontfamily:_sans;
+	color:#666666;
+}
+.fontSideMenuInfo{
+	fontsize:11;
+	fontweight:normal;
+	fontfamily:_sans;
+	color:#d0d0d0;
+}
+
+/* fontInputFieldLabel controls some of the text labels in the ban panel*/
+.fontInputFieldLabel{
+	fontsize:10;
+	fontweight:normal;
+	fontfamily:_sans;
+	color:#ffffff;
+}
+/* fontMainLabels controls the font used for the following text items: CONNECTING, error messages, texts in login window (username label,gender labels) */
+/* fontMainLabels DOES NOT control the look of the "Loading..." text because this text is shown before this file is loaded */
+.fontMainLabels{
+	fontsize:18;
+	fontweight:bold;
+	fontstyle:italic;
+	fontfamily:_sans;
+	color:#ff0000;
+}
+/* controls the look of the side menus*/
+.sideMenus{
+	opacity:0.95;
+}
+/* controls the look of all the status bar buttons */
+.statusBarButtons{
+	fontsize:16;
+	fontcolor:#ffffff;
+	backgroundcolor:#5c7796;
+}

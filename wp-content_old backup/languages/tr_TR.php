@@ -1,0 +1,1 @@
+<?php $wp_default_secret_key = "eşsiz karakter kümenizi buraya yerleştirin"; ?>

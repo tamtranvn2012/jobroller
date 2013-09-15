@@ -1,0 +1,73 @@
+# Copyright (C) 2012 AppThemes Updater
+# This file is distributed under the same license as the AppThemes Updater package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AppThemes Updater 1.2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/appthemes-updater\n"
+"POT-Creation-Date: 2012-10-07 16:48:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: templates/admin-page.php:3
+msgid "AppThemes API Key"
+msgstr ""
+
+#: templates/admin-page.php:6
+msgid "Copy the key found at %1$s and paste it in the field below:"
+msgstr ""
+
+#: templates/admin-page.php:13
+msgid "Save"
+msgstr ""
+
+#: templates/check-for-updates.php:1
+msgid "Check for updates now"
+msgstr ""
+
+#: templates/notice.php:2
+msgid "The AppThemes Updater is almost ready."
+msgstr ""
+
+#: templates/notice.php:3
+msgid ""
+"You must <a href=\"%1$s\">enter your AppThemes API key</a> for it to work."
+msgstr ""
+
+#: updater-class.php:157
+msgid ""
+"<strong>IMPORTANT</strong>: If you have made any modifications to the "
+"AppThemes files, they will be overwritten if you proceed with the automatic "
+"update. Those with modified theme files should do a manual update instead. "
+"Visit your <a href=\"%1$s\" target=\"_blank\">customer dashboard</a> to "
+"download the latest version."
+msgstr ""
+
+#: updater-ui.php:17
+msgid "Saved Changes."
+msgstr ""
+
+#: updater-ui.php:69 updater-ui.php:97
+msgid "AppThemes Updater Configuration"
+msgstr ""
+
+#. #-#-#-#-#  appthemes-updater.pot (AppThemes Updater 1.1.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: updater-ui.php:70 updater-ui.php:98
+msgid "AppThemes Updater"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allows customers to automatically update AppThemes Products."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "AppThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://appthemes.com"
+msgstr ""

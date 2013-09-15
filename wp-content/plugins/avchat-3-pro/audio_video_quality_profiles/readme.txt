@@ -1,0 +1,1 @@
+Edit avc_settings.xml and change the value of the <miccamsettingsurl> xml tag to change the  .xml audio/video quality profile used inside the chat for encoding the audio and video from cams/mics.

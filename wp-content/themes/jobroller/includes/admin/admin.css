@@ -1,0 +1,133 @@
+/* admin main styles */
+div.jobroller h2 .button {font-style: normal;margin: 0px 6px;position: relative;top: -3px;}
+div.jobroller table td.id {	width: 100%;white-space: nowrap;overflow-x: hidden;overflow-y: hidden;}
+div.jobroller .cptitle { margin: 0px !important; background: #DFDFDF repeat-x scroll left top; padding: 10px; font-family: Georgia, serif; font-weight: normal !important; letter-spacing: 1px; font-size: 18px; }
+div.jobroller .container { background: #EAF3FA; padding: 10px; }
+div.jobroller .maintable { font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; background: #F9F9F9; margin-bottom: 20px; padding: 10px 0px; border:1px solid #E6E6E6; width: 100%;}
+div.jobroller .mainrow { padding-bottom: 10px !important; border-bottom: 1px solid #E6E6E6 !important; float: left; margin: 0px 10px 10px 10px !important; }
+div.jobroller .cptitledesc { font-size: 12px; font-weight:bold; width: 220px !important; margin-right: 20px !important; }
+div.jobroller .forminp { width: 700px !important; vertical-align:middle !important; }
+div.jobroller .forminp input:not([type="submit"]):not([type="button"]), div.jobroller .forminp select { margin-bottom: 9px !important; padding: 5px !important; height:auto !important; }
+div.jobroller .forminp textarea { margin-bottom: 9px !important; padding: 6px; }
+div.jobroller .forminp input[readonly], div.jobroller .forminp select[readonly], div.jobroller .forminp select[disabled], div.jobroller .forminp textarea[readonly] {color:#AAAAAA; background-color:#EEEEEE; }
+div.jobroller .forminp input:focus[readonly], div.jobroller .forminp select:focus[readonly], div.jobroller .forminp select:focus[disabled], div.jobroller .forminp textarea:focus[readonly] {color:#AAAAAA; background-color:#EEEEEE; }
+div.jobroller .forminp input:focus, div.jobroller .forminp textarea:focus {border:1px solid #CCCCCC;background-color: #F9F9F9;}
+div.jobroller .forminp .upload_image_preview {margin-top:7px;}
+div.jobroller .info { background: #FFFFCC; border: 1px dotted #D8D2A9; padding: 10px; color: #333; }
+div.jobroller .forminp .checkbox { width:20px }
+div.jobroller .info a { color: #333; text-decoration: none; border-bottom: 1px dotted #333 }
+div.jobroller .info a:hover { color: #666; border-bottom: 1px dotted #666; }
+div.jobroller .warning { background: #FFEBE8; border: 1px dotted #CC0000; padding: 10px; color: #333; font-weight: bold; }
+
+/* job packs */
+table.job_packs { border: 1px solid #ccc; padding: 1px; }
+table.job_packs td, table.job_packs th { border: 1px solid #ccc; padding: 3px; }
+table.job_packs th { font-weight: bold; }
+
+div.jobroller ul.errors, div.jobroller div.notice.error  {padding: 0;margin: 1.54em 0 1.54em !important;list-style: none !important;border: 1px solid #DE5749;background: #FFE8E6;padding: 10px 20px;}
+div.jobroller ul.errors li {list-style: none;color: #AA4433;margin: 0;padding: 0;}
+div.jobroller p.success, div.jobroller div.notice.success {	background: #F8F6E8;border: 2px solid #F2EADD;padding: 12px;color: #896F44;margin: 0 0 20px !important;}
+
+div.jobroller .widefat td, .widefat div.jobroller .multiple-checkbox th { border-top: none; }
+div.jobroller .multiple-checkbox td input[type=checkbox] { vertical-align: middle; margin-left: 15px; }
+div.jobroller .multiple-checkbox td span { margin-left: 5px; }
+div.jobroller .multiple-checkbox p {margin-bottom: 3px;}
+div.jobroller .widefat .multiple-checkbox td { padding: 5px; }
+
+
+/* admin dashboard section */
+div.stats-info {float:left;width:45%;}
+div.stats_overview { float: right; width: 45%; background: none repeat scroll 0 0 #F9F9F9; border: 1px solid #DFDFDF; -moz-border-radius: 5px;-webkit-border-radius: 5px;-o-border-radius: 5px;-khtml-border-radius: 5px;border-radius: 5px;}
+.stats_overview, .overview_today {float: left; width: 42%; padding: 10px; }
+.stats_overview, .overview_previous {float: left; width: 40%; padding: 10px; }
+.stats_overview p.overview_day { font-size: 12px !important;color: #666666; font-weight: bold; margin-top: 6px;}
+.stats_overview p {margin: 0;padding: 0;text-align: center;text-shadow: 0 1px 0 #FFFFFF;text-transform: uppercase;}
+.stats_overview h3 {text-align: center;text-shadow: 0 1px 0 #FFFFFF;}
+.stats_overview p.overview_count {color: #333333;font-size: 20px !important;font-weight: bold;}
+.stats_overview p.overview_type, .stats_overview p.overview_type_seek, .stats_overview p.overview_type_recruiter { color: #999999; font-size: 9px !important; margin-bottom: 7px;}
+.stats_overview p.overview_type em {background: none repeat scroll 0 0 #FFFBE4;border-radius: 3px 3px 3px 3px;padding: 1px 5px 2px;}
+.stats_overview p.overview_type_seek em { background: none repeat scroll 0 0 #FFFBE4; border-radius: 3px 3px 3px 3px;padding: 1px 5px 2px;}
+.stats_overview p.overview_type_recruiter em { background: none repeat scroll 0 0 #FFFBE4; border-radius: 3px 3px 3px 3px;padding: 1px 5px 2px;}
+
+div.jobroller .dash-left {float:left;width:49%;padding-right: 1%;}
+div.jobroller .dash-right {float:left;width:49%;padding-right: 0.5%;}
+div.jobroller #boxy {margin: 10px;}
+div.jobroller .rsswidget {text-decoration: none; font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif; font-size:13px; line-height:1.7em;}
+div.jobroller .rss-date {color:#999999;font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;font-size:11px;margin-left:3px;}
+div.jobroller .rss-widget ul li {line-height:1.5em;}
+.postbox .stats-info { line-height: 1; }
+div.jobroller .postbox p, div.jobroller .postbox ul, div.jobroller .postbox ol, div.jobroller .postbox blockquote, .postbox .stats-info ul {font-size:11px;}
+div.jobroller .preloader-container{ padding-top: 1px;}
+div.jobroller p.btop {padding:0px; margin-bottom:-5px;}
+div.jobroller p.bbot {padding:0 0 30px 0; margin-top:-5px;}
+div.jobroller .helpico{float:right; height:16px; width:16px; margin-left:7px; background:transparent url(../../images/help.png) no-repeat scroll 0 0}
+div.jobroller .feedburnerico{float:left; height:16px; width:16px; padding-right:3px; background:transparent url(../../images/feedburner.png) no-repeat scroll 0 0}
+div.jobroller .twitterico{float:left; height:16px; width:16px; padding-right:3px; background:transparent url(../../images/twitter.png) no-repeat scroll 0 0}
+div.jobroller .facebookico{float:left; height:16px; width:16px; padding-right:3px; background:transparent url(../../images/facebook.png) no-repeat scroll 0 0}
+div.jobroller .googleico{float:left; height:16px; width:16px; padding-right:3px; background:transparent url(../../images/google.png) no-repeat scroll 0 0}
+div.jobroller .sharethisico{float:left; height:16px; width:16px; padding-right:3px; background:transparent url(../../images/sharethis.png) no-repeat scroll 0 0}
+#easyTooltip{ border-radius:8px;  padding:10px;  border:1px solid #ccc;  background:#E3F4F9;  width:400px}
+div.jobroller .alt:hover, div.jobroller .even:hover{ background-color:#EAF2FA !important}
+
+/* error styles */
+div.jobroller input.invalid, div.jobroller textarea.invalid, div.jobroller select.invalid{ background-color:#FFEBE8 !important;  border-color:#C00 !important}
+div.jobroller label.invalid{ float:none;  font:bold 12px arial;  color:#C00;  padding-left:20px;  vertical-align:top}
+
+/* round out the category div corners */
+div.jobroller #categorydiv div.tabs-panel{ -moz-border-radius:4px !important}
+div.jobroller .widefat tbody th.check-column{ padding:0 !important; vertical-align:middle !important}
+div.jobroller div.fields-panel{height:250px; overflow:auto; width:400px; -moz-border-radius:4px !important}
+div.jobroller #tblspacer{margin:20px 0}
+div.jobroller .widefat td{padding:12px 7px; vertical-align:top}
+div.jobroller span#curr{vertical-align:top}
+div.jobroller input.radiobutt{vertical-align:text-top}
+div.jobroller .insider{ background-color:#FFF}
+div.jobroller .preloader-container{ width:100%; height:100%; background:#FFF url(../../images/preloader.gif) 50% 50% no-repeat}
+div.jobroller .admin-msg{ margin:10px 10px -10px 10px}
+
+/* custom write panel */
+.panel-wrap {background-color:#F9F9F9;border: 1px solid #DFDFDF;-moz-border-radius: 3px 3px 3px 3px;}
+
+/* custom post/job edit columns */
+td.column-thumbnail {padding:7px;}
+td.column-logo {padding:7px;}
+p.admin-job-expired { font-weight: bold; }
+
+/* admin tabs */
+#tabs-wrap ul.ui-tabs-nav {max-width: 810px;margin:25px 20px 0;}
+#tabs-wrap li {background:none repeat scroll 0 0 #F4F4F4;border-color:#DFDFDF;font-weight:bold;margin-bottom:0;-moz-border-radius:5px 5px 0 0;-khtml-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;border-radius: 5px 5px 0 0;border-style:solid;border-width:1px 1px 0;color:#C1C1C1;display:inline-block;font-size:12px;line-height:16px;margin:0 6px -1px 0;padding:4px 14px 6px;text-decoration:none;}
+
+* html #tabs-wrap li{ display:inline; }  /* for IE 6 */
+* + html #tabs-wrap li { display:inline; }  /* for IE 7 */
+
+#tabs-wrap li a {text-decoration:none;text-shadow:0 1px 0 #FFFFFF;color:#C1C1C1;}
+#tabs-wrap li.ui-state-active a, #tabs-wrap li a:hover{color:#464646;}
+#tabs-wrap li.ui-state-active {background:none repeat scroll 0 0 #ECECEC;border-color:#CCCCCC;border-bottom:1px solid #ECECEC;border-width:1px;}
+#tabs-wrap li.ui-state-active:hover {border-bottom:1px solid #ECECEC;}
+#tabs-wrap li:hover {border-color:#CCCCCC;}
+
+/* dashboard charts */
+#placeholder {width:100%; height:250px;}
+#charttooltip {font-size:11px;border: 1px solid #e3e3e3;background-color: #f1f1f1;padding: 3px 7px;margin-left:15px;-khtml-border-radius: 6px;-moz-border-radius: 6px;-webkit-border-radius: 6px;border-radius: 6px;text-shadow:1px 1px 0 #ffffff;}
+
+/* end dashboard charts */
+
+/* Geolocation */
+
+#map_wrap { margin-top:5px; border:solid 2px #ddd; }
+
+#geolocation-map { width:100%;	height:200px; }
+
+.manage-column.column-priority { width: 100px; }
+
+/* Plans */
+
+.payment-addons { width: 500px; }
+
+/* Order */
+
+.legacy-order-id { color: #B9B9B9; }
+
+/* User Profile */
+
+.assign-plan { width: 15em; }

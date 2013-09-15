@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting>
+	<connectionstring>
+		<title>connectionstring</title>
+		<name>Connection string</name>
+		<type>string</type>
+		<desc>the rtmp connection string to the avchat30 application on your media server</desc>
+		<examples>rtmp://my-media-server.com/avchat30/_definst_ , rtmp://xysqdxcq6.rtmphost.com/avchat30/_definst_ , rtmp://85.204.22.123/avchat30/_definst_</examples>
+		<value></value>
+	</connectionstring>
+	<emoticonsurl>
+		<title>emoticonsurl</title>
+		<name>Emoticons URL</name>
+		<type>string</type>
+		<desc>path to the XML file containing the emoticons codes and referrence to the emoticons path.</desc>
+		<default>emoticons/standardPack/emoticons.xml</default>
+		<value>emoticons/squarePack/emoticons.xml</value>
+	</emoticonsurl>
+	<languagefile>
+		<title>languagefile</title>
+		<name>Language file</name>
+		<type>string</type>
+		<desc>path to the XML file containing words and phrases to be used in the chat interface, use this setting to quickly toggle between languages</desc>
+		<default>translations/en.xml</default>
+		<value>translations/en.xml</value>
+	</languagefile>
+	<watermarkForOtherPeoplesStreams>
+		<title>watermarkForOtherPeoplesStreams</title>
+		<name>Watermark for other people streams</name>
+		<type>string</type>
+		<desc>path to a png, gif or jpeg file to show over other peoples cameras, this feature has been introduced for blocking users from rebroadcasting other peoples stream using screen sharing software. Use this to put your logo over the video streams.</desc>
+		<default>fullStar.png</default>
+		<value>fullStar.png</value>
+	</watermarkForOtherPeoplesStreams>
+	<kickUserAfterThisManySeconds>
+		<title>kickUserAfterThisManySeconds</title>
+		<name>Kick user after this many seconds</name>
+		<type>number</type>
+		<desc>Number of seconds after which to kick the user from the chat, set to 0 to disable</desc>
+		<default>0</default>
+		<value>0</value>
+	</kickUserAfterThisManySeconds>
+	<kickUserAfterThisManySecondsURL>
+		<title>kickUserAfterThisManySecondsURL</title>
+		<name>Kick user after this many seconds URL</name>
+		<type>string</type>
+		<desc>if not empty, the user will be taken to this url when the above time expires, this url can be a register page or an upsell page on your website. If empty a message will be shown instead , this message can be configured in the language file.</desc>
+		<default></default>
+		<value></value>
+	</kickUserAfterThisManySecondsURL>
+	<allowEmailsAndUrlsInUsernames>
+		<title>allowEmailsAndUrlsInUsernames</title>
+		<name>Allow e-mails and URLs in usernames</name>
+		<type>boolean</type>
+		<desc>If users can login using URL's or emails as the username</desc>
+		<examples>0 to disallow, 1 to allow</examples>
+		<default>1</default>
+		<value>1</value>
+	</allowEmailsAndUrlsInUsernames>
+	<inviteLink>
+		<title>inviteLink</title>
+		<name>Invite link</name>
+		<type>string</type>
+		<desc>path to be shown in the Invite window inside the chat, if left empty (the default), the chat will try to determine the page it sits on automatically</desc>
+		<default> empty , which means it will be automatically detected, a process which sometimes fails :(</default>
+		<value></value>
+	</inviteLink>
+	<disconnectButtonEnabled>
+		<title>disconnectButtonEnabled</title>
+		<name>Disconnect button enabled</name>
+		<type>boolean</type>
+		<desc>If the disconnect/leave chat button should be shown in the upper right corner</desc>
+		<examples>0 for hidden, 1 for visible</examples>
+		<default>1</default>
+		<value>1</value>
+	</disconnectButtonEnabled>
+	<disconnectButtonLink>
+		<title>disconnectButtonLink</title>
+		<name>Disconnect button link</name>
+		<type>string</type>
+		<desc>The user will be taken to this URL when he will press the Leave/Disconnect button in the top right of the chat area. Leaving it empty will make the button disabled if it is visible.</desc>
+		<default>/</default>
+		<value>/</value>
+	</disconnectButtonLink>
+	<floodControlEnabled>
+		<title>floodControlEnabled</title>
+		<name>Flood control enabled</name>
+		<type>boolean</type>
+		<desc>if enabled, after the user sends a message he will have to wait floodControlDelay milliseconds before he can send another message</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</floodControlEnabled>
+	<floodControlDelay>
+		<title>floodControlDelay</title>
+		<name>Flood control delay</name>
+		<type>number</type>
+		<desc>if floodControlEnabled=1, after the user sends a message he will have to wait floodControlDelay milliseconds before he can send another message</desc>
+		<default>300</default>
+		<value>300</value>
+	</floodControlDelay>
+	<maxStreams>
+		<title>maxStreams</title>
+		<name>Max streams</name>
+		<type>number</type>
+		<desc>The maximum number of audio,video or audio+video streams a user can view at once, lower this number to reduce bandwidth usage on your media server</desc>
+		<default>4</default>
+		<value>4</value>
+	</maxStreams>
+	<allowVideoStreaming>
+		<title>allowVideoStreaming</title>
+		<name>Allow video streaming</name>
+		<type>boolean</type>
+		<desc>if set to 0, the user will not be able to broadcast his camera if he has one, only his microphone - if allowAudioStreaming=1</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</allowVideoStreaming>
+	<allowAudioStreaming>
+		<title>allowAudioStreaming</title>
+		<name>Allow audio streaming</name>
+		<type>boolean</type>
+		<desc>if set to 0, the user will not be able to broadcast his mic if he has one, only his webcam (if allowVideoStreaming=1)</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</allowAudioStreaming>
+	<allowPrivateStreaming>
+		<title>allowPrivateStreaming</title>
+		<name>Allow private streaming</name>
+		<type>boolean</type>
+		<desc>if set to 0, the user will not be able to set his audio/video stream to private so his audio/video stream will be always public</desc>
+		<examples>0 for not allowed, 1 for allowed</examples>
+		<default>1</default>
+		<value>1</value>
+	</allowPrivateStreaming>
+	<formattingEnabled>
+		<title>formattingEnabled</title>
+		<name>Formatting enabled</name>
+		<type>eboolean</type>
+		<desc>controls the status (enabled, disabled, hidden) of the bold, italic, underline, color and font buttons are shown. These buttons controll teh formatting of the text chat messages</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</formattingEnabled>
+	<youTubeVideosEnabled>
+		<title>youTubeVideosEnabled</title>
+		<name>YouTube videos enabled</name>
+		<type>eboolean</type>
+		<desc>controls the status (enabled, disabled, hidden) of the YouTube button in the text chat area</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</youTubeVideosEnabled>
+	<emoteIconsEnabled>
+		<title>emoteIconsEnabled</title>
+		<name>Emoticons enabled</name>
+		<type>eboolean</type>
+		<desc>controls the status (enabled, disabled, hidden) of the Emoteicon button in the text chat area</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</emoteIconsEnabled>
+	<sendFileToRoomsEnabled>
+		<title>sendFileToRoomsEnabled</title>
+		<name>Send files to rooms enabled</name>
+		<type>eboolean</type>
+		<desc>controls the status (enabled, disabled, hidden) of the SEND FILE TO ROOM button in the text chat area</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</sendFileToRoomsEnabled>
+	<usersListType>
+		<title>usersListType</title>
+		<name>Users list type</name>
+		<type>custom</type>
+		<desc>the type of user list to use</desc>
+		<examples>small, thumbnail, smallthumbnail</examples>
+		<default>small</default>
+		<value>small</value>
+	</usersListType>
+	<allowEmails>
+		<title>allowEmails</title>
+		<name>Allow e-mails</name>
+		<type>boolean</type>
+		<desc>if set to 1, emails written in the text chat will become blue mailto: links, if set to 0 they will be censored with ******</desc>
+		<examples>0 for censored, 1 for highlighted</examples>
+		<default>1</default>
+		<value>1</value>
+	</allowEmails>
+	<allowUrls>
+		<title>allowUrls</title>
+		<name>Allow URLs</name>
+		<type>boolean</type>
+		<desc>if set to 1, urls written in the text chat will become blue links, if set to 0 they will be censored with ******</desc>
+		<examples>0 for censored, 1 for highlighted</examples>
+		<default>1</default>
+		<value>1</value>
+	</allowUrls>
+	<displayRoomOwners>
+		<title>displayRoomOwners</title>
+		<name>Display room owners</name>
+		<type>boolean</type>
+		<desc>Should display the room creators/owners be shown in a separate column in the rooms window</desc>
+		<examples>1 to show them, 0 to hide them</examples>
+		<default>1</default>
+		<value>1</value>
+	</displayRoomOwners>
+	<showLoginError>
+		<title>showLoginError</title>
+		<name>Show login error</name>
+		<type>boolean</type>
+		<desc>when set to 1, as soon as it loads the chat will display an error and 2 buttons, one to register and one to login, the URLS that will be loaded when these buttons will be pressed can be configured below</desc>
+		<examples>1 to show the error, 0 to hide the error</examples>
+		<default>0</default>
+		<value>0</value>
+	</showLoginError>
+	<loginPageURL>
+		<title>loginPageURL</title>
+		<name>Login page URL</name>
+		<type>string</type>
+		<desc>when showLoginError=1, a login button shows up, this is the URL that will be loaded by clicking that URL</desc>
+		<default>/</default>
+		<value>/</value>
+	</loginPageURL>
+	<registerPageURL>
+		<title>registerPageURL</title>
+		<name>Register page URL</name>
+		<type>string</type>
+		<desc>when showLoginError=1, a register button shows up, this is the URL that will be loaded by clicking that URL</desc>
+		<default>/</default>
+		<value>/</value>
+	</registerPageURL>
+	<regiserandloginPageFrame>
+		<title>regiserandloginPageFrame</title>
+		<name>Register and login page frame</name>
+		<type>string</type>
+		<desc>in what frame the above 2 urls should be loaded</desc>
+		<default>_self</default>
+		<value>_self</value>
+	</regiserandloginPageFrame>
+	<maxUploadFileSize>
+		<title>maxUploadFileSize</title>
+		<name>Max upload file size</name>
+		<type>number</type>
+		<desc>Maximum size in bytes of the files that can be uploaded to rooms or sent to users, 524288 bytes = 512 Kbytes. If the file is too big the upload process will not be allowed by AVChat.</desc>
+		<default>524288</default>
+		<value>524288</value>
+	</maxUploadFileSize>
+	<textChatCharLimit>
+		<title>textChatCharLimit</title>
+		<name>Text chat char limit</name>
+		<type>number</type>
+		<desc>the maximum number of characters a text message can have (protection against long spam messages and flooding)</desc>
+		<default>200</default>
+		<value>200</value>
+	</textChatCharLimit>
+	<buzzButtonEnabled>
+		<title>buzzButtonEnabled</title>
+		<name>Buzz button enabled</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, disabled, hidden) of the BUZZ button</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</buzzButtonEnabled>
+	<secondsBetweenBuzzez>
+		<title>secondsBetweenBuzzez</title>
+		<name>Seconds between buzzes</name>
+		<type>number</type>
+		<desc>after using the [BUZZ] button , it will be disabled for a few seconds, use this variable to set the amount of seconds between buzzez</desc>
+		<examples>0,1,10,etc...</examples>
+		<default>5</default>
+		<value>5</value>
+	</secondsBetweenBuzzez>
+	<sendFileToUserEnabled>
+		<title>sendFileToUserEnabled</title>
+		<name>Send files to user enabled</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the SEND FILE button in the side menu for individual users</desc>
+		<examples> 0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</sendFileToUserEnabled>
+	<pmEnabled>
+		<title>pmEnabled</title>
+		<name>PM enabled</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the PM button in the side menu for individual users.</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</pmEnabled>
+	<toggleRandomColors>
+		<title>toggleRandomColors</title>
+		<name>Toggle random colors</name>
+		<type>boolean</type>
+		<desc>set to 0 if you want all users text color to default to defaultUserColor as opposed to each user getting a random color. As of September 2011 build this applies only to new people entering the chat, this new build remembers your last color option and uses that</desc>
+		<examples>0 for black, 1 for random colors</examples>
+		<default>1</default>
+		<value>1</value>
+	</toggleRandomColors>
+	<disableGenderSelection>
+		<title>disableGenderSelection</title>
+		<name>Disable gender selection</name>
+		<type>boolean</type>
+		<desc>if set to 1, gender options from the login screen are hidden and everyone is considered a male, has no effect on admins</desc>
+		<examples>1,0</examples>
+		<default>0</default>
+		<value>0</value>
+	</disableGenderSelection>
+	<joinRoomsEnabled>
+		<title>joinRoomsEnabled</title>
+		<name>Join rooms enabled</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the JOIN ROOM button in the ROOMS LIST window</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</joinRoomsEnabled>
+	<maxRoomsOneCanBeIn>
+		<title>maxRoomsOneCanBeIn</title>
+		<name>Max rooms one can be in</name>
+		<type>number</type>
+		<desc>the maximum number of rooms a person can be in at any time</desc>
+		<examples>1,2,5,etc...</examples>
+		<default>4</default>
+		<value>4</value>
+	</maxRoomsOneCanBeIn>
+	<createRoomsEnabled>
+		<title>createRoomsEnabled</title>
+		<name>Create rooms enabled</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the CREATE ROOM button in the ROOMS window</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</createRoomsEnabled>
+	<freeVideoTime>
+		<title>freeVideoTime</title>
+		<name>Free video time</name>
+		<type>number</type>
+		<desc>the ammount of time (in seconds) that a user can watch other streams in 1 day. Each &quot;day&quot; starts at midnight(00:00:00) and ends at 23:59:59 the same day, based on the clock of the users computer. Set to -1 to disable. If changed, the countdown on the users computer will reset to the new value when refreshing the chat!</desc>
+		<examples>seconds</examples>
+		<default>3600 seconds (1 hour)</default>
+		<value>3600</value>
+	</freeVideoTime>
+	<profileUrl>
+		<title>profileUrl</title>
+		<name>Profile URL</name>
+		<type>string</type>
+		<desc>the (full) URL to the users profile. if the profileKey var below is set to 'siteId' or 'username' the siteId OR username vars will be added to the end of this string. Example: http://www.mysite.com/profile.php?username=naicu. http://mysite.com/viewprofile.php?id=123, etc...</desc>
+		<default></default>
+		<value></value>
+	</profileUrl>
+	<siteId>
+		<title>siteId</title>
+		<name>Site ID</name>
+		<type>String or Number</type>
+		<desc>the id of the logged in user inside the website/cms, this variable WAS used for buildiong the profile URl for the user if the profileKey was set to &quot;siteId&quot;.the value is still used in some places tough like the external users list</desc>
+		<default></default>
+		<value></value>
+	</siteId>
+	<!--coupleGenderEnabled> DEPRECATED
+		<title>coupleGenderEnabled</title>
+		<name>Couple gender enabled</name>
+		<type>boolean</type>
+		<desc>if set to 0, the couple gender will not be visible anymore in the login window</desc>
+		<examples>1 to show the couple option, 0 to hide it</examples>
+		<default>1</default>
+		<value></value>
+	</coupleGenderEnabled-->
+	<inviteEnabled>
+		<title>inviteEnabled</title>
+		<name>Invite enabled</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the INVITE button in the top bar</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</inviteEnabled>
+	<roomsListEnabled>
+		<title>roomsListEnabled</title>
+		<name>Rooms list enabled</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the ROOMS button in the top bar</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</roomsListEnabled>
+	<dropInRoom>
+		<title>dropInRoom</title>
+		<name>Drop in room</name>
+		<type>string</type>
+		<desc>Use the interface administration window to see what ids each room has, then come back here and paste that id here. If left empty the rooms list window will be shown automatically after login</desc>
+		<examples>any room id shown in the roms panel in the admin area of AVChat (admin.swf) </examples>
+		<default></default>
+		<value></value>
+	</dropInRoom>
+	<miccamsettingsurl>
+		<title>miccamsettingsurl</title>
+		<name>Mic/cam setting URL</name>
+		<type>string</type>
+		<desc>relative path to the .xml file containing the audio and video encoding settings. Use it to give some users the ability to send higher quality video than others.</desc>
+		<default>audio_video_quality_profiles/512k_high_motion_medium_picture_quality_high_sound_quality.xml</default>
+		<value>audio_video_quality_profiles/512k_high_motion_medium_picture_quality_high_sound_quality.xml</value>
+	</miccamsettingsurl>
+	<automaticallyReduceBandwidthUsage>
+		<title>automaticallyReduceBandwidthUsage</title>
+		<name>Automatically reduce bandwidth usage</name>
+		<type>boolean</type>
+		<desc>when active a users video and audio data will not be sent to the video server unless someone is watching that user. This way a lot of bandiwdth is saved on the video server.</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</automaticallyReduceBandwidthUsage>
+	<historyLength>
+		<title>historyLength</title>
+		<name>History length</name>
+		<type>number</type>
+		<desc>when joining a room, the last X messages sent in that room are shown, this variable controls how many are shown</desc>
+		<examples>0,20,40,etc...</examples>
+		<default>20</default>
+		<value>20</value>
+	</historyLength>
+	<autoStartCameras>
+		<title>autoStartCameras</title>
+		<name>Autostart cameras</name>
+		<type>boolean</type>
+		<desc>if set to 1 the user will start to view PUBLIC cams automatically as soon as they are started, admins with the permission to view private streams will also view private streams automatically</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>0</default>
+		<value>0</value>
+	</autoStartCameras>
+	<autoStartMyCamera>
+		<title>autoStartMyCamera</title>
+		<name>Autostart my camera</name>
+		<type>eboolean</type>
+		<desc>if set to 2, when a user has a webcam, immediatley after joining the first room, his camera will start broadcasting (the mic will start muted if the user has one).if set to 1, when a user has a webcam/microphone, immediatley after joining the first room, his camera/mic will start broadcasting. If set to 0, the user will have to press the 'Start my camera/mic' buttons to start it . This setting also takes into consideration the allowAudioStreaming and allowVideoStreaming variables</desc>
+		<examples>0,1,2</examples>
+		<default>0</default>
+		<value>0</value>
+	</autoStartMyCamera>
+	<autoStartMyCamAndMicOnlyIfIHaveACam>
+		<title>autoStartMyCamAndMicOnlyIfIHaveACam</title>
+		<name>Autostart my cam and mic onlu if I have a cam</name>
+		<type>boolean</type>
+		<desc>if autoStartMyCamera=1 and autoStartMyCamAndMicOnlyIfIHaveACam=1 you will start broadasting only if you have a webcam (because everyone has sound cards and Flah Player does not detect if you have a mic it detects if you have a sound card), only has effect if autoStartMyCamera=1</desc>
+		<examples>0,1 </examples>
+		<default>1</default>
+		<value>1</value>
+	</autoStartMyCamAndMicOnlyIfIHaveACam>
+	<usnmaxchars>
+		<title>usnmaxchars</title>
+		<name>Username max characters</name>
+		<type>number</type>
+		<desc>the maximum numbers of characters a username can have</desc>
+		<default>64</default>
+		<value>64</value>
+	</usnmaxchars>
+	<usnminchars>
+		<title>usnminchars</title>
+		<name>Username min characters</name>
+		<type>number</type>
+		<desc>the minimum numbers of characters a username must have, if you provide 0 or a negative value it will default to 1</desc>
+		<default>3</default>
+		<value>3</value>
+	</usnminchars>
+	<changegender>
+		<title>changegender</title>
+		<name>Change gender</name>
+		<type>boolean</type>
+		<desc>allows or denies a user the ability to modify his gender in the log in screen in the chat</desc>
+		<examples>0 for disabled,1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</changegender>
+	<changeuser>
+		<title>changeuser</title>
+		<name>Change user</name>
+		<type>boolean</type>
+		<desc>allows or denies a user to edit his nickname in the username input box from the log in screen in the chat</desc>
+		<examples>0 for disabled,1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</changeuser>
+	<username>
+		<title>username</title>
+		<name>Username</name>
+		<type>string</type>
+		<desc>the default username to be used in the username input box from the log in screen in the chat</desc>
+		<default></default>
+		<value></value>
+	</username>
+	<gender>
+		<title>gender</title>
+		<name>Gender</name>
+		<type>custom</type>
+		<desc>the default gender icon to be selected in the login when entering the chat, the admin icon and hidden option are only available for the administration interface (admin.swf)</desc>
+		<examples>, male, female, couple, admin, hidden or any other id from genders.xml. If you leave it empty it will use the 1st gender in genders.xml for user interface and the admin for admin interface</examples>
+		<default></default>
+		<value></value>
+	</gender>
+	<thumbnailUrl>
+		<title>thumbnailUrl</title>
+		<name>Default thumbnail URL</name>
+		<type>string</type>
+		<desc>relative or absolute path to the avatar of the logged in user, is only used when the usersListType variable is set to 'thumbnail' mode. Jpeg, png and gif files are supported. If possible use 40x30 thumbnails (40 is the width, 30 is the height).</desc>
+		<default></default>
+		<value></value>
+	</thumbnailUrl>
+	<applyLanguageFilter>
+		<title>applyLanguageFilter</title>
+		<name>Apply langauge filter</name>
+		<type>boolean</type>
+		<desc>if set to 1, all words present in the badwords.xml will be filtered out from the text chat before they are displayed</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</applyLanguageFilter>
+	<adminCanDeleteRooms>
+		<title>adminCanDeleteRooms</title>
+		<name>Admin can delete rooms</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the DELETE ROOM button in the ROOMS LIST window</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanDeleteRooms>
+	<adminCanBan>
+		<title>adminCanBan</title>
+		<name>Admin can ban</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, disabled, hidden) of the BAN button in the user side menu window and the ADD BAN button in the BANS LIST window</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanBan>
+	<adminCanRemoveBan>
+		<title>adminCanRemoveBan</title>
+		<name>Admin can remove ban</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the REMOVE BAN button in the BANS LIST window</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanRemoveBan>
+	<adminCanKick>
+		<title>adminCanKick</title>
+		<name>Admin can kick</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the KICK button in the user side menu window</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanKick>
+	<hiddenGenderEnabled>
+		<title>hiddenGenderEnabled</title>
+		<name>Hidden gender enabled</name>
+		<type>boolean</type>
+		<desc>if set to 0 the admin will not be able to login as hidden, the hidden option is never shown in the user interface (index.swf) regardless of this setting</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</hiddenGenderEnabled>
+	<showWhoIsTyping>
+		<title>showWhoIsTyping</title>
+		<name>Show who is typing</name>
+		<type>boolean</type>
+		<desc>if set to 0, the who is typing bar in the text chat area will not be shown anymore</desc>
+		<examples>0 for hidden , 1 for visible</examples>
+		<default>1</default>
+		<value>1</value>
+	</showWhoIsTyping>
+	<protectAgainstSpammyMessages>
+		<title>protectAgainstSpammyMessages</title>
+		<name>Protect against spammy messages</name>
+		<type>boolean</type>
+		<desc>if set to 1, spammy users will be the only ones seeing the spammy messages. If a user sends the same exact text message 5 times for example, he will be the only one seeing the message in the text chat 5 times, everyone else will see the message only 1 time</desc>
+		<examples>0 for disabled , 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</protectAgainstSpammyMessages>
+	<adminCanViewPrivateMessages>
+		<title>adminCanViewPrivateMessages</title>
+		<name>Admin can view private messages</name>
+		<type>boolean</type>
+		<desc>can the admin view private PM's exchanged between people?!</desc>
+		<examples>0 for no , 1 for yes</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanViewPrivateMessages>
+	<adminCanViewPrivateStreamsWithoutPermission>
+		<title>adminCanViewPrivateStreamsWithoutPermission</title>
+		<name>Admin can view private streams without permission</name>
+		<type>boolean</type>
+		<desc>if set to 1, the admins will not need permission from the broadcaster to view private streams</desc>
+		<examples>0 and 1</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanViewPrivateStreamsWithoutPermission>
+	<jlmessages>
+		<title>jlmessages</title>
+		<name>Join/leave messages</name>
+		<type>boolean</type>
+		<desc>the default state of the [show join/leave button] in the text chat area</desc>
+		<examples>0 for unselected (messages will NOT be shown),1 for selected</examples>
+		<default>1</default>
+		<value>1</value>
+	</jlmessages>
+	<kbmessages>
+		<title>kbmessages</title>
+		<name>Kick/ban messages</name>
+		<type>boolean</type>
+		<desc>set to 0 if you do not want the kicked/banned text chat messages to show up in the text chat area</desc>
+		<examples>0,1</examples>
+		<default>1</default>
+		<value>1</value>
+	</kbmessages>
+	<camsArePrivateByDefault>
+		<title>camsArePrivateByDefault</title>
+		<name>Cams are private by default</name>
+		<type>boolean</type>
+		<desc>if set to 1, when users start their webcams/mics they will be private by default</desc>
+		<examples>1 for true, 0 for false</examples>
+		<default>0</default>
+		<value>0</value>
+	</camsArePrivateByDefault>
+	<showImagesInline>
+		<title>showImagesInline</title>
+		<name>Show images in line</name>
+		<type>boolean</type>
+		<desc>when someone posts a URL to an image (or uploads an image to a room/user) that image is shown automatically in the chat</desc>
+		<examples>1 for true, 0 for false</examples>
+		<default>1</default>
+		<value>1</value>
+	</showImagesInline>
+	<adminCanAccessSettings>
+		<title>adminCanAccessSettings</title>
+		<name>Admin can access settings</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, disabled, hidden) of the SETTINGS button in the admin area.</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanAccessSettings>
+	<bandwidthChartEnabled>
+		<title>bandwidthChartEnabled</title>
+		<name>Bandwidth chart enabled</name>
+		<type>boolean</type>
+		<desc>wheater to show or not the bandwidth  chart in the status bar</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</bandwidthChartEnabled>
+	<showTimeStampsInTextChat>
+		<title>showTimeStampsInTextChat</title>
+		<name>Show timestamps in text chat</name>
+		<type>boolean</type>
+		<desc>wheater to show or not the time of the text chat messages in the text chat</desc>
+		<examples>1 for enabled, 0 for diabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</showTimeStampsInTextChat>
+	<kickURL>
+		<title>kickURL</title>
+		<name>Kick URL</name>
+		<type>string</type>
+		<desc>url to take users to when they are kciked out of the chat, if left empty a kick message (You have been kicked!) is shown in the chat</desc>
+		<examples>any url or empty for no redirection</examples>
+		<default></default>
+		<value></value>
+	</kickURL>
+	<banURL>
+		<title>banURL</title>
+		<name>Ban URL</name>
+		<type>string</type>
+		<desc>if set to 1, the admins will not need a password to join private rooms</desc>
+		<examples>any url or empty for no redirection</examples>
+		<default></default>
+		<value></value>
+	</banURL>
+	<adminCanJoinPrivateRoomsWithoutPermission>
+		<title>adminCanJoinPrivateRoomsWithoutPermission</title>
+		<name>Admin can join private rooms without permissions</name>
+		<type>boolean</type>
+		<desc>if set to 1, the admins will not need a password to join private rooms</desc>
+		<examples>0 and 1</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanJoinPrivateRoomsWithoutPermission>
+	<adminCanViewIps>
+		<title>adminCanViewIps</title>
+		<name>Admin can view IPs</name>
+		<type>boolean</type>
+		<desc>if set to 1, users logged in trough admin.swf will be able to view the IP of users in the user side menu (when clicking on a user) together with a WHOIS link for that ip. If set to 0, ip's of users might still show up in other palces because of settings like $avconfig[&quot;autoAddIpToUsername&quot;] which applies to both users and admins, $avconfig[&quot;showToAdminsTheUserIpInTextChat&quot;] and $avconfig[&quot;showWhoisBanKickInText&quot;].</desc>
+		<examples>0 and 1</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanViewIps>
+	<imagePreviewAreaWidthAndHeight>
+		<title>imagePreviewAreaWidthAndHeight</title>
+		<name>Image preview area width and height</name>
+		<type>number</type>
+		<desc>the width and height of the preview area in which uploaded images and image urls are reviewed in the text chat area</desc>
+		<examples>numbers</examples>
+		<default>120</default>
+		<value>120</value>
+	</imagePreviewAreaWidthAndHeight>
+	<adminGenderEnabled>
+		<title>adminGenderEnabled</title>
+		<name>Admin gender enabled</name>
+		<type>boolean</type>
+		<desc>if set to 0 the admin will not be able to login using the admin icon</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminGenderEnabled>
+	<adminCanAccessBannPanel>
+		<title>adminCanAccessBannPanel</title>
+		<name>Admin can access ban panel</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, disabled, hidden) of the BANNED IPS button in the admin area at the top right.</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanAccessBannPanel>
+	<adminCanViewExtraInfo>
+		<title>adminCanViewExtraInfo</title>
+		<name>Admin can view extra info</name>
+		<type>boolean</type>
+		<desc>if set to 1 the admin will see for each user its ip, flash player version, connection protocol, who the user is watching, siteId provided by this file, the media server internal id for the user and the FMIS nternal id and cid</desc>
+		<examples>0 for false, 1 for true</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanViewExtraInfo>
+	<adminCanCloseRooms>
+		<title>adminCanCloseRooms</title>
+		<name>Admin can close rooms</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, disabled, hidden) of the CLOSE ROOM button in the admin area.</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanCloseRooms>
+	<adminCanJoinClosedAndFullRooms>
+		<title>adminCanJoinClosedAndFullRooms</title>
+		<name>Admin can join closed and full rooms</name>
+		<type>boolean</type>
+		<desc>if set to 1 be able to join rooms that are closed or full</desc>
+		<examples>0 for false, 1 for true</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanJoinClosedAndFullRooms>
+	<showYTVideosPreview>
+		<title>showYTVideosPreview</title>
+		<name>Show YouTube videos preview</name>
+		<type>boolean</type>
+		<desc>controls the default state of the preview images and youtube videos button</desc>
+		<examples>0 for unselected = previews will not be shown, 1 for selected = previews will be shown</examples>
+		<default>1</default>
+		<value>1</value>
+	</showYTVideosPreview>
+	<showToAdminsTheUserIpInTextChat>
+		<title>showToAdminsTheUserIpInTextChat</title>
+		<name>Show to admins the user IP in text chat</name>
+		<type>boolean</type>
+		<desc>applies only to users logged in trough admin.swf. If set to 1, in the text chat beside each username it will be the users ip. $avconfig[&quot;showWhoisBanKickInText&quot;] also needs to be set to 1 for the ip to show.</desc>
+		<examples>0 to not show it, 1 to show it</examples>
+		<default>0</default>
+		<value>0</value>
+	</showToAdminsTheUserIpInTextChat>
+	<showMemoryUsage>
+		<title>showMemoryUsage</title>
+		<name>Show memory usage</name>
+		<type>boolean</type>
+		<desc>if set to 1, in the top left hand side corner a number representing the used RAM memory will show</desc>
+		<examples>0 to not show it, 1 to show it</examples>
+		<default>0</default>
+		<value>0</value>
+	</showMemoryUsage>
+	<parseEmoteIcons>
+		<title>parseEmoteIcons</title>
+		<name>Parse emoticons</name>
+		<type>boolean</type>
+		<examples>0 to not show them, 1 to show the emote icons in the text chat area</examples>
+		<default>1</default>
+		<value>1</value>
+	</parseEmoteIcons>
+	<defaultSort>
+		<title>defaultSort</title>
+		<name>Default sort</name>
+		<type>custom</type>
+		<desc>which of the 4 sort options for the users list should be used/selected when starting AVChat 3</desc>
+		<examples>alphanumeric, camsontop, timeonline, gender</examples>
+		<default>alphanumeric</default>
+		<value>alphanumeric</value>
+	</defaultSort>
+	<userBecomesIdleAfterXSeconds>
+		<title>userBecomesIdleAfterXSeconds</title>
+		<name>User becomes idle after X seconds</name>
+		<type>number</type>
+		<desc>if the user does not move the mouse inside the video chat flash area for more than X seconds he becomes idle in the users list, set to 0 to disable the idle status, the value is in seconds</desc>
+		<examples>0,15,30,60, any number, the value is in seconds</examples>
+		<default>60</default>
+		<value>60</value>
+	</userBecomesIdleAfterXSeconds>
+	<downForMaintenance>
+		<title>downForMaintenance</title>
+		<name>Down for maintenance</name>
+		<type>boolean</type>
+		<desc>if active at the start it will post an error message</desc>
+		<examples>0 for innactive and 1 for active</examples>
+		<default>0</default>
+		<value>0</value>
+	</downForMaintenance>
+	<kickAfterIdleTime>
+		<title>kickAfterIdleTime</title>
+		<name>Kick after idle time</name>
+		<type>number</type>
+		<desc>the ammount of user idle-time (in seconds) before auto-kick.</desc>
+		<examples>as example: 3600 - when user idle time reach 3600 (1 hour) user will be auto-kicked on page with message about auto-kick and button [Enter in chat again], 0 - for disabled (user not auto-kick by idle time)</examples>
+		<default>0</default>
+		<value>0</value>
+	</kickAfterIdleTime>
+	<whosTypingPosition>
+		<title>whosTypingPosition</title>
+		<name>Who is typing position</name>
+		<type>boolean</type>
+		<desc>if the whosTyping text should be displayed in up position or down position of the text chat area</desc>
+		<examples>0 for up position and 1 for down Position</examples>
+		<default>0</default>
+		<value>0</value>
+	</whosTypingPosition>
+	<maleImageUrl>
+		<title>maleImageUrl</title>
+		<name>Male image URL</name>
+		<type>string</type>
+		<desc>path to the male icon that will be diplayed if left empty will use the default icon</desc>
+		<default></default>
+		<value></value>
+	</maleImageUrl>
+	<femaleImageUrl>
+		<title>femaleImageUrl</title>
+		<name>Female image URL</name>
+		<type>string</type>
+		<desc>path to the female icon that will be diplayed if left empty will use the default icon</desc>
+		<default></default>
+		<value></value>
+	</femaleImageUrl>
+	<coupleImageUrl>
+		<title>coupleImageUrl</title>
+		<name>Couple image URL</name>
+		<type>string</type>
+		<desc>path to the couple icon that will be diplayed if left empty will use the default icon</desc>
+		<default></default>
+		<value></value>
+	</coupleImageUrl>
+	<adminImageUrl>
+		<title>adminImageUrl</title>
+		<name>Admin image URL</name>
+		<type>string</type>
+		<desc>path to the admin icon that will be diplayed if left empty will use the default icon</desc>
+		<default></default>
+		<value></value>
+	</adminImageUrl>
+	<rightToLeft>
+		<title>rightToLeft</title>
+		<name>Right to left</name>
+		<type>boolean</type>
+		<desc>set to 1 for proper RTL support (beta)</desc>
+		<examples>0 for LTR, 1 for RTL 1</examples>
+		<default>0</default>
+		<value>0</value>
+	</rightToLeft>
+	<hideStatusBar>
+		<title>hideStatusBar</title>
+		<name>Hide status bar</name>
+		<type>boolean</type>
+		<desc>hides the top status bar completely - does not apply to admins logged in trough admin.swf</desc>
+		<examples>0 show the bar, 1 hide the bar</examples>
+		<default>0</default>
+		<value>0</value>
+	</hideStatusBar>
+	<usersCanSwitchBetweenPrivateAndPublic>
+		<title>usersCanSwitchBetweenPrivateAndPublic</title>
+		<name>Users can switch between private and public</name>
+		<type>boolean</type>
+		<desc>controls whether or not the user can swicth his cam between public and private</desc>
+		<examples>0 user can not switch between public and private cam, 1 he can</examples>
+		<default>1</default>
+		<value>1</value>
+	</usersCanSwitchBetweenPrivateAndPublic>
+	<allowedRooms>
+		<title>allowedRooms</title>
+		<name>Allowed rooms</name>
+		<type>eboolean</type>
+		<desc>controls whether a user can create public ,private or both types of rooms</desc>
+		<examples>0 for when user can create both public and private rooms, 1 for when users can create only private rooms, 2 if you want users to create only public rooms</examples>
+		<default>0</default>
+		<value>0</value>
+	</allowedRooms>
+	<adminCanEditRooms>
+		<title>adminCanEditRooms</title>
+		<name>Admin can edit rooms</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the EDIT ROOM button in the ROOMS LIST window</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanEditRooms>
+	<ipLookupServiceUrl>
+		<title>ipLookupServiceUrl</title>
+		<name>IP lookup service URL</name>
+		<type>string</type>
+		<desc>the url for the service used to lookup the ip addreses for the clients</desc>
+		<default>http://whatismyipaddress.com/ip/</default>
+		<value>http://whatismyipaddress.com/ip/</value>
+	</ipLookupServiceUrl>
+	<autoAddIpToUsername>
+		<title>autoAddIpToUsername</title>
+		<name>Auto add IP to username</name>
+		<type>boolean</type>
+		<desc>if the ip should be added automaticaly to the username in the following places: when logged in as a user trough index.swf: users list, side menu that shows up when clicking a user in the users list, top status bar, text chat area. When logged in as a admin trough admin.swf: users list, side menu that shows up when clicking a user in the users list, top status bar, text chat area. when logged in as a admin trough admin.swf, the appearance of ips in the text chat area is also controleld trough: $avconfig[&quot;showToAdminsTheUserIpInTextChat&quot;] and $avconfig[&quot;showWhoisBanKickInText&quot;]</desc>
+		<examples>0 the ip will not be added 1 the ip will be added</examples>
+		<default>0</default>
+		<value>0</value>
+	</autoAddIpToUsername>
+	<showWhoisBanKickInText>
+		<title>showWhoisBanKickInText</title>
+		<name>Show whois ban kick in text</name>
+		<type>boolean</type>
+		<desc>if admin should see the kick/ban/ip+whois link text inside the text area beside each text message, this variable has HIGHER priority than $avconfig['showToAdminsTheUserIpInTextChat'] which means that if showWhoisBanKickInText==1 showToAdminsTheUserIpInTextChat is not taken into consideration anymore</desc>
+		<examples>0 disabled 1 enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</showWhoisBanKickInText>
+	<historyLengthForAdmin>
+		<title>historyLengthForAdmin</title>
+		<name>History length for admin</name>
+		<type>number</type>
+		<desc>when joining a room, the last X messages sent in that room are shown , this variable controls how many are shown if you are admin</desc>
+		<examples>0,20,40,100..</examples>
+		<default>100</default>
+		<value>100</value>
+	</historyLengthForAdmin>
+	<adminCanKickOtherAdmins>
+		<title>adminCanKickOtherAdmins</title>
+		<name>Admin can kick other admins</name>
+		<type>boolean</type>
+		<desc>whether or not admins can kick other admins</desc>
+		<examples>0 for no, 1 for yes</examples>
+		<default>0</default>
+		<value>0</value>
+	</adminCanKickOtherAdmins>
+	<adminCanBanOtherAdmins>
+		<title>adminCanBanOtherAdmins</title>
+		<name>Admin can ban other admins</name>
+		<type>boolean</type>
+		<desc>whether or not admins can ban other admins</desc>
+		<examples>0 for no, 1 for yes</examples>
+		<default>0</default>
+		<value>0</value>
+	</adminCanBanOtherAdmins>
+	<adminCanViewHiddenAdmins>
+		<title>adminCanViewHiddenAdmins</title>
+		<name>Admin can view hidden admins</name>
+		<type>boolean</type>
+		<desc>whether or not admins can view hidden admins</desc>
+		<examples>0 for no, 1 for yes</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanViewHiddenAdmins>
+	<showPreviewButton>
+		<title>showPreviewButton</title>
+		<name>Show preview button</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, disabled, hidden) of the [PREVIEW] button in the text chat area.</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</showPreviewButton>
+	<showJLButton>
+		<title>showJLButton</title>
+		<name>Show join/leave button</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, disabled, hidden) of the [Show Join/Leave messages] button in the text chat area.</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</showJLButton>
+	<profileCountryFlag>
+		<title>profileCountryFlag</title>
+		<name>Profile country flag</name>
+		<type>string</type>
+		<desc>relative or absolute path to the image representing the country flag for the user. The flag will be shown in the users list. If this var is empty no flag will be displayed in the users list. Example: http://www.mysite.com/flags/brasil.jpg</desc>
+		<default></default>
+		<value></value>
+	</profileCountryFlag>
+	<upgradeUrl>
+		<title>upgradeUrl</title>
+		<name>Upgrade URL</name>
+		<type>string</type>
+		<desc>the link to the upgrade page for the site members, the upgrade button is in the top right corner of the user interface, if lieave it empty the upgrade button will not show up. Example: http://www.mysite.com/upgrade_link</desc>
+		<default></default>
+		<value></value>
+	</upgradeUrl>
+	<showUserSideMenuOnTextArea>
+		<title>showUserSideMenuOnTextArea</title>
+		<name>Show user slide menu on text area</name>
+		<type>boolean</type>
+		<desc>if this is enabeled(set to 1) then when clicking on underlined usernames in the text chat area the user side menu will be shown.if it is disabled then clicking on the undeliened usernames will add that username to the input text field </desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>0</default>
+		<value>0</value>
+	</showUserSideMenuOnTextArea>
+	<showLast5ImagesThumbs>
+		<title>showLast5ImagesThumbs</title>
+		<name>Show last 5 images thumbs</name>
+		<type>boolean</type>
+		<desc>if it is enabled(set to 1) it will show on the right side of the text area 5 thumbs containing the last 5 images added in that room</desc>
+		<examples>0 for disabled ,1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</showLast5ImagesThumbs>
+	<giftsEnabled>
+		<title>giftsEnabled</title>
+		<name>Gifts enabled</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the GIFTS button in the side menu for individual users.</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</giftsEnabled>
+	<giftsUrl>
+		<title>giftsUrl</title>
+		<name>Gifts URL</name>
+		<type>string</type>
+		<desc>if gifts are enabled this is the path loaded in the browser (pop up window) when the button is clicked, DEST_SITEID and SENDR_SITEID will be replaced with th siteId variable passed for those users trough this file (avc_settings.xxx, siteId represents the id of the user in the site). DEST_USERNAME and SENDR_USERNAME will be replaced with the usernames of the destiation and sender persons respectively. when $avconfig[&quot;sendGiftThroughJSApi&quot;] is set to 1, this URL is ignored</desc>
+		<examples>any URL</examples>
+		<default>javascript:NewWindow=window.open('sendgift.php?destinationSiteId=DEST_SITEID&amp;destinationUsername=DEST_USERNAME&amp;senderSiteId=SENDR_SITEID&amp;senderUsername=SENDR_USERNAME','newWin','width=550,height=380,left=0,top=0,toolbar=No,location=No,scrollbars=No,status=No,resizable=Yes,fullscreen=No'); NewWindow.focus(); void(0);</default>
+		<value>javascript:NewWindow=window.open('sendgift.php?destinationSiteId=DEST_SITEID&amp;destinationUsername=DEST_USERNAME&amp;senderSiteId=SENDR_SITEID&amp;senderUsername=SENDR_USERNAME','newWin','width=550,height=380,left=0,top=0,toolbar=No,location=No,scrollbars=No,status=No,resizable=Yes,fullscreen=No'); NewWindow.focus(); void(0);</value>
+	</giftsUrl>
+	<typingEnabled>
+		<title>typingEnabled</title>
+		<name>Typing enabled</name>
+		<type>boolean</type>
+		<desc>whether or not the user can type in AVChat, some sites want to block the ability for visitors to type until they register</desc>
+		<examples>1 for true, 0 for false</examples>
+		<default>1</default>
+		<value>1</value>
+	</typingEnabled>
+	<stylecssurl>
+		<title>stylecssurl</title>
+		<name>style.css URL</name>
+		<type>string</type>
+		<desc>path to the style.css file containign styles for the looks of AVChat</desc>
+		<examples>any relative path to the css file</examples>
+		<default>style.php</default>
+		<value>style.php</value>
+	</stylecssurl>
+	<badnicksxmlurl>
+		<title>badnicksxmlurl</title>
+		<name>Badnicks xml URL</name>
+		<type>string</type>
+		<desc>path to the xml file containing banned nicknames, you can point this to a php file that gets the words from the db and outputs an xml list of banned nick names</desc>
+		<examples>any relative path to the xml source</examples>
+		<default>badnicks.xml</default>
+		<value>badnicks.xml</value>
+	</badnicksxmlurl>
+	<stopViewerButtonEnabled>
+		<title>stopViewerButtonEnabled</title>
+		<name>Stop viewer button enabled</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, disabled, hidden) of the &quot;Stop him/her from viewing you&quot; button in the side menu for individual users that are looking at you</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</stopViewerButtonEnabled>
+	<showIgnorePMsButton>
+		<title>showIgnorePMsButton</title>
+		<name>Show ignore PMs button</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, disabled, hidden) of the [IGNORE PM's] button in the text chat area.</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</showIgnorePMsButton>
+	<maxUsersInRoomsLimits>
+		<title>maxUsersInRoomsLimits</title>
+		<name>Max users in rooms limits</name>
+		<type>string</type>
+		<desc>a string containing the list of limits for max users in a room available when creating a room</desc>
+		<examples>an  array of numbers,-1 means unlimited</examples>
+		<default>[-1,2,10,15,50,100]</default>
+		<value>[-1,2,10,15,50,100]</value>
+	</maxUsersInRoomsLimits>
+	<adminCanKickFrom1Room>
+		<title>adminCanKickFrom1Room</title>
+		<name>Admin can kick from 1 room</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the KICK FROM THIS ROOM button in the user side menu window</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanKickFrom1Room>
+	<timeFormat>
+		<title>timeFormat</title>
+		<name>Time format</name>
+		<type>string</type>
+		<desc>a string describing the format of the absolute time as shown in the chat. You can format the time using the format characters available in Php's date function: http://php.net/manual/en/function.date.php</desc>
+		<examples>&quot;g:i a&quot; for 5:15 pm, &quot;H:i:s&quot; for 17:15:00, &quot;H:i&quot; for 17:15</examples>
+		<default>g:i a</default>
+		<value>g:i a</value>
+	</timeFormat>
+	<columnsInRoomsPanel>
+		<title>columnsInRoomsPanel</title>s
+		<name>Columns in rooms panel</name>
+		<type>string</type>
+		<desc>a string taht allows you to configure and edit the columns shown by the rooms list inside the rooms panel</desc>
+		<examples></examples>
+		<default>name users private owner created</default>
+		<value>name users private owner created</value>
+	</columnsInRoomsPanel>
+	<showVideoFpsInfo>
+		<title>showVideoFpsInfo</title>
+		<name>Show video FPS info</name>
+		<type>boolean</type>
+		<desc>whether or not the fps info should be shown</desc>
+		<examples>1 to show, 0 to not show</examples>
+		<default>1</default>
+		<value>1</value>
+	</showVideoFpsInfo>
+	<lineSpacing>
+		<title>lineSpacing</title>
+		<name>Line spacing</name>
+		<type>number</type>
+		<desc>this setting controls the space between the text lines</desc>
+		<examples>any integer Ex: 0, 5, 10 etc</examples>
+		<default>0</default>
+		<value>0</value>
+	</lineSpacing>
+	<adminCanSilenceFromRoom>
+		<title>adminCanSilenceFromRoom</title>
+		<name>Admin can silence from room</name>
+		<type>eboolean</type>
+		<desc>configures the status (enabled, diabled, hidden) of the &quot;Silence user on this room&quot; button in the user side menu window</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanSilenceFromRoom>
+	<adminCanSilenceOtherAdmins>
+		<title>adminCanSilenceOtherAdmins</title>
+		<name>Admin can silence other admins</name>
+		<type>boolean</type>
+		<desc>whether or not admins can silence other admins</desc>
+		<examples>0 for no, 1 for yes</examples>
+		<default>0</default>
+		<value>0</value>
+	</adminCanSilenceOtherAdmins>
+	<silenceDuration>
+		<title>silenceDuration</title>
+		<name>Silence duration</name>
+		<type>number</type>
+		<desc>the amount of time in seconds that the user will have to wait after he has been silenced.Durin this period the user will see everything that happens in the room but he will not be able to take any action.</desc>
+		<examples>any integer</examples>
+		<default>30</default>
+		<value>30</value>
+	</silenceDuration>
+	<blockBuzzButtonEnabled>
+		<title>blockBuzzButtonEnabled</title>
+		<name>Block buzz button enabled</name>
+		<type>eboolean</type>
+		<desc>controls the state of the [block buzz button]</desc>
+		<examples>0 for unselected = the buzz sound will not be played, 1 for selected = buzz sounds will be played, 2 for hidden buzz sounds will be played but the button is hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</blockBuzzButtonEnabled>
+	<showNumberOfCamsAndMics>
+		<title>showNumberOfCamsAndMics</title>
+		<name>Show number of cams and mics</name>
+		<type>boolean</type>
+		<desc>controls if the muber of cams and mics are shown to an admin userslist for each user</desc>
+		<examples>0 do not show, 1 to show them</examples>
+		<default>1</default>
+		<value>1</value>
+	</showNumberOfCamsAndMics>
+	<clearAllRoomsScreensButtonShow>
+		<title>clearAllRoomsScreensButtonShow</title>
+		<name>Clear all rooms screens button show</name>
+		<type>eboolean</type>
+		<desc>controls the state of the [clear all rooms screens button] that shows up in the admin area of AVChat</desc>
+		<examples>0 show disabled, 1 show enabled , 2 do not show it at all</examples>
+		<default>1</default>
+		<value>1</value>
+	</clearAllRoomsScreensButtonShow>
+	<useEchoCancelation>
+		<title>useEchoCancelation</title>
+		<name>Use echo cancelation</name>
+		<type>boolean</type>
+		<desc>controls whether to use or not the echo cancellation mechanism from Flash Player when using the SPEEX audio codec. From our experience this mechanism works really bad so we turned it off by default.</desc>
+		<examples>0 do not use echo cancelation, 1 use echo cancelation</examples>
+		<default>0</default>
+		<value>0</value>
+	</useEchoCancelation>
+	<dragEnabled>
+		<title>dragEnabled</title>
+		<name>Drag enabled</name>
+		<type>boolean</type>
+		<desc>controls whether the elements of the interface can be dragged or not(this will not affect the webcams , they are draggable)</desc>
+		<examples>0 not draggable, 1 draggable</examples>
+		<default>1</default>
+		<value>1</value>
+	</dragEnabled>
+	<rotatingMessageTime>
+		<title>rotatingMessageTime</title>
+		<name>Rotating message time</name>
+		<type>number</type>
+		<desc>the time (in seconds) between the messages that will be inserted into a room</desc>
+		<examples>any number(if set to 0 no message will be inserted)</examples>
+		<default>30</default>
+		<value>30</value>
+	</rotatingMessageTime>
+	<rotatingMessageUrl>
+		<title>rotatingMessageUrl</title>
+		<name>Rotating message URL</name>
+		<type>sstring</type>
+		<desc>this is the url to the script that will generate the messages to be fed in the text chat. The script should return a text. The script can be anything even a txt file.</desc>
+		<examples>URL ,&quot;&quot; to deactivate it </examples>
+		<default>rotate_messages.php</default>
+		<value>rotate_messages.php</value>
+	</rotatingMessageUrl>
+	<showOnlineTime>
+		<title>showOnlineTime</title>
+		<name>Show online time</name>
+		<type>boolean</type>
+		<desc>controls whether to show or not the online time in the upper menu</desc>
+		<examples>0 do not show, 1 show</examples>
+		<default>1</default>
+		<value>1</value>
+	</showOnlineTime>
+	<checkLinkUrl>
+		<title>checkLinkUrl</title>
+		<name>Check link URL</name>
+		<type>string</type>
+		<desc>when accessing a link first it passes through the script provided below. The original link is sent to the script as a GET parameter with the name &quot;url&quot;.</desc>
+		<examples>any url or empy string (this will take directly to the original link)</examples>
+		<default></default>
+		<value></value>
+	</checkLinkUrl>
+	<interpretLinks>
+		<title>interpretLinks</title>
+		<name>Interpret links</name>
+		<type>boolean</type>
+		<desc>whetherver the URLs posted in the text chat should interpreted and transformed into clickable links</desc>
+		<examples>0 do not interpret, 1 interpret</examples>
+		<default>1</default>
+		<value>1</value>
+	</interpretLinks>
+	<adminCanStopStreams>
+		<title>adminCanStopStreams</title>
+		<name>Admin can stop streams</name>
+		<type>boolean</type>
+		<desc>controls wether an admin can stop an user's  video and audio stream or not</desc>
+		<examples>0 can't stop, 1 can stop</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanStopStreams>
+	<pushToTalkEnabled>
+		<title>pushToTalkEnabled</title>
+		<name>Push To Talk enabled</name>
+		<type>boolean</type>
+		<desc>controls whether the push to talk button appears when you disable the audio stream, if enabled when you press this button you will send audio until the button is released</desc>
+		<examples>0 disabled, 1 enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</pushToTalkEnabled>
+	<sendGiftThroughJSApi>
+		<title>sendGiftThroughJSApi</title>
+		<name>Send gift through JS API</name>
+		<type>boolean</type>
+		<desc>When this setting is set to 1 if someone presses the &quot;Send Gift&quot; button in the user's side menu a JS function called &quot;onSendGift&quot; is called and the $avconfig[&quot;giftsUrl&quot;] URL set above is sent as a parameter</desc>
+		<examples>0 disabled, 1 enabled</examples>
+		<default>0</default>
+		<value>0</value>
+	</sendGiftThroughJSApi>
+	<viewProfileThroughJSApi>
+		<title>viewProfileThroughJSApi</title>
+		<name>View profile through JS API</name>
+		<type>boolean</type>
+		<desc>when press &quot;Open Profile&quot; in the user's side menu, if this is enabled a JS function called &quot;onViewProfile&quot; is called and the $avconfig[&quot;&quot;] URL set above is sent as a parameter</desc>
+		<examples>0 disabled, 1 enabled</examples>
+		<default>0</default>
+		<value>0</value>
+	</viewProfileThroughJSApi>
+	<blockingAUserAlsoBlocksAccessToCam>
+		<title>blockingAUserAlsoBlocksAccessToCam</title>
+		<name>Blocking a user also blocks access to cam</name>
+		<type>boolean</type>
+		<desc>whether or not blocking a user also blocks his access to your cam or only blocks his text chat messages</desc>
+		<examples>0 does not block access to cam, 1 blocks access to cam as well</examples>
+		<default>1</default>
+		<value>1</value>
+	</blockingAUserAlsoBlocksAccessToCam>
+	<userCanSeeWhoIsWatchingHim>
+		<title>userCanSeeWhoIsWatchingHim</title>
+		<name>User can see who is watching him</name>
+		<type>boolean</type>
+		<desc>whether or not the user can see who is watching him</desc>
+		<examples>1 for user can see, 0 for user can not see</examples>
+		<default>1</default>
+		<value>1</value>
+	</userCanSeeWhoIsWatchingHim>
+	<pushToTalkDefault>
+		<title>pushToTalkDefault</title>
+		<name>Push To Talk default</name>
+		<type>boolean</type>
+		<desc>whether or not the P2T button shows up by default</desc>
+		<examples>1 for true, 0 for false</examples>
+		<default>0</default>
+		<value>0</value>
+	</pushToTalkDefault>
+	<userCanSwicthBetweenP2TAndAlwaysOn>
+		<title>userCanSwicthBetweenP2TAndAlwaysOn</title>
+		<name>User can switch between P2T and always on</name>
+		<type>boolean</type>
+		<desc>whether or not the user can swicth betweem P2T and Mic Always ON. If set to 0 the checkbox for the mic in the webcam side menu will be disabled.</desc>
+		<examples>1 for true, 0 for false</examples>
+		<default>1</default>
+		<value>1</value>
+	</userCanSwicthBetweenP2TAndAlwaysOn>
+	<userCanBlockOtherUsers>
+		<title>userCanBlockOtherUsers</title>
+		<name>User can block other users</name>
+		<type>eboolean</type>
+		<desc>whether or not a user has access to the [Block User] button in the user list</desc>
+		<examples>0 for visible+disabled, 1 for visible+enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</userCanBlockOtherUsers>
+	<clearTextChatButtonStatus>
+		<title>clearTextChatButtonStatus</title>
+		<name>Clear text chat button status</name>
+		<type>eboolean</type>
+		<desc>controls whether or not the Clear text Chat Area button from the lower right corner is hidden, visible and enabled, visible and disabled</desc>
+		<examples>0 for visible+disabled, 1 for visible+enabled, 2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</clearTextChatButtonStatus>
+	<hideUsersList>
+		<title>hideUsersList</title>
+		<name>Hide users list</name>
+		<type>boolean</type>
+		<desc>whether or not to show the users list</desc>
+		<examples>0 for visible, 1 for hidden</examples>
+		<default>0</default>
+		<value>0</value>
+	</hideUsersList>
+	<hideLeftSide>
+		<title>hideLeftSide</title>
+		<name>Hide left side</name>
+		<type>boolean</type>
+		<desc>whether or not to show the entire left side</desc>
+		<examples>0 for visible, 1 for hidden</examples>
+		<default>0</default>
+		<value>0</value>
+	</hideLeftSide>
+	<defaultStateTextChatSoundButton>
+		<title>defaultStateTextChatSoundButton</title>
+		<name>Default state text chat sound button</name>
+		<type>boolean</type>
+		<desc>controls the state of the PLAY SOUNDS button in the text chat area (which controls whether or not the text chat generates any sounds)</desc>
+		<examples>0 for not selected (off), 1 for selected(on)</examples>
+		<default>1</default>
+		<value>1</value>
+	</defaultStateTextChatSoundButton>
+	<defaultUserColor>
+		<title>defaultUserColor</title>
+		<name>Default user color</name>
+		<type>string</type>
+		<desc>controls the color that the user has selected by default in the color picker for the text chat area if the random colors feature is disabled ($avconfig[&quot;toggleRandomColors&quot;]=0;). If a color has already been chosen by an user (previously) and saved as a cookie in AVChat this value will be ignored and the cookie value will be used</desc>
+		<examples>color codes in hexa</examples>
+		<default>#000000</default>
+		<value>#000000</value>
+	</defaultUserColor>
+	<flipTabMenu>
+		<title>flipTabMenu</title>
+		<name>Flip tab menu</name>
+		<type>boolean</type>
+		<desc>controls the position of the tabmenu relative to the text chat area</desc>
+		<examples>0 for top position, 1 for bottom position.</examples>
+		<default>0</default>
+		<value>0</value>
+	</flipTabMenu>
+	<userCanSeeNSFWContent>
+		<title>userCanSeeNSFWContent</title>
+		<name>User can see NSFW content</name>
+		<type>boolean</type>
+		<desc>controls whether or not the user can see NSFW content</desc>
+		<examples>0 - the user cannot see content at all, 1 - the user has access to the content but the content is hidden until the user clicks on them, 2 - the user has access and the content is not hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</userCanSeeNSFWContent>
+	<enableNSFWFeature>
+		<title>enableNSFWFeature</title>
+		<name>Enable NSFW feature</name>
+		<type>eboolean</type>
+		<desc>controls whether or not the NSFW feature is enabled</desc>
+		<examples>0 - the feature is disabled ( this also automatically assumes that the value for userCanSeeNSFWContent = 2 so that the filter is off ), 1 - the feature is enabled.</examples>
+		<default>1</default>
+		<value>1</value>
+	</enableNSFWFeature>
+	<userNamePrefix>
+		<title>userNamePrefix</title>
+		<name>Username prefix</name>
+		<type>string</type>
+		<desc>sets a default prefix for the username</desc>
+		<examples>any string. For example : "[GUEST]"</examples>
+		<default></default>
+		<value></value>
+	</userNamePrefix>
+	<gendersUrl>
+		<title>gendersUrl</title>
+		<name>Genders URL</name>
+		<type>string</type>
+		<desc>path to the xml file containing custom genders that will be added to the already default ones.</desc>
+		<examples>any relative path to the xml source</examples>
+		<default>genders.xml</default>
+		<value>genders.xml</value>
+	</gendersUrl>
+	<showAdminsOnTop>
+		<title>showAdminsOnTop</title>
+		<name>Show admins on top</name>
+		<type>boolean</type>
+		<desc>controls whether or not the admins are shown on top of the user list</desc>
+		<examples>0, 1</examples>
+		<default>1</default>
+		<value>1</value>
+	</showAdminsOnTop>
+	<selectedTabInLoginScreen>
+		<title>selectedTabInLoginScreen</title>
+		<name>Selected tab in login screen</name>
+		<type>custom</type>
+		<desc>controls the default selected tab in the login screen</desc>
+		<examples>guest, register</examples>
+		<default>guest</default>
+		<value>guest</value>
+	</selectedTabInLoginScreen>
+	<enableOtherAccountOptions>
+		<title>enableOtherAccountOptions</title>
+		<name>Enable other account options</name>
+		<type>boolean</type>
+		<desc>ccontrols whether or not the other account authentification options (Facebook) are enabled</desc>
+		<examples>0 - for disable, 1 - for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</enableOtherAccountOptions>
+	<enableHtmlClientForDesktopBrowser>
+		<title>enableHtmlClientForDesktopBrowser</title>
+		<name>Enable HTML client for desktop browser</name>
+		<type>boolean</type>
+		<desc>controls whether or not the HTML 5 client is available from desktop browser</desc>
+		<examples>values: 0 - for disable, 1 - for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</enableHtmlClientForDesktopBrowser>
+	<badWordsXmlUrl>
+		<title>badWordsXmlUrl</title>
+		<name>Badwords XML url</name>
+		<type>string</type>
+		<desc>path to the xml file containing bad words</desc>
+		<examples>values: any relative path to the xml source</examples>
+		<default>badwords.xml</default>
+		<value>badwords.xml</value>
+	</badWordsXmlUrl>
+	<applyNickNameFilter>
+		<title>applyNickNameFilter</title>
+		<name>Apply nickname filter</name>
+		<type>boolean</type>
+		<desc>if set to 1, all words present in the badnicks.xml will not be allowed to login with as username.</desc>
+		<examples>values: 0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</applyNickNameFilter>
+	<showUserLevelError>
+		<title>showUserLevelError</title>
+		<name>Show user level error</name>
+		<type>boolean</type>
+		<desc>if set to 1, if the user's level doesn't permit him to access the chat a specifici message will occur.</desc>
+		<examples>values: 0 for disabled, 1 for enabled</examples>
+		<default>0</default>
+		<value>0</value>
+	</showUserLevelError>
+	<enableChatHistoryButton>
+		<title>enableChatHistoryButton</title>
+		<name>Enable Chat History Button</name>
+		<type>eboolean</type>
+		<desc>controls the status (enabled, disabled, hidden) of the Chat History button in the text chat area</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</enableChatHistoryButton>
+	<enableBlockViewRequestsButton>
+		<title>enableBlockViewRequestsButton</title>
+		<name>Enable Block View Requests Button</name>
+		<type>eboolean</type>
+		<desc>controls the status (enabled, disabled, hidden) of the Block View Requests button in the text chat area</desc>
+		<examples>0 for disabled, 1 for enabled,  2 for hidden</examples>
+		<default>1</default>
+		<value>1</value>
+	</enableBlockViewRequestsButton>
+	<enableOtherAccountOptionsForGuests>
+		<title>enableOtherAccountOptionsForGuests</title>
+		<name>Enable Other Account Options For Guests</name>
+		<type>boolean</type>
+		<desc>controls the status (enabled, disabled) of the other account options authentication if the register screen is shown (specific for the integrations).So a guest your has the option of either register in the specific site, or sign in with Facebook.</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>0</default>
+		<value>0</value>
+	</enableOtherAccountOptionsForGuests>
+	<enableRegisterTab>
+		<title>enableRegisterTab</title>
+		<name>Enable register tab</name>
+		<type>boolean</type>
+		<desc>controls the status (enabled, disabled) of the Register and Sign-in tab (the second tab)</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</enableRegisterTab>
+	<enableModeratorForRooms>
+		<title>enableModeratorForRooms</title>
+		<name>Enable moderator for rooms</name>
+		<type>boolean</type>
+		<desc>controls the status (enabled, disabled) of the moderator feature (room creator is also it's moderator)</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>1</default>
+		<value>1</value>
+	</enableModeratorForRooms>
+	<clientUniqueIdentifier>
+		<title>clientUniqueIdentifier</title>
+		<name>Client unique identifier</name>
+		<type>string</type>
+		<desc>holds the unique identifier for each user. This is a property generated specificaly for each unique user, and differs from user to user. This property is set in avc_settings.php or avc_settings.aspx.cs respectively, after it is imported from this XML. The default value is empty because it's value is set in avc_settings.xxx. So far this id is used for remembering room owners and giving them moderator permissions.</desc>
+		<examples>The value can be an IP, a siteID, or any uniquely generated client-id. The value has to be set from avc_settings.php or avc_settings.aspx.cs respectively, by default it is the IP of the user.</examples>
+		<default></default>
+		<value></value>
+	</clientUniqueIdentifier>
+	<enableAudioVideoOnlyMode>
+		<title>enableAudioVideoOnlyMode</title>
+		<name>Enable audio video only mode</name>
+		<type>boolean</type>
+		<desc>If set to 1, AVChat will auto-start and only display live-stream (cameras) that are online in a certain room, and will auto-start the user's camera. Also
+		the settings allowAudioStreaming and allowVideoStreaming are both automatically set to 1.</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>0</default>
+		<value>0</value>
+	</enableAudioVideoOnlyMode>
+	<sortRoomListOn>
+		<title>sortRoomListOn</title>
+		<name>Sort room list on</name>
+		<type>string</type>
+		<desc>This setting controls the default sort order of the rooms list based on the value given. The values presented below are the column names. Some of them are specific to the admin client (e.g. id). The default sort order is ascending, but it can be changed to descending by adding "_D" to the end of the column name. E.g. name_D</desc>
+		<examples>id, name, currentusers, ownerName, password</examples>
+		<default>0</default>
+		<value>name</value>
+	</sortRoomListOn>
+	<enableNewLineForEveryMessage>
+		<title>enableNewLineForEveryMessage</title>
+		<name>Enable new line for every message</name>
+		<type>boolean</type>
+		<desc>This setting controls whether or not each new text message that is sent will be displayed on a new line having (having the time stamp, username and IP if activated) independent of the username that is sending the message or the time it is sent on.</desc>
+		<examples>0 for disabled, 1 for enabled</examples>
+		<default>0</default>
+		<value>0</value>
+	</enableNewLineForEveryMessage>
+	<showMobileChatHistory>
+		<title>showMobileChatHistory</title>
+		<name>Show mobile chat history</name>
+		<type>boolean</type>
+		<desc>This setting only applies to the mobile client. It controls whether or not the chat history of a room is displayed.</desc>
+		<examples>0 for hidden, 1 for displayed</examples>
+		<default>1</default>
+		<value>1</value>
+	</showMobileChatHistory>
+	<setChatHistoryLength>
+		<title>setChatHistoryLength</title>
+		<name>Set chat history length</name>
+		<type>number</type>
+		<desc>This setting controls the MAXIMUM number of messages that will be loaded by the chat history window, with a minimum value of 250 messages. So for example if the room you are in contains a total number of messages of 1000, only the LAST 250 messages will be loaded in the window. !Important note: increasing this value to a large number can cause delays when entering/switching the room if that specific room contains a large number of messages.</desc>
+		<examples>250, 300</examples>
+		<default>250</default>
+		<value>250</value>
+	</setChatHistoryLength>
+	<enableReportSending>
+		<title>enableReportSending</title>
+		<name>Enable report sending</name>
+		<type>number</type>
+		<desc>This setting controls whether or not a user can report other users.</desc>
+		<examples>0 for disabled (users cannot report other users), 1 for enabled (users can report other users)</examples>
+		<default>1</default>
+		<value>1</value>
+	</enableReportSending>
+	<adminCanSeeReports>
+		<title>adminCanSeeReports</title>
+		<name>Admin can see reports</name>
+		<type>number</type>
+		<desc>This setting controls whether or not an admin can view the reports that have been sent.</desc>
+		<examples>0 for disabled (admin cannot see reports), 1 for enabled (admin can see reports)</examples>
+		<default>1</default>
+		<value>1</value>
+	</adminCanSeeReports>
+	<moderatorsCanPromote>
+		<title>moderatorsCanPromote</title>
+		<name>Moderators can promote</name>
+		<type>number</type>
+		<desc>This setting controls whether or not a moderator is able to promote any other user in the room to room moderator.</desc>
+		<examples>0 for disabled (moderator cannot promote), 1 for enabled (moderator can promote)</examples>
+		<default>1</default>
+		<value>1</value>
+	</moderatorsCanPromote>
+</setting>

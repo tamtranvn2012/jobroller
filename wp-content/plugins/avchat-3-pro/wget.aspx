@@ -1,0 +1,1 @@
+<%@ Page Language="C#" Debug="true" CodeFile="wget.aspx.cs" Inherits="AVChat.wget" AutoEventWireup="true" %>

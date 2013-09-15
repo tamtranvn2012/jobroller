@@ -1,0 +1,1 @@
+<%-- Edit avc_settings.aspx.cs to change settings. --%><%-- See avc_settings.php for the explanation of each one. --%><%@ Page Language="C#" Debug="true" CodeFile="avc_settings.aspx.cs" Inherits="AVChat.GeneralSettings" AutoEventWireup="true" %>

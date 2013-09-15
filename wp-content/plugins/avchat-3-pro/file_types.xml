@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fileTypes>
+	<ext>tiff</ext>
+	<ext>ico</ext>
+	<ext>swf</ext>
+	<ext>jpg</ext>
+	<ext>jpeg</ext>
+	<ext>bmp</ext>
+	<ext>pdf</ext>
+	<ext>psd</ext>
+	<ext>flv</ext>
+	<ext>png</ext>
+	<ext>gif</ext>
+	<ext>mp3</ext>
+	<ext>aac</ext>
+	<ext>avi</ext>
+	<ext>mp4</ext>
+	<ext>txt</ext>
+	<ext>log</ext>
+	<ext>xml</ext>
+	<ext>wav</ext>
+	<ext>doc</ext>
+	<ext>docx</ext>
+	<ext>rar</ext>
+	<ext>zip</ext>
+	<ext>7z</ext>
+	<ext>xls</ext>
+	<ext>doc</ext>
+	<ext>docx</ext>
+	<ext>ppt</ext>
+	<ext>pps</ext>
+</fileTypes>

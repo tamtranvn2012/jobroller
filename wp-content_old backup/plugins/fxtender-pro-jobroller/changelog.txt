@@ -1,0 +1,256 @@
+1.4.1 - 2013-05-01
+fixes:
+	- Some FXtender notices not showing
+	- Redirect job visitors and applications redirection returning 404 errors
+changes:
+	- Added compatibility for JobRoller 1.7
+	- Improved breadcrumbs
+	- Removed 'gateways' page. Google Wallet, 2Checkout and Authorize.net are now integrated in JobRoller 1.7 payments page
+	- Job duration custom field no longer displayed on offered jobs
+	- Fxtender custom fields (job duration, applications email address, etc...) now displayed on the first step of the submit job form
+	- Removed obsolete feature - 'Display Featured Jobs on all listings' - already available in JobRoller
+	- Removed obsolete feature - 'Free job offer' notice - lister can easily see how many jobs he already submitted and how many are free
+	- .pot file renamed to default US lang 'en_US'
+new features:
+	- Job applications monitoring
+		. new Tab on job seekers dashboard with stats on job applications
+		. new Tab on job listers/recruiters dashboard with stats on job applications
+		. who applied metabox on backend edit page
+		. job application stats on backend user profiles
+	- Job previews and thumbs cache
+		. added option to clear previews and thumbs cached
+	-	. added option to set previews and thumbs cache duration
+1.4.0 - 2013-01-03
+fixes: 
+	- Removed update check always running on INIT hook
+	- Fatal error: Cannot re-assign auto-global variable...using PHP 5.4.4
+	- Expired days on job listings not matching expired days on single job pages
+	- Removed featured jobs from author pages
+	- Presistent company logo being deleted on profile update
+	- Simple location search without google maps not returning results
+	- Fixed PayPal not displaying as a payment option
+changes:
+	- Significant speed improvements with the use of caching mechanism
+	- Preview content and thumbs are cached for a week or until the job is updated
+	- Option 'Featured Jobs on All Listings:' only displayed on older JR versions (latest versions do this automatically)
+	- Replaced include() of featured jobs with get_template_part() to allow child theming
+	- Improved breadcrumbs
+	- Logo widget 'Link to Job' option changed to 'Link to Author Jobs'. Redirects users to author job listings.
+	- PayPal gateway is hidden if no URL is set on the JobRoller 'Gateways' Tab
+	- Replaced Google Buzz with Google+
+	- If a custom field recipient address is filled it will be used as the 'Apply with LinkedIn' recipient address
+	- Company logos are now visible on the media library for better management (only for new uploads after FX 1.4.0)
+	- Allow text files CV uploads
+	- WP 3.5: Changes to the qTip2 library for jQuery 1.8.x compatibility
+new features:
+	- Added option to exclude job preview from specific pages
+	- Added option to allow job listers to enable/disable the 'Apply Online' button
+	- Added option to allow job listers to enable/disable the 'Apply with LinkedIn' button
+	- Added YouTube as option for social widget
+	- New S2Member Features Restrictions
+		. Apply to Jobs (charge Job Seekers to be able to apply for jobs)
+		. Apply with LinkedIn (charge Job Seekers to be able to apply with LinkedIn)
+		. Job Alerts (charge Job Seekers to be able to subscribe to job alerts)
+
+1.3.0 - 2012-03-04
+fixes:
+	- Fixed 'bug' with CV attachments
+	- Fixed translations problem related with textdomain being loaded later then the strings
+	- Fixed posts count for free job offers
+	- Fixed tooltip override on Resumes listing
+changes:
+	- Code tuning and performance optimization (takes advantage of new JR hooks)
+	- Added load_plugin_textdomain() to allow translations from 3d party plugins (.mo files must be named jr_fx-lang_LANG.mo)
+	- Changed log() class to jr_fx_log(), to avoid conflicts
+	- 'Free Job Offers' feature now allows charging only featured jobs while the offer lasts (only JR 1.5.3 or later)
+	- Changed title of the option 'Hide Pre-Payment Paragraph' to 'Hide Pre-Payment Footer Text'
+	- New option for 'Hide Pre-Payment Footer Text':
+		. Yes (Custom Message)
+	- Added option 'Pre-Payment Replacement Text' to replace the pre-payment footer with custom text, for Job Offers
+	- New options for 'Apply with LinkedIn':
+		. (Show to) All
+		. (Show to) Members		
+	- Moved s2member_fixes.txt to /extras folder
+	- Added a robots.txt template file to the /extras folder that you can copy to your root folder. Usage is recommended to avoid search engines crawlers indexing your Resumes sub-folder. 
+	- Added additional security information for 'robots.txt' file check on the System Info page
+new features:
+	LITE / PRO:
+	- FXtender can now be updated directly from the plugins page. No more need to manually download and install the latest version
+	- Show Inline LinkedIn User/Company profiles on:
+		- Profile Pages:
+			. Members Profile
+			. Job Seekers Profile
+			. Job Listers Profile
+		- Resume Pages
+		- Job Pages
+			. Using Profile LinkedIn URL
+			. Using Company name posted in Jobs
+	PRO:
+	- Job Listers can now upload/store Logos on their Profile and use them when submitting Jobs. No need to browse for Logos for each new Job submitted.
+	- Option to replace Job Listers Profile Avatar with the Logo uploaded on their Profile.
+	- Apply with registered emails only (reduces spamming)
+	- Choose how to display the payment gateways selection to Job Listers
+		. Visual Logo Icons (default)
+		. Dropdown List
+
+1.2.6 - 2011-12-17
+fixes:
+	- Some fixes related with new Wordpress 3.3 changes
+changes:
+	- none
+new features:
+	- none
+	
+1.2.5 - 2011-11-26
+fixes:
+	- Fixed manual payments not showing when no other gatways selected	
+changes:
+	- CV file downloads are now masked
+	- Changed the theme check on FXtender activation from theme name to global var. This was causing issues for users with different JobRoller theme names.
+new features:
+	- Order Cost shortcode to use on manual payment pages
+
+1.2.4 - 2011-11-12
+fixes:
+	- none
+changes:	
+	- Changed obsolete 'jr_myjobs_page_id' option to 'jr_dashboard_page_id' where used
+new features:
+	- Added option to enable CV attachments download for Job Listers when viewing Resume pages
+	- Manual Payment
+		. allow users to specify a page with manual payment instructions
+		. shortcode to show the Order ID on the manual payment instructions page to the Job Lister
+		. shortcode to redirect users after reading the manual payment instructions page
+	- Linkedin Integration
+		. Apply with LinkedIn - Job Seekers can now apply to jobs using the 'Apply with LinkedIn' button
+	
+1.2.3 - 2011-10-15
+fixes:
+	- Fixed bug for company thumbs showing bellow the job title on the latest jobs widgets when this widget was in use
+
+1.2.2 - 2011-08-24
+fixes:
+	- Fixed bug with some featured job thumbs not showing on the front page
+	- Fixed bug with total attachments. Total attachments allowed were not being correctly filtered (thanks Leandro!).
+changes:	
+	- none
+new features:
+	- none	
+	
+1.2.1 - 2011-08-15
+fixes:
+	- Fixed bug with featured job thumbs sometimes showing above the navigation menu
+	- Fixed bug with Resume pictures being mistaken by uploaded Resumes
+	- Fixed localization error. Text domain was loading the .mo file instead of the \lang folder (thanks Jacob!)
+	- Fixed rss feed icon not showing when searching for jobs
+changes:	
+	- Changed gateway class names to avoid conflicts with other plugins
+new features:
+	- none	
+	
+1.2.0 - 2011-08-08
+fixes:
+	- Fixed bug with location search crashing when option disabled
+	- Fixed job preview on authors page and dashboard
+	- Fixed manual payments with other gateways on dasboard/myjobs page
+changes:	
+	- Added additional rules (internally) for showing thumbs only on featured jobs. This should fix problems where thumbs were not showing up for featured jobs on the top of the listings
+	- Added file permissions check for qtip styles and colors, text files
+	- Changed custom javascript from header to footer. This should fix problems related to thumbnails not showing on listings
+	- Changed the 'Resume Browse/View' options dependency from 'Members Only' to 'Job Listers Only'. Please check your options if you're using this feature
+	- Code optimizations
+new features:
+	- Auto update checks - FXtender will check for new releases and warn users when a new version is available to download (all versions)
+	- New gateways: 2Checkout, Authorize.Net (pro)
+	- Profile Resumes - Attach CV/Resume files to existing Online Resumes (pro)
+	- Apply to Jobs with Profile Resumes (selectable Profile Resumes on the 'Apply to Job' form) (pro)
+	- S2Member integration for Job Seekers - restrict access to Resume functionalities for non paying Job Seekers (pro)
+	- Free offer for Job Packs (pro)
+	- New options for Resume Browse/View:
+	 . Resume Browse/View for Paid Listings (Live) - limit Resume browsing/viewing to Job Listers with active jobs (published status) (pro)
+	 . Resume Browse/View for Paid Listings (All) - limit Resume browsing/viewing to Job Lister with at least one submitted job (published or expired) (pro)
+	 . Redirect Job Listers to a user specified page if Resume Browse/View options not met (pro)
+	- Redirect Job Visitors - Redirect site visitors to Login Page when trying to view jobs (pro)
+	- Redirect Application Visitors - Redirect site visitors to Login Page if trying to apply for jobs (pro)
+	- Auto fill Job Lister Details (Company Name and Website) (lite)
+	- Auto fill Job Seeker Company Details (name and email) (lite)
+
+1.1.3 - 2011-07-16
+fixes:
+	- Fixed bug with Javascript TZCheckboxes and Wordpress 3.2
+new features:
+	- none
+	
+1.1.2 - 2011-07-05
+fixes:
+	- Fixed bug with Javascript TZCheckboxes and Wordpress 3.2
+new features:
+	- none
+	
+1.1.1 - 2011-07-05
+fixes:
+	- Fixed bug with location search crashing when option disabled	
+new features:
+	- none
+	
+1.1.0 - 2011-07-01
+fixes:
+	- Custom durations days were discarded on paid jobs.
+	- When hiding the map on the “Submit a Job” page, any address added to that job was not being picked up when doing a location search. Changed feature name to ‘Disable/Hide Google Maps’. When disabling google maps, geolocation is ignored and searches are completely based on string matching.
+	- The breadcrumb navigation was showing the wrong title when on the “My Jobs” page.
+	- Fied IE problems related to commas (,) that were causing javascript errors and as a result not showing thumbnails on listings. Other browsers work correctly.
+new features:
+	- New Payment Gateway: Google Checkout
+	- Days Left
+	- Job Preview
+	- Job Preview Thumbs
+	- Resume Browse/View for Paid Job Packs only
+
+	
+1.0.2 - 2011-04-28
+fixes:
+	- Minor bug fies
+new features:
+	- None
+
+	
+1.0.1 - 2011-04-27
+fies:
+	- Minor bug fies
+new features:
+	- None
+
+
+1.0.0 - 2011-04-25
+fies:
+	- None
+new features:
+	- Show Breadcrumbs
+	- First # Job(s) Free		
+	- First #Job(s) Moderated
+	- Moderate Jobs Posted by Admins		
+	- Job Duration Field		
+	- Job Duration Caption		
+	- Job Duration (min. days)		
+	- Job Duration (ma. days)		
+	- Applications Recipient Field		
+	- Disable/Hide Google Maps		
+	- Hide Company Logo		
+	- Hide Action Buttons		
+	- Show Apply Online		
+	- Featured Jobs on All Listings		
+	- Replace Date with Days Left		
+	- Display Company Logo Thumb on Job Listings		
+	- Company Logo Thumb Position on Job Listings		
+	- First # Job(s) Free Message		
+	- Hide Pre-Payment Paragraph		
+	- First # Job(s) Moderated Message		
+	- Email Signature		
+	- Hide ‘Apply Online’ on Indeed Jobs		
+	- Hide Job Page Nav. Widget		
+	- Google Buzz Profile ID		
+	- Display Google Buzz on Social Widget		
+	- Display Facebook on Social Widget		
+	- Company Logo Widget (New Widget!)		
+	- Mini Map Widget (New Widget!)
+

@@ -1,0 +1,2499 @@
+# Translation of JobRoller
+# Copyright (C) 2010 JobRoller
+# This file can be distributed under the JobRoller terms
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FXtender for JobRoller\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-30 01:21-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bruno <bruno.carreco@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../core.php:77
+msgid "Feature(s) not available on the "
+msgstr ""
+
+#: ../core.php:80
+msgid "Upgrade to FXtender "
+msgstr ""
+
+#: ../core.php:327
+msgid "day left"
+msgstr ""
+
+#: ../core.php:328
+msgid "Expired"
+msgstr ""
+
+#: ../core.php:329
+msgid "days left"
+msgstr ""
+
+#: ../core.php:702
+msgid "Jobs"
+msgstr ""
+
+#: ../core.php:704 ../includes/admin/admin-options.php:16
+#: ../includes/admin/admin-resume-values.php:19
+msgid "Resumes"
+msgstr ""
+
+#: ../core.php:739
+msgid "Archive for"
+msgstr ""
+
+#: ../core.php:740 ../core.php:741
+msgid "Archive for "
+msgstr ""
+
+#: ../core.php:742
+msgid "Author Archive"
+msgstr ""
+
+#: ../core.php:743
+msgid "Blog Archives"
+msgstr ""
+
+#: ../core.php:744
+msgid "Search Results"
+msgstr ""
+
+#: ../core.php:971
+msgid "Default (Light)"
+msgstr ""
+
+#: ../core.php:973
+msgid "Default (Shadow)"
+msgstr ""
+
+#: ../fxtender-pro-jobroller.php:376
+msgid "If you're not automatically redirected please click here."
+msgstr ""
+
+#: ../fxtender-pro-jobroller.php:531
+#, php-format
+msgid ""
+" - <a href=\"%3$s\" title=\"Update FXtender %2$s now!\">v.%2$s is available. "
+"Please update to the new version directly from the plugins page."
+msgstr ""
+
+#: ../fxtender-pro-jobroller.php:533
+#, php-format
+msgid " - v.%2$s is now available! Please notify the site administrator."
+msgstr ""
+
+#: ../fxtender-pro-jobroller.php:551
+msgid " is not readable or does not exist - check file permissions."
+msgstr ""
+
+#: ../fxtender-pro-jobroller.php:556
+msgid "FXtender file permissions error:"
+msgstr ""
+
+#: ../fxtender-pro-jobroller.php:579
+msgid "Robots.txt file not found."
+msgstr ""
+
+#: ../includes/geoscripts.php:239
+msgid "Anywhere"
+msgstr ""
+
+#: ../includes/geoscripts.php:248
+msgid "Current location:"
+msgstr ""
+
+#: ../includes/hooks.php:186
+msgid "Confirm"
+msgstr ""
+
+#: ../includes/hooks.php:809 ../includes/widgetz.php:45
+msgid "Location"
+msgstr ""
+
+#: ../includes/jscripts.php:201
+#, php-format
+msgid "[UNREGISTERED EMAIL: %s]"
+msgstr ""
+
+#: ../includes/jscripts.php:287
+msgid "Job Duration"
+msgstr ""
+
+#: ../includes/jscripts.php:290
+#, php-format
+msgid "Value must be between %s and %s."
+msgstr ""
+
+#: ../includes/jscripts.php:298
+msgid "Job duration is a required field."
+msgstr ""
+
+#: ../includes/jscripts.php:302
+msgid "Job duration must be between "
+msgstr ""
+
+#: ../includes/jscripts.php:333
+msgid "Applications email address (admins only)"
+msgstr ""
+
+#: ../includes/jscripts.php:335
+msgid ""
+"This is the recipient email address that will receive applications for this "
+"job. Only an Admin can see this field."
+msgstr ""
+
+#: ../includes/jscripts.php:348
+msgid "Email address is invalid!"
+msgstr ""
+
+#: ../includes/jscripts.php:365 ../includes/jscripts.php:414
+#: ../includes/admin/admin-integration-values.php:122
+#: ../includes/admin/admin-integration-values.php:162
+#: ../includes/admin/admin-integration-values.php:211
+#: ../includes/admin/admin-main-values.php:71
+#: ../includes/admin/admin-main-values.php:88
+#: ../includes/admin/admin-main-values.php:107
+#: ../includes/admin/admin-main-values.php:195
+#: ../includes/admin/admin-main-values.php:283
+#: ../includes/admin/admin-main-values.php:305
+#: ../includes/admin/admin-main-values.php:343
+#: ../includes/admin/admin-main-values.php:361
+#: ../includes/admin/admin-main-values.php:381
+#: ../includes/admin/admin-main-values.php:410
+#: ../includes/admin/admin-main-values.php:492
+#: ../includes/admin/admin-main-values.php:510
+#: ../includes/admin/admin-membership-values.php:81
+#: ../includes/admin/admin-resume-values.php:107
+#: ../includes/admin/admin-resume-values.php:137
+#: ../includes/admin/admin-widget-values.php:40
+#: ../includes/admin/admin-widget-values.php:89
+msgid "Yes"
+msgstr ""
+
+#: ../includes/jscripts.php:366
+msgid ""
+" (Check this option if you want to avoid job seekers applying to jobs "
+"directly using our application form)"
+msgstr ""
+
+#: ../includes/jscripts.php:378
+msgid "Disable Apply Online"
+msgstr ""
+
+#: ../includes/jscripts.php:415
+msgid " (Check this option to disable the 'Apply with LinkedIn' button)"
+msgstr ""
+
+#: ../includes/jscripts.php:427
+msgid "Disable 'Apply with LinkedIn'"
+msgstr ""
+
+#: ../includes/jscripts.php:671
+msgid "Follow us"
+msgstr ""
+
+#: ../includes/jscripts.php:672
+msgid "Come join us on Google+"
+msgstr ""
+
+#: ../includes/jscripts.php:689
+msgid "Subscribe Channel"
+msgstr ""
+
+#: ../includes/jscripts.php:690
+msgid "Check our videos on YouTube"
+msgstr ""
+
+#: ../includes/jscripts.php:705
+msgid "Be our Friend on Facebook"
+msgstr ""
+
+#: ../includes/jscripts.php:705
+msgid "Be Our Friend"
+msgstr ""
+
+#: ../includes/jscripts.php:706
+msgid "Be Our Friend on Facebook"
+msgstr ""
+
+#: ../includes/jscripts.php:752 ../includes/jscripts.php:775
+msgid "Payment Gateway"
+msgstr ""
+
+#: ../includes/jscripts.php:754 ../includes/jscripts.php:777
+msgid "Please choose your preferred payment gateway below:"
+msgstr ""
+
+#: ../includes/jscripts.php:805
+msgid "(choose gateway)"
+msgstr ""
+
+#: ../includes/jscripts.php:855
+msgid "Auto complete name and email"
+msgstr ""
+
+#: ../includes/jscripts.php:889
+msgid "Auto complete Company details"
+msgstr ""
+
+#: ../includes/jscripts.php:920
+msgid "Are you sure you want to delete this Resume file?"
+msgstr ""
+
+#: ../includes/jscripts.php:948
+msgid "upgrade your Account to activate this option"
+msgstr ""
+
+#: ../includes/jscripts.php:950
+msgid "Account type:"
+msgstr ""
+
+#: ../includes/jscripts.php:1202 ../includes/widgetz.php:125
+#: ../includes/admin/admin-main-values.php:395 ../includes/pro/pro.php:2182
+msgid "Company Logo"
+msgstr ""
+
+#: ../includes/jscripts.php:1203
+msgid "Set as default Company Logo"
+msgstr ""
+
+#: ../includes/jscripts.php:1204
+msgid "Delete Logo"
+msgstr ""
+
+#: ../includes/jscripts.php:1350
+msgid "You've Applied!"
+msgstr ""
+
+#: ../includes/widgetz.php:8 ../includes/widgetz.php:9
+msgid "FXtender Mini Google Maps Location"
+msgstr ""
+
+#: ../includes/widgetz.php:50 ../includes/widgetz.php:131
+msgid "Title:"
+msgstr ""
+
+#: ../includes/widgetz.php:55
+msgid "Show Latitude/Longitude?"
+msgstr ""
+
+#: ../includes/widgetz.php:58
+msgid "Zoom Level:"
+msgstr ""
+
+#: ../includes/widgetz.php:62
+msgid "<strong>Note</strong>: This widget will only work within the Job page."
+msgstr ""
+
+#: ../includes/widgetz.php:70 ../includes/widgetz.php:71
+msgid "FXtender Company Logo"
+msgstr ""
+
+#: ../includes/widgetz.php:136
+msgid "Size"
+msgstr ""
+
+#: ../includes/widgetz.php:138
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/widgetz.php:139
+#: ../includes/admin/admin-integration-values.php:105
+#: ../includes/admin/admin-main-values.php:639
+msgid "Medium"
+msgstr ""
+
+#: ../includes/widgetz.php:140 ../includes/admin/admin-main-values.php:638
+msgid "Large"
+msgstr ""
+
+#: ../includes/widgetz.php:141
+msgid "Custom Size"
+msgstr ""
+
+#: ../includes/widgetz.php:145
+msgid "Link to Author Jobs?"
+msgstr ""
+
+#: ../includes/widgetz.php:148
+msgid "<strong>Note</strong>: This widget will only work on a job page."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:14
+#: ../includes/pro/pro.php:1788
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:22
+#: ../includes/admin/admin-membership-values.php:33
+msgid "Overview"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:35
+#: ../includes/admin/admin-membership-values.php:64
+msgid "Settings"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:38
+msgid "API Key"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:39
+msgid ""
+"Your <i>LinkedIn</i> API key. You need an API Key <a href=\"https://www."
+"linkedin.com/secure/developer\" target=\"_blank\">LinkedIn</a>."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:40
+msgid ""
+"Your <i>LinkedIn</i> API Key gives you access to the <i>LinkedIn</i> API "
+"features."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:49
+msgid "Theme Color"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:50
+msgid ""
+"A hexadecimal CSS color value to theme the <i>LinkedIn</i> features. You "
+"should prefix the color value with #. <p><span class=\"jr_fx_highlight_value"
+"\">Example: #438ccb</span></p>"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:51
+msgid ""
+"Choose the color that best suits your website to visually integrate "
+"<i>LinkedIn</i> features."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:61
+msgid "Apply with <i>LinkedIn</i>"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:72
+msgid "Enable 'Apply with <i>LinkedIn</i>'"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:73
+msgid "If enabled, Job Seekers will be able to apply using <i>LinkedIn</i>."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:74
+msgid ""
+"The button <i>Apply with LinkedIn</i> will be visible on the Job page footer "
+"for members and/or visitors. Selecting 'Optional' will display a checkbox "
+"field that allows job listers to enable/disable the button."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:83
+msgid "Optional (by Job)"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:84
+#: ../includes/admin/admin-integration-values.php:142
+msgid "Members"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:85
+#: ../includes/admin/admin-main-values.php:430
+msgid "All"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:86
+#: ../includes/admin/admin-integration-values.php:123
+#: ../includes/admin/admin-integration-values.php:145
+#: ../includes/admin/admin-integration-values.php:163
+#: ../includes/admin/admin-integration-values.php:182
+#: ../includes/admin/admin-integration-values.php:212
+#: ../includes/admin/admin-main-values.php:55
+#: ../includes/admin/admin-main-values.php:72
+#: ../includes/admin/admin-main-values.php:89
+#: ../includes/admin/admin-main-values.php:108
+#: ../includes/admin/admin-main-values.php:150
+#: ../includes/admin/admin-main-values.php:196
+#: ../includes/admin/admin-main-values.php:226
+#: ../includes/admin/admin-main-values.php:284
+#: ../includes/admin/admin-main-values.php:304
+#: ../includes/admin/admin-main-values.php:326
+#: ../includes/admin/admin-main-values.php:344
+#: ../includes/admin/admin-main-values.php:362
+#: ../includes/admin/admin-main-values.php:382
+#: ../includes/admin/admin-main-values.php:411
+#: ../includes/admin/admin-main-values.php:473
+#: ../includes/admin/admin-main-values.php:493
+#: ../includes/admin/admin-main-values.php:511
+#: ../includes/admin/admin-main-values.php:541
+#: ../includes/admin/admin-main-values.php:566
+#: ../includes/admin/admin-main-values.php:609
+#: ../includes/admin/admin-membership-values.php:82
+#: ../includes/admin/admin-resume-values.php:108
+#: ../includes/admin/admin-resume-values.php:138
+#: ../includes/admin/admin-resume-values.php:158
+#: ../includes/admin/admin-widget-values.php:41
+#: ../includes/admin/admin-widget-values.php:90
+msgid "No"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:93
+msgid "Button Size"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:94
+msgid "<i>Apply with LinkedIn</i> button size."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:95
+msgid "Select the button size that best suits your theme."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:104
+msgid "Normal"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:111
+msgid "Show Button Text"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:112
+msgid "Show the call to action <i>LinkedIn</i> text."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:113
+msgid ""
+"To increase the number of people who apply for a position, <i>LinkedIn</i> "
+"adds a call to action below the 'Apply with <i>LinkedIn</i>' button. You can "
+"hide this text."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:128
+msgid "Inline <i>LinkedIn</i> Profiles"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:131
+msgid "Enable on Profiles"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:132
+msgid ""
+"Show Job Seeker's <i>LinkedIn</i> profile inline, on their Profile page. A "
+"valid <i>LinkedIn</i> URL Profile is required for this feature to work."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:133
+msgid ""
+"If enabled, <i>LinkedIn</i> profiles will be shown inline below the "
+"<i>LinkedIn</i> URL link on members Profile pages."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:143
+msgid "Job Seekers"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:144
+msgid "Job Listers"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:151
+msgid "Enable on Resumes"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:152
+msgid ""
+"Show Job Seeker's <i>LinkedIn</i> profile inline on their Resume pages. A "
+"valid <i>LinkedIn</i> URL Profile is required for this feature to work."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:153
+msgid ""
+"If enabled, Job Seeker's <i>LinkedIn</i> profiles will be shown inline on "
+"Resume pages headers."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:169
+msgid "Enable on Job Pages"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:170
+msgid ""
+"Show Job Lister's <i>LinkedIn</i> profile inline on their Job pages. A valid "
+"<i>LinkedIn</i> URL Profile or job listing Company name are required for "
+"this feature to work."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:171
+msgid ""
+"If enabled, Job Lister's <i>LinkedIn</i> profiles will be shown inline on "
+"Job pages headers. You can use the job Company name to retrieve it's "
+"LinkedIn profile or use the existing job lister's profile LinkedIn URL. "
+"Please note that the company name must match the LinkedIn Company name for "
+"this feature to work."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:180
+msgid "Yes (Using Company Name)"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:181
+msgid "Yes (Using Profile LinkedIn URL)"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:189
+msgid "Indeed (JR 1.4.x or less)"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:197
+#: ../includes/admin/admin-main-values.php:389
+#: ../includes/admin/admin-main-values.php:539
+msgid "Job Page"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:200
+msgid "Hide 'Apply Online' on Indeed Jobs"
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:201
+msgid ""
+"This option has priority over any Show/Hide <i>Apply Online</i> button "
+"options because users cannot apply for Indeed jobs directly."
+msgstr ""
+
+#: ../includes/admin/admin-integration-values.php:202
+msgid "Hides the <i>Apply Online</i> button for Indeed Jobs."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:12
+msgid "Info"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:21
+msgid "Version"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:24
+#, php-format
+msgid "Upgrade to PRO now and unlock all the features! Only <em>%s</em>!"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:32
+#: ../includes/admin/admin-options.php:15
+#: ../includes/admin/admin-widget-values.php:14
+msgid "General"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:40
+msgid "Site"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:43
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:44
+msgid ""
+"If the search bar is disabled, breadcrumbs will show on top of the main "
+"content."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:45
+msgid "Shows breadcrumbs throughout the website."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:53
+msgid "Over Search Bar"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:54
+msgid "Under Search Bar"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:61
+msgid "Redirect Job Visitors"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:62
+msgid ""
+"If active, non registered members will be redirected to the login page when "
+"trying to view jobs."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:63
+#: ../includes/admin/admin-main-values.php:80
+msgid "This option is recommended to convert visitors into registered users."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:78
+msgid "Redirect Application Visitors"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:79
+msgid ""
+"If active, non registered members will be redirected to the login page when "
+"trying to apply online."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:95
+msgid "Apply with Registered Emails Only"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:96
+msgid "Enable this option to block applications from unknown email addresses."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:97
+msgid ""
+"Enabling this option will block email addresses that are not in the database."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:115
+msgid "Job Publishing"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:121
+msgid "Job Offers"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:124
+msgid "First # Job(s) Free"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:125
+msgid ""
+"Used only if you charge for job posts. The customer will be able to submit "
+"this number of free jobs skipping the 'Select Plan' step."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:126
+msgid ""
+"Promote you website offering some job postings for free by setting the "
+"number of free job postings you want to offer. You can show a special "
+"message for this offers and hide the pricing text on the <i>Notices</i> tab."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:138
+msgid "Hide Pricing Text"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:139
+msgid "Used only if you offer free jobs."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:140
+msgid ""
+"If you set a value on the <i>First # Job(s) Free</i> option you can hide the "
+"pricing text displayed bellow the 'Submit Job' button by setting this option "
+"to <i>Yes</i>."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:148
+msgid "Yes (No Message)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:149
+msgid "Yes (Custom Message)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:156
+msgid "Pricingt Replacement Text"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:157
+msgid ""
+"Used only if you set 'Hide Pre-Payment Paragraph' to 'Custom Message'. "
+"<br><strong>Note:</strong> Message will ONLY be visible if NO fees apply for "
+"the current Job listing."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:158
+msgid "The pricing text will be replaced with this one for Free Job Offers."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:168
+msgid "Job Moderation"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:171
+#: ../includes/admin/admin-notifications-values.php:41
+msgid "First # Job(s) Moderated"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:172
+msgid ""
+"Skipped if you have JobRoller <i>Moderate Jobs Listings</i> option set to "
+"<i>Yes</i> or with paid jobs.<br/><strong>Note: </strong>You can set a "
+"notification message for this feature on the <a href=\"admin.php?page=jr-fx-"
+"admin-notifications\">notifications page</a>."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:173
+msgid ""
+"If a value is set (>0), every job posted will need moderation until the "
+"minimum published jobs is reached by the publisher. You can show a special "
+"message for this jobs on the <i>Notices</i> tab."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:184
+msgid "Moderate Jobs Posted by Admins"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:185
+msgid ""
+"If set to <i>Yes</i>, this option will have priority over all the job status "
+"changes. If posted by an Admin, a new job will always be <i>Pending</i>. "
+"Skipped if you have jobroller <i>Moderate Jobs</i> option set to <i>Yes</i>."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:186
+msgid ""
+"If you intend to publish jobs manually and add extra information before "
+"publishing you should enable this option."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:203
+msgid "Job Submit"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:209
+msgid "Job Duration (custom field)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:212
+msgid "Job Duration Field"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:213
+msgid ""
+"Overrides JobRoller's job expiry calculation and give the publisher the "
+"option to set job duration. Default is <strong>30 days</strong>.<br/>It "
+"should only be used if you don't charge for jobs as job plans have their own "
+"job duration.\n"
+"\t\t\t\t\t\t\t\t<br/><br/><strong>Note:</strong> The custom duration field "
+"is not displayed on offered jobs."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:215
+msgid ""
+"A new numeric field will be available for the publisher to set the number of "
+"days until job expires."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:224
+msgid "Yes (All Publishers)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:225
+msgid "Yes (Only Admins)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:232
+msgid "Job Duration Caption"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:233
+#: ../includes/admin/admin-main-values.php:246
+#: ../includes/admin/admin-main-values.php:258
+msgid "Used only if the <i>Job duration field</i> option is used."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:234
+msgid "This message will appear bellow the job duration field."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:241
+msgid "Please choose the duration of this job (days)."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:245
+msgid "Job Duration (min. days)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:247
+msgid "Set the minimum days for the job duration field."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:257
+msgid "Job Duration (max. days)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:259
+msgid "Set the maximum days for the job duration field."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:269
+msgid "Job Applications (custom field)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:272
+msgid "Enable Applications Recipient Field"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:273
+msgid ""
+"<strong>Admins Only</strong> - A new field will be available on the "
+"<i>Submit Job</i> page that will allow Admins to add a recipient email "
+"address on their posted jobs. Aplications will be sent to this email address "
+"instead of the Admins email (the author)."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:274
+msgid ""
+"Set this option to <i>Yes</i> if you usually add jobs manually as an Admin "
+"using the frontend form. This custom field will appear on the job page admin "
+"panel and can be easily deleted or updated. If the field is deleted, all "
+"applications will be sent to the author email as usual. "
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:290
+msgid "Apply Online (custom field)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:293
+msgid "Optional Apply Online Field"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:294
+msgid ""
+"Enabling this option will allow job listers to enable/disable online "
+"applications."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:295
+msgid ""
+"A checkbox will be available for the publishers to enable/disable online "
+"applications."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:310
+msgid "Job Lister / Recruiter"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:313
+msgid "Auto Fill Company Details"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:314
+msgid ""
+"Auto fills Job Lister company information with their profile information."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:315
+msgid ""
+"The job lister company information (Company Name and Website) will be auto "
+"completed when submiting jobs."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:324
+#: ../includes/admin/admin-main-values.php:450
+#: ../includes/admin/admin-main-values.php:471
+msgid "Always"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:325
+#: ../includes/admin/admin-main-values.php:472
+msgid "Selectable"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:332
+msgid "Enable Persistent Company Logos"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:333
+msgid ""
+"Enabling this option will allow Job Listers to store a company logo on their "
+"Profile. The logo will be automatically loaded when submitting jobs."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:334
+msgid ""
+"Job Listers can store a company logo on their Profile to use on all new jobs "
+"or when selecting the 'Set as default Company Logo' option on the job submit "
+"page."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:350
+msgid "Replace Gravatar with Company Logo"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:351
+msgid ""
+"Enabling this option will replace job listers avatar with the company logo "
+"stored on their Profile."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:352
+msgid ""
+"The company logo will be visible on the job lister public Profile page. You "
+"need to enable 'Persistent Company Logos' for this feature to work."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:367
+msgid "Google Maps"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:370
+msgid "Disable/Hide Google Maps"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:371
+msgid ""
+"If set to <i>Yes</i>, Google Maps will be disabled and the location filled "
+"by the job publisher will be saved as is, without the google maps filtering."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:372
+msgid ""
+"Disables geolocation. Location search is done by matching locations instead "
+"of google maps geolocation. Radius will be hidden and ignored."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:398
+msgid "Hide Company Logo"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:399
+msgid ""
+"If you intend to use the <i>Company Logo Widget</i> you can hide the logo on "
+"the job page."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:400
+msgid "Hides the company logo on the job page."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:416
+msgid "Buttons"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:419
+msgid "Hide Action Buttons"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:420
+msgid "You can hide any of the buttons available on the job page footer."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:421
+msgid "Hides any or all action buttons available on the job page."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:431
+#: ../includes/admin/admin-membership-values.php:87
+msgid "Apply Online"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:432
+msgid "Print"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:433
+#: ../includes/admin/admin-main-values.php:641 ../includes/pro/pro.php:1332
+msgid "None"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:439
+msgid "Show <i>Apply Online</i>"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:440
+msgid ""
+"This option will give your more control over the visibility of the <i>Apply "
+"Online</i> button. It will take precedence over the option you choose on the "
+"<i>Hide Buttons</i> feature. If you hide it, it will only be visible based "
+"on this option."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:441
+msgid ""
+"Control the visibility of the <i>Apply Online</i> button by choosing when to "
+"show it."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:451
+#: ../includes/admin/admin-resume-values.php:46
+#: ../includes/admin/admin-resume-values.php:72
+msgid "Paid Job"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:452
+msgid "Never"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:457
+msgid "Job Seeker"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:460
+msgid "Auto Fill User Details"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:461
+msgid ""
+"When applying to jobs, the Job Seeker name and email will be auto filled "
+"with their profile information."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:462
+msgid ""
+"The Job Seeker name and email will be auto filled when applying to jobs."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:478
+msgid "Job Applications Monitor"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:481
+msgid "Monitor Job Applications"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:482
+msgid ""
+"Enabling this option will monitor job applications. Site owners will be able "
+"to track applications on a new meta box on the jobs page, or on each user "
+"profile."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:483
+msgid ""
+"Monitoring include appplications sent using 'Apply Online' or LinkedIn, if "
+"you've enabled it. Job seekers will see an 'Already Applied' caption on the "
+"apply button on jobs already applied."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:499
+msgid "Display 'Applications' Tab"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:500
+msgid ""
+"Enables a new Tab on the job seekers and job listers/recruiters dashboards, "
+"with job applications stats."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:501
+msgid ""
+"The new Tab allows listers/recruiters or seekers to track job applications. "
+"Job application monitoring must be enabled."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:518
+#: ../includes/admin/admin-main-values.php:540
+msgid "Job Listings"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:524
+msgid "Listings Info"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:527
+msgid "Replace Date with Days Left"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:528
+msgid ""
+"Replaces the <i>Date</i> on the selected page(s) with the number of days "
+"left."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:529
+msgid ""
+"Show how many days the Job will remain valid instead of the listing Date."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:538
+msgid "Job Page + Job Listings"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:546
+msgid "Listings Thumbs"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:549
+msgid "Display Company Logo Thumb"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:550
+#, php-format
+msgid ""
+"The company logo uses your %s. You can also customize the stylings via css."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:550
+msgid "<a href=\"options-media.php\">media thumbnail sizes</a>"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:553
+msgid "Displays the company logo thumbnail on the job listings."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:563
+msgid "Yes (All Jobs)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:564
+msgid "Yes (Featured Jobs)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:565
+msgid "Yes (Paid Jobs)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:572
+msgid "Company Logo Thumb Position"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:573
+msgid ""
+"Used only if you use company thumbs on listings. Recommended dimensions for "
+"thumbnails: <strong>40px x 40px</strong>.\n"
+"\t\t\t\t\t\t\t  <br/> If you already have submitted jobs you might need to "
+"re-save them in order for the thumbnails to be correctly re-sized."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:575
+msgid "Company logo thumbnail position on the job listings."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:585
+msgid "Float Left (resizes Title, Location and Date)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:586
+msgid "Float Right (resizes Title, Location and Date)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:587
+msgid "Float Left Collapse (collapses Location and Date)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:588
+msgid "Float Left Under (left centered under Job type)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:593
+msgid "Show Job Preview"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:596
+msgid "Job Preview"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:597
+msgid "Let applicants preview jobs by hovering job listings."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:598
+msgid ""
+"This option will allow users to preview jobs by hovering the job listings. "
+"You can choose the content you want to show. <i>Full</i> is not recommended."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:606
+msgid "Job description (Custom) "
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:607
+msgid "Job description (Excerpt)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:608
+msgid "Job Description (Full)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:615
+msgid "Job Preview Description Size"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:616
+msgid ""
+"Set an aproximate number of words to show on the Job description preview. "
+"The remaining text will be truncated."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:617
+msgid ""
+"If you chose <i>Custom</i> on the previous option please set the aproximate "
+"number of words you want to show on the Job preview baloon. <strong>45</"
+"strong> is the minimum and recommended value."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:628
+msgid "Job Preview Company Logo"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:629
+#, php-format
+msgid ""
+"The job preview window can be refined by showing the company thumbnail.<br/"
+">Sizes can be edited using your %s."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:629
+msgid "<a href=\"options-media.php\">media settings</a>"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:630
+msgid ""
+"Shows the company thumbnail size for the job preview if exists. It uses your "
+"<i>Listings Thumbs</i> selection to show or hide the company logos on the "
+"preview window."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:640
+msgid "Thumb"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:648
+msgid "Job Preview Color"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:650
+msgid "Sets the color of the <i>Job Preview</i> hovering baloon."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:662
+msgid "Job Preview Style"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:664
+msgid "Sets the style of the <i>Job Preview</i> hovering baloon."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:676
+msgid "Job Preview Exclude Pages"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:677
+msgid ""
+"Comma separated list of pages to disable preview. Use any of the values "
+"bellow:\n"
+"\t\t\t <br/><span class='jr_fx_highlight_value'>MAIN</span> (excludes "
+"preview from main listing and pagination)\n"
+"\t\t\t <br/><span class='jr_fx_highlight_value'>TAXONOMY</span> (excludes "
+"preview from taxonomy pages: job category, job type, etc)\n"
+"\t\t\t <br/><span class='jr_fx_highlight_value'>SEARCH</span> (excludes "
+"preview from search results)\n"
+"\t\t\t <br/><span class='jr_fx_highlight_value'>AUTHOR</span> (excludes "
+"preview from author pages)\n"
+"\t\t\t<br/><br/>Example:<br/><span class='jr_fx_highlight_value'>MAIN, "
+"TAXOMOMY</span> would exclude preview from main and taxnomy pages\n"
+"\t\t\t "
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:684
+msgid "This option will disable the job preview on the specified pages."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:694
+msgid "Job Preview and Thumbs Cache"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:697
+msgid "Cache Duration (in days)"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:699
+msgid ""
+"The number of day to cache job thumbs and job preview to help increase site "
+"performance."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:710
+msgid "Empty Cache"
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:711
+msgid ""
+"Check the box and save changes to clear the job preview and thumbs cache."
+msgstr ""
+
+#: ../includes/admin/admin-main-values.php:712
+msgid "Click the button to clear your job preview and thumbs cache manually."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:27
+msgid "S2Member Integration"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:46
+msgid "Installed - You can use this feature!"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:46
+msgid "Not installed/Activated!"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:46
+msgid ""
+"<a href=\"http://wordpress.org/extend/plugins/s2member/\" target=\"_new"
+"\">Please install/activate <i>S2Member</i> to use this feature</a>."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:51
+msgid "Instructions"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:67
+msgid "Enable <i>S2Member</i> Integration"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:68
+msgid ""
+"If active, Job Seekers will not be able to access some features. Currently, "
+"only Resumes features (Add Resumes, Upload Profile Resumes, etc...). This "
+"option will be ignored if <i>S2Member</i> is no installed!<br>\n"
+"\t\t\t\t\t\t\t  <br/><strong>Note:</strong> Restricted features will "
+"continue to be VISIBLE to any Job Seeker on their Dashboard. An icon will "
+"appear next to each feature title heading indicating a restricted feature "
+"(you can change this icon by tweaking <i>FXtender</i> <i>styles.css</i>). "
+"This allows Free Job Seekers to see the features that become available after "
+"upgrading their account.\n"
+"\t\t\t"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:71
+msgid "Make money with Job Seekers by restricting access to certain features. "
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:90
+msgid "Apply to Jobs User Access Level"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:91
+msgid ""
+"The minimum <i>S2Member</i> user access level a Job Seeker must have to "
+"apply for jobs.<br><strong>Note:</strong> Free Job Seekers will still see "
+"the <i>Apply Online</i> button but will be redirect if they dont'\t have the "
+"minimum acccess level."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:92
+#: ../includes/admin/admin-membership-values.php:114
+msgid "Choose the minimum use access level for applying to jobs."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:112
+msgid "Apply with LinkedIn User Access Level"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:113
+msgid ""
+"The minimum <i>S2Member</i> user access level a Job Seeker must have to "
+"apply for jobs using the \\'Apply with LinkedIn\\' button.<br><strong>Note:</"
+"strong> Free Job Seekers will still see the <i>Aplpy with LinkeIn</i> button "
+"but will be redirect if they dont'\t have the minimum acccess level."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:133
+msgid "Resume Access"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:136
+msgid "Resume User Access Level"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:137
+msgid ""
+"The minimum <i>S2Member</i> user access level a Job Seeker must have to "
+"access the Resumes features.<br><strong>Note:</strong> Free Job Seekers will "
+"still see the <i>Add Resume</i> button but will be automatically redirected "
+"if they dont'\t have the minimum acccess level."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:138
+msgid "Choose the minimum use access level for Resume access."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:158
+msgid "Resume Upload Access Level"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:159
+msgid ""
+"The minimum <i>S2Member</i> user access level a Job Seeker must have to "
+"upload Resumes to their profile and use them to apply for Jobs. Only used if "
+"the option <i>FXtender</i> <a href='admin.php?page=jr-fx-admin-"
+"resumes'>Enable Profile Resumes</a> is enabled.\n"
+"\t\t\t\t\t\t\t   <br><strong>Note:</strong> Job Seekers will see the upload "
+"form but will not be able to upload CV/Resume files if not allowed access.\n"
+"\t\t\t\t\t\t\t  "
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:162
+msgid ""
+"Choose the minimum use access level for Profile Resume Upload. The level "
+"access for this option should be equal or superior to the previous option "
+"because a user can only upload CV/Resume files after adding an Online Resume."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:181
+msgid "Job Alerts"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:184
+msgid "Job Alerts User Access Level"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:185
+msgid ""
+"The minimum <i>S2Member</i> user access level a Job Seeker must have to "
+"access the Job Alerts features.<br><strong>Note:</strong> Free Job Seekers "
+"will still see the <i>Job Alerts</i> Tab but the subscribe option will be "
+"disabled if they dont'\t have the minimum acccess level."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:186
+msgid "Choose the minimum use access level for Job Alerts access."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:205
+msgid "Pages"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:208
+msgid "Redirect Page"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:209
+msgid ""
+"The page to redirect Job Seekers wihout the minimum access level (usually a "
+"Membership/Subscription page)."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:210
+msgid ""
+"The redirect page should be used to inform Job Seekers of the special "
+"conditions needed to access certain pages."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:222
+msgid "Subscription Page"
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:223
+msgid ""
+"The page where subscribed Job Seekers can view details about their "
+"subscription. If a page is selected a new link will be shown on the "
+"Dashboard, under <i>Account Options</i>."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:224
+msgid ""
+"Choose <i>None</i> if you don't want a link to the Subscribers detail page "
+"on the Job Seekers Dashboard."
+msgstr ""
+
+#: ../includes/admin/admin-membership-values.php:237
+msgid "How To"
+msgstr ""
+
+#: ../includes/admin/admin-more-values.php:16
+#: ../includes/admin/admin-options.php:21
+msgid "More"
+msgstr ""
+
+#: ../includes/admin/admin-more-values.php:23
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: ../includes/admin/admin-more-values.php:38
+msgid "More Features"
+msgstr ""
+
+#: ../includes/admin/admin-more-values.php:53
+msgid "About"
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:14
+#: ../includes/admin/admin-notifications-values.php:20
+msgid "Notices"
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:44
+msgid "First # Job(s) Moderated Message"
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:45
+msgid "Used only if the option 'First # Job(s) Moderated' is set."
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:45
+msgid ""
+"You can use the following variables:<p>Total Jobs Published: <strong>"
+"%publishedjobs%</strong> <br/>Minimum Jobs: <strong>%minpublishedjobs%</"
+"strong><br/><br/>Each variable MUST have the percentage signs wrapped around "
+"it with no spaces."
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:46
+msgid ""
+"The message you want to show to the user when they submit a job but the "
+"minimum published jobs needed is inferior to the specified value."
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:53
+msgid ""
+"You job was sent for approval. You have %publishedjobs% published jobs. You "
+"need a minimum of %minpublishedjobs% job(s) published to skip moderation."
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:58
+msgid "Email"
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:64
+msgid "Email Notices"
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:70
+#: ../includes/admin/admin-notifications-values.php:72
+msgid "Email Signature"
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:73
+msgid ""
+"Plain text only. You may use the following variables within the email body "
+"and/or subject line.<br/><br/><strong>%siteurl%</strong> - prints out your "
+"website url<br/><strong>%blogname%</strong> - prints out your site name<br/"
+"><br/>Each variable MUST have the percentage signs wrapped around it with no "
+"spaces."
+msgstr ""
+
+#: ../includes/admin/admin-notifications-values.php:74
+msgid ""
+"Enter the email signature you want to use for all the emails (excluding "
+"Admin notifications) sent from your website, including job applications. Use "
+"it to promote your website when candidates apply for jobs."
+msgstr ""
+
+#: ../includes/admin/admin-options.php:17
+msgid "Membership"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:18
+msgid "Integration"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:19
+msgid "Notifications"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:20
+msgid "Widgets"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:22
+#: ../includes/admin/admin-options.php:114
+#: ../includes/admin/admin-options.php:168
+msgid "System Info"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:50
+msgid "Save changes"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:135
+msgid "PHP Info"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:142
+msgid "PHP CURL<br/>(used by some gateways)"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:146
+msgid "CURL extension is loaded."
+msgstr ""
+
+#: ../includes/admin/admin-options.php:148
+msgid ""
+"CURL extension is not loaded!<br/>Some gateways need CURL to work properly. "
+"If you experience problems, please try to load this extension. Check you "
+"<strong>PHP.ini</strong> file."
+msgstr ""
+
+#: ../includes/admin/admin-options.php:154
+msgid "File Permissions"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:160
+msgid "File permissions are good."
+msgstr ""
+
+#: ../includes/admin/admin-options.php:168
+msgid ""
+"Please also check all other system information using JobRoller's <a href="
+"\"admin.php?page=sysinfo\">"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:173
+msgid "Security"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:178
+msgid "Robots.txt"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:184
+msgid ""
+"<strong>Robots.txt</strong> was found. Please check that you are using the "
+"<strong>'Disallow: /wp-content/'</strong> option to block search engines "
+"from indexing your Resume/CV files."
+msgstr ""
+
+#: ../includes/admin/admin-options.php:187
+msgid ""
+"Your \\wp-content folder may be visible to search engine crawlers. If you're "
+"using the 'Resume Upload' feature, you should have a <strong>robots.txt</"
+"strong> file on your root folder to block indexing. \n"
+"\t\t\t\t\t\t\t\t\t\tYou should create a <strong>robots.txt</strong> file or "
+"copy the <strong>/extras/robots.txt</strong> file bundled with <i>FXtender</"
+"i> to your root folder.</span>"
+msgstr ""
+
+#: ../includes/admin/admin-options.php:230
+msgid "Your settings have been saved."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:25
+msgid "Resume Options"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:28
+msgid "Resume Listings Visibility"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:33
+#, php-format
+msgid ""
+"<strong>Important: </strong> You must set the <i>Resume Listings Visibility</"
+"i> option to <strong>Job Listers Only</strong> on your JobRoller %s for this "
+"feature to work."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:34
+msgid ""
+"<a href=\"admin.php?page=settings#tab3\">Resume Options</a>\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:36
+msgid ""
+"Lets you define who can browse through submitted resumes. If the user trying "
+"to browse the resumes does not meet the criteria set here it will be "
+"redirect to pre-set page."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:44
+#: ../includes/admin/admin-resume-values.php:70
+msgid "Posted Job (Any Status)"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:45
+#: ../includes/admin/admin-resume-values.php:71
+msgid "Posted Job (Published)"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:47
+#: ../includes/admin/admin-resume-values.php:73
+msgid "JobRoller settings"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:54
+msgid "Resume Visibility"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:59
+#, php-format
+msgid ""
+"<strong>Important: </strong> You must set the <i>Resume Visibility</i> "
+"option to <strong>Job Listers Only</strong> on your JobRoller %s for this "
+"feature to work."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:60
+msgid ""
+"<a href=\"admin.php?page=settings#tab3\">Resume Options</a>\t\t\t\t\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:62
+msgid ""
+"Lets you define who can view through submitted resumes. If the user trying "
+"to view the resumes does not meet the criteria set here it will be redirect "
+"to pre-set page."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:80
+msgid "Call to action Page"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:81
+msgid ""
+"The page to redirect Job Listers that try to browse or View Resumes without "
+"permissions.<br/><strong>Note: </strong> Page redirection will only work for "
+"any of the options above if you DON'T select <strong><i>JobRoller Settings</"
+"i></strong>."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:82
+msgid ""
+"Select a page that informs Job Listers of the special conditions needed to "
+"access resumes."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:93
+msgid "Profile Resumes"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:96
+msgid "Enable Profile Resumes"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:97
+msgid ""
+"Job Seekers can attach files to their Online Resumes on their Dashboard and "
+"use them to apply for Jobs. Only available for Job Seekers with at least one "
+"Online Resume.<br>\n"
+"\t\t\t\t\t\t\t   <br/><strong>Important:</strong> You should use a "
+"<strong>robots.txt</strong> file to block search engine crawlers from "
+"indexing Resume/CV files. For more information check the <a href=\"admin.php?"
+"page=jr-fx-admin-sys-info\">System Info</a> page."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:99
+msgid ""
+"If set to <i>Yes</i> Job Seekers can upload Resumes and keep them stored on "
+"their profile to apply for Jobs."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:114
+msgid "Max. Number Profile Resumes"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:115
+msgid ""
+"The maximum number of Resume files a Job Seeker can upload. Leave empty to "
+"allow Job Seekers to upload one Resume file for each Online Resume they add."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:116
+msgid ""
+"This will limit the number of Resumes a user can upload on their profile."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:127
+msgid "Enable Selectable Profile Resumes"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:128
+msgid ""
+"If active, Job Seekers have the option to apply for Jobs with their uploaded "
+"Profile Resumes.<br/><strong>Note: </strong>Only used if you enable "
+"<i>Profile Resumes</i>."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:129
+msgid ""
+"Profile Uploaded Resumes will be listed on the <i>Apply Job</i> form as a "
+"new option."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:146
+msgid "Enable Resumes Attachments Download"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:147
+msgid ""
+"If active, Job Listers will be able to download the related CV (if attached) "
+"on single Resume pages. <br/><strong>Note: </strong> Any Job Lister with "
+"<i>Resume View</i> access will be able to download CV file attachments."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:148
+msgid ""
+"A list with the attached CV's files will appear at the top or bottom of each "
+"Resume."
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:156
+msgid "Yes (Show on Resume Header)"
+msgstr ""
+
+#: ../includes/admin/admin-resume-values.php:157
+msgid "Yes (Show on Resume Footer)"
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:20
+msgid "New Widgets"
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:26
+msgid "Navigation Widget"
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:29
+msgid "Hide Job Page Nav. Widget"
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:31
+msgid ""
+"Hides the navigation widget (browse by, tags...) on the job page sidebar."
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:46
+msgid "Social Widget"
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:49
+msgid "Google+ Profile ID"
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:50
+#, php-format
+msgid "Sign up for a free <a target='_new' href='%s'>Google+ account</a>."
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:51
+msgid ""
+"Paste your Google+ Profile ID here. It will be used within your website. You "
+"must have a Gooogle+ account setup first."
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:63
+msgid "YouTube Channel ID"
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:64
+msgid "You need to set your YoutTube channel ID."
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:65
+msgid "Shows the YouTube balloon on JobRoller's social widget."
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:77
+msgid "Display Facebook on Social Widget"
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:78
+msgid "You need to set your Facebook Page ID on the JobRoller theme settings."
+msgstr ""
+
+#: ../includes/admin/admin-widget-values.php:79
+msgid "Shows the Facebook balloon on JobRoller's social widget."
+msgstr ""
+
+#: ../includes/pro/pro.php:151
+msgid "[UNREGISTERED EMAIL]"
+msgstr ""
+
+#: ../includes/pro/pro.php:152
+msgid ""
+"<strong>ERROR</strong>: The email address is not registered on the database."
+msgstr ""
+
+#: ../includes/pro/pro.php:191
+msgid "Return to 'My Dashboard'"
+msgstr ""
+
+#: ../includes/pro/pro.php:212
+msgid "(please contact our support team to be informed of your Order ID)"
+msgstr ""
+
+#: ../includes/pro/pro.php:233
+msgid "(please contact our support team to be informed about your Order Cost)"
+msgstr ""
+
+#: ../includes/pro/pro.php:947
+msgid "My Uploaded Resumes"
+msgstr ""
+
+#: ../includes/pro/pro.php:952
+msgid "Resume Filename"
+msgstr ""
+
+#: ../includes/pro/pro.php:953
+msgid "Date Created"
+msgstr ""
+
+#: ../includes/pro/pro.php:954
+msgid "Actions"
+msgstr ""
+
+#: ../includes/pro/pro.php:966 ../includes/pro/pro.php:1326
+msgid "Parent: "
+msgstr ""
+
+#: ../includes/pro/pro.php:970
+msgid "Delete"
+msgstr ""
+
+#: ../includes/pro/pro.php:978
+msgid "No uploaded files found."
+msgstr ""
+
+#: ../includes/pro/pro.php:1003
+msgid "Online Resumes without attachments:"
+msgstr ""
+
+#: ../includes/pro/pro.php:1018
+msgid "< No more Resumes to attach >"
+msgstr ""
+
+#: ../includes/pro/pro.php:1035
+#, php-format
+msgid "Allowed extensions: %s"
+msgstr ""
+
+#: ../includes/pro/pro.php:1039
+#, php-format
+msgid ""
+"You can attach CV/Resumes files to your Online Resumes%s. These will be "
+"available when applying for jobs."
+msgstr ""
+
+#: ../includes/pro/pro.php:1165
+msgid "Only pdf, zip, doc, txt and rtf files are allowed."
+msgstr ""
+
+#: ../includes/pro/pro.php:1209
+msgid "Resume already uploaded!"
+msgstr ""
+
+#: ../includes/pro/pro.php:1228
+msgid "Your Resume was successfully uploaded."
+msgstr ""
+
+#: ../includes/pro/pro.php:1287
+msgid "You dont't have permissions to delete this Resume!"
+msgstr ""
+
+#: ../includes/pro/pro.php:1290
+msgid "Resume already deleted!"
+msgstr ""
+
+#: ../includes/pro/pro.php:1297
+msgid "Your Resume was successfully deleted."
+msgstr ""
+
+#: ../includes/pro/pro.php:1320
+msgid "Choose uploaded Resumes:"
+msgstr ""
+
+#: ../includes/pro/pro.php:1359
+msgid "Related CV Attachments:"
+msgstr ""
+
+#: ../includes/pro/pro.php:1555 ../includes/pro/pro.php:1584
+msgid "Applications"
+msgstr ""
+
+#: ../includes/pro/pro.php:1569
+msgid "My Job Applications"
+msgstr ""
+
+#: ../includes/pro/pro.php:1598 ../includes/pro/pro.php:1844
+#: ../includes/pro/pro.php:1881
+msgid "Job Applications"
+msgstr ""
+
+#: ../includes/pro/pro.php:1654 ../includes/pro/pro.php:1766
+msgid "Job Title"
+msgstr ""
+
+#: ../includes/pro/pro.php:1655 ../includes/pro/pro.php:1787
+msgid "Online Form"
+msgstr ""
+
+#: ../includes/pro/pro.php:1657
+msgid "LinkedIn Form"
+msgstr ""
+
+#: ../includes/pro/pro.php:1659
+msgid "Total Applications"
+msgstr ""
+
+#: ../includes/pro/pro.php:1660
+msgid "Last Application Date"
+msgstr ""
+
+#: ../includes/pro/pro.php:1705
+msgid "Live Jobs"
+msgstr ""
+
+#: ../includes/pro/pro.php:1707
+msgid ""
+"A user that applies for the same job using the Online form, or the LinkedIn "
+"form, counts as a single application only."
+msgstr ""
+
+#: ../includes/pro/pro.php:1713 ../includes/pro/pro.php:1832
+msgid "No job applications monitored yet."
+msgstr ""
+
+#: ../includes/pro/pro.php:1767
+msgid "Applied With"
+msgstr ""
+
+#: ../includes/pro/pro.php:1769
+msgid "Resume"
+msgstr ""
+
+#: ../includes/pro/pro.php:1770
+msgid "Uploads"
+msgstr ""
+
+#: ../includes/pro/pro.php:1771
+msgid "Last Applied"
+msgstr ""
+
+#: ../includes/pro/pro.php:1804
+msgid "Attached"
+msgstr ""
+
+#: ../includes/pro/pro.php:1805
+msgid "Linked"
+msgstr ""
+
+#: ../includes/pro/pro.php:1810
+msgid "CV/Resume"
+msgstr ""
+
+#: ../includes/pro/pro.php:1811
+msgid "Cover Letter"
+msgstr ""
+
+#: ../includes/pro/pro.php:1855
+#, php-format
+msgid "Total Applications: %s"
+msgstr ""
+
+#: ../includes/pro/pro.php:1868
+msgid "Show All"
+msgstr ""
+
+#: ../includes/pro/pro.php:1932
+msgid "Applied"
+msgstr ""
+
+#: ../includes/pro/pro.php:1995
+#, php-format
+msgid "Company Logo for User #%d (%s)"
+msgstr ""
+
+#: ../includes/pro/pro.php:2034
+msgid "Only jpg, gif, and png images are allowed."
+msgstr ""
+
+#: ../includes/pro/pro.php:2052
+msgid "ERROR: "
+msgstr ""
+
+#: ../includes/pro/pro.php:2192
+msgid "Logo (.jpg, .gif or .png)"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:31
+msgid "2Checkout (FXtender)"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:32
+#: ../includes/pro/gateways/2checkout.class.php:44
+msgid "2Checkout"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:46
+msgid "Account Number"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:49
+#, php-format
+msgid ""
+"Your 2Checkout Account Number. You must have a <a target='_new' "
+"href='%s'>2Checkout</a> account."
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:51
+msgid "Secret Word"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:56
+msgid "Demo Mode"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:59
+msgid "Enable"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:174
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:178
+msgid "Argentine Peso"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:181
+msgid "Australian Dollars"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:184
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:187
+msgid "Brazilian Real"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:190
+msgid "Canadian Dollars"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:193
+msgid "Swiss Francs"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:196
+msgid "Chilean Peso"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:199
+msgid "Danish Kroner"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:202
+msgid "Euros"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:205
+msgid "British Pounds Sterling"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:208
+msgid "Hong Kong Dollars"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:211
+msgid "Indonesian Rupiah"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:214
+msgid "Israeli New Shekel"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:217
+msgid "Japanese Yen"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:220
+msgid "Mexican Peso"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:223
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:226
+msgid "Norwegian Kroner"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:229
+msgid "New Zealand Dollars"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:232
+msgid "Philippine Peso"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:235
+msgid "Swedish Kronor"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:238
+msgid "Singapore Dollar"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:241
+msgid "Turkish Lira"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:244
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:247
+msgid "US Dollars"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:250
+msgid "Indian Rupee"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:254
+msgid "Lithuanian Litas"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:257
+msgid "Romanian Leu"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:261
+msgid "Russian Ruble"
+msgstr ""
+
+#: ../includes/pro/gateways/2checkout.class.php:265
+msgid "South African Rand"
+msgstr ""
+
+#: ../includes/pro/gateways/Authorize.class.php:27
+msgid "Authorize.Net (FXtender)"
+msgstr ""
+
+#: ../includes/pro/gateways/Authorize.class.php:28
+msgid "Authorize.Net"
+msgstr ""
+
+#: ../includes/pro/gateways/Authorize.class.php:40
+msgid "Authorize"
+msgstr ""
+
+#: ../includes/pro/gateways/Authorize.class.php:42
+msgid "API Login ID"
+msgstr ""
+
+#: ../includes/pro/gateways/Authorize.class.php:45
+#, php-format
+msgid ""
+"Your Authorize.Net Login ID. You must have a <a target='_new' "
+"href='%s'>Authorize.Net</a> account."
+msgstr ""
+
+#: ../includes/pro/gateways/Authorize.class.php:47
+msgid "Transaction Key"
+msgstr ""
+
+#: ../includes/pro/gateways/Authorize.class.php:51
+#: ../includes/pro/gateways/Google.class.php:59
+msgid "Sandbox Mode"
+msgstr ""
+
+#: ../includes/pro/gateways/Authorize.class.php:183
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: ../includes/pro/gateways/Authorize.class.php:186
+msgid "Cancel"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:42
+msgid "Note:"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:42
+msgid "The shortcodes bellow can only be used on the dynamic page."
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:50
+msgid "Bank Transfer (FXtender)"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:51
+msgid "Bank Transfer"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:60
+msgid "Transfer Information"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:71
+msgid "Static Text"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:72
+msgid ""
+"The shortcodes bellow allow you to customize your manual payment "
+"instructions page. Using these shortcodes you will be able to show the Job "
+"Order ID to the Job Lister and set the page to redirect him after reading "
+"the instructions."
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:79
+msgid "Instructions Page"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:84
+msgid ""
+"The page where your customers will be redirected after selecting 'Bank "
+"Transfer'. This page should contain details on how to complete the order. "
+"You can use the shortcodes bellow to output the Order ID and total price."
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:99
+msgid "Order ID Shortcode"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:104
+msgid ""
+"Paste this shortcode on your <em>Manual Payment Instructions Page</em>.\n"
+"\t\t\t\t\t\t\t<br/><br/><strong>Parameters:</strong><br/><span class="
+"\"jr_fx_highlight_value code\">class</span> <small>CSS class name for the "
+"Order ID text</small>\n"
+"\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t<strong>Example:</strong><br/>\n"
+"\t\t\t\t\t\t\t<span class=\"jr_fx_highlight_value\">Please take note of your "
+"Order ID: [jr_fx_mp_order_id] it will indentify you as the buyer. This is "
+"also the ID we use to check for received payments.</span>\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:111
+msgid ""
+"This shortcode outputs the ID that identifies the customer Order. The "
+"customer must use this ID on whichever manual payment is used in order to "
+"indentify his job"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:115
+msgid "Order Total Shortcode"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:120
+msgid ""
+"Paste this shortcode on your <em>Manual Payment Instructions Page</em>.\n"
+"\t\t\t\t\t\t\t<br/><br/><strong>Parameters:</strong><br/><span class="
+"\"jr_fx_highlight_value code\">class</span> <small>CSS class name for the "
+"Order Cost text</small>\n"
+"\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t<strong>Example:</strong><br/>\n"
+"\t\t\t\t\t\t\t<span class=\"jr_fx_highlight_value\">Please take note of your "
+"Order Cost: [jr_fx_mp_order_cost].</span>\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:127
+msgid "This shortcode outputs the Order total price."
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:131
+msgid "Return To Shortcode"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:136
+msgid ""
+"Paste this shortcode on your <em>Manual Payment Instructions Page</em>.\n"
+"\t\t\t\t\t\t\t<br/><br/><strong>Parameters:</strong><br/><span class="
+"\"jr_fx_highlight_value code\">title</span> <small>the button title "
+"(optional)</small> <br/><span class=\"jr_fx_highlight_value code\">page_id</"
+"span> <small>the page ID (optional)</small> <strong>OR</strong> <span class="
+"\"jr_fx_highlight_value code\">permalink</span> <small>the page permalink "
+"(optional)</small><br/><span class=\"jr_fx_highlight_value code\">class</"
+"span> <small>CSS class name for the button styling</small></span>\n"
+"\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t<strong>Example:</strong><br/>\n"
+"\t\t\t\t\t\t\t<span class=\"jr_fx_highlight_value\">[jr_fx_mp_redirect title="
+"\"Continue\" page_id=\""
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:143
+msgid ""
+"This shotrcode outputs a button that allows redirecting the customer to a "
+"specific page. All the parameters are optional. By default it will redirect "
+"customers to their dashboard."
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:149
+msgid "Dynamic Page"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:154
+msgid "Shortcodes"
+msgstr ""
+
+#: ../includes/pro/gateways/BankTransfer.class.php:163
+msgid "No Redirect"
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:31
+msgid "Google Wallet (FXtender)"
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:32
+#: ../includes/pro/gateways/Google.class.php:48
+msgid "Google Wallet"
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:50
+msgid "Merchant ID"
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:53
+#, php-format
+msgid ""
+"Your Google Wallet Merchant ID. Please note that Merchant ID's for Sandbox "
+"and Live mode are different. You must have a <a target='_new' "
+"href='%s'>Google Wallet</a> account."
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:55
+msgid "Merchant Key"
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:67
+msgid "Gateway Responses (IPN)"
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:69
+msgid "Enable IPN"
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:72
+msgid ""
+"Turning off IPN means that you will need to manually complete orders after "
+"each payment. Disable it if IPN does not work for you."
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:74
+msgid "Approved URL"
+msgstr ""
+
+#: ../includes/pro/gateways/Google.class.php:79
+#, php-format
+msgid ""
+"<h3>Instructions:</h3> \n"
+"\t\t\t\t\t\t\t\t<br/>Under your account go to, <em>Settings > Integration</"
+"em>:\n"
+"\t\t\t\t\t\t\t\t<br/>1. Check <strong>My company will only post digitally "
+"signed carts</strong> (if not already checked)\n"
+"\t\t\t\t\t\t\t\t<br/>2. Paste this URL on the API Callback URL field\n"
+"\t\t\t\t\t\t\t\t<br/>3. Check the option <strong>Notification Serial Number</"
+"strong>\n"
+"\t\t\t\t\t\t\t\t<br/>4. Choose API Version 2.5\n"
+"\t\t\t\t\t\t\t\t<br/><br/>This will enable receiving Google Order responses "
+"(IPN) automatically. Please read <a href=\"%s\">Google Checkout Merchant "
+"Help</a> if you need more help.\n"
+"\t\t\t\t\t\t\t\t<br/><br/><strong>Note:</strong> Make sure you have WP_DEBUG "
+"disabled on your 'wp-config.php' file or the IPN listner may fail.\n"
+"\t\t\t\t\t\t\t\t"
+msgstr ""
+
+#: ../updater/update-checker.php:107
+msgid "Once Weekly"
+msgstr ""
+
+#: ../updater/update-checker.php:107
+#, php-format
+msgid "Every %d hours"
+msgstr ""

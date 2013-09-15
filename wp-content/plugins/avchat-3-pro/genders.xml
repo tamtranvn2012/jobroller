@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<genders>
+	<!-- DO NOT CHANGE THE FOLLOWING GENDER ID'S : male, admin, hidden -->
+	<!-- ADMIN ONLY GENDERS SHOULD ALWAYS BE ADDED GROUPED TOGETHER-->
+	<!-- EXPLANATIONS FOR EACH ATTRIBUTE : 
+			id: general name by which the gender is identified
+			label: the name that is displayed in the login area
+			iconUrl: the path to the image for a specific gender icon
+			adminOnly: whether or not the gender is displayed only to the admin or not
+			sortPriority: specifies the priority the gender has when the option sort by genders is selected for the users list in a room -->
+	<gender id="male" label="Male" iconUrl="gender_icons/User-Male.png" adminOnly="false" sortPriority="b"/>		
+	<gender id="female" label="Female" iconUrl="gender_icons/user_female.png" adminOnly="false" sortPriority="c"/>
+	<gender id="iron" label="Iron Man" iconUrl="gender_icons/Iron Man-01.png" adminOnly="false" sortPriority="b"/>
+	<gender id="widow" label="Black Widow" iconUrl="gender_icons/Black Widow-01.png" adminOnly="false" sortPriority="c"/>
+	<gender id="hulk" label="The Hulk" iconUrl="gender_icons/Hulk-01.png" adminOnly="false" sortPriority="d"/>
+	
+	<gender id="admin" label="Admin" iconUrl="gender_icons/admin.png" adminOnly="true" sortPriority="a"/>
+	<gender id="hidden" label="Hidden" iconUrl="gender_icons/ratherNotSay.png" adminOnly="true" sortPriority="a"/>
+</genders>

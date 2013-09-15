@@ -1,0 +1,160 @@
+/* This sheet applies to all pro stylesheets */
+
+/* =Layout Widths
+---------------------------------------------------------------------------------- */
+
+#searchform {	
+	width: 650px !important;
+}
+#searchform div div {
+	width: 642px;
+}
+#searchform input.text {
+	width: 570px;
+}
+
+/* for new search bar */
+#searchform div.search-wrap {
+    background:none repeat scroll 0 0 #283d80;
+    padding:22px 0 13px 12px;
+    overflow: hidden;
+    zoom: 1;
+    height: auto !important;
+	width: 943px !important;
+margin: 0 auto;
+margin-left: 21px;
+}
+#searchform div.search-wrap div {
+    width:auto;
+}
+#searchform div.search-wrap div.radius {
+	background: transparent none;
+	padding: 4px 0 0 0;
+	margin: 0;
+	border: 0;
+	float: right;
+	height: auto !important;
+}
+/*#searchform div.search-wrap label.inline {
+	line-height: 42px;
+	float: left;
+	width: 59px;
+	text-align: center;
+	color: #bbb;
+	font-style: italic;
+	font-size: 11px;
+	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+}*/
+#searchform input#search {
+    width: 380px !important;
+padding: 5px 11px;
+margin: 6px 17px 6px 0;
+background: #FFF;
+border: 1px solid #CDCBCB;
+height: 23px;
+float:left;
+font-size: 14px;
+color:#6a6969;
+}
+
+
+#searchform input#near {
+   width: 380px !important;
+padding: 5px 11px;
+margin: 6px 17px 6px 0;
+background: #FFF;
+border: 1px solid #CDCBCB;
+height: 23px;
+float:left;
+font-size: 14px;
+color:#6a6969;
+}
+#searchform .experience {
+   width: 188px !important;
+padding: 5px 11px;
+margin: 6px 23px 6px 0;
+background: #FFF;
+border: 1px solid #CDCBCB;
+height: 35px;
+float:left;
+font-size: 14px;
+color:#6a6969;
+
+}
+
+#searchform .experience option {
+   width: 188px !important;
+padding: 5px 11px;
+margin: 6px 15px 6px 0;
+background: #FFF;
+border: 1px solid #CDCBCB;
+height: 33px;
+float:left
+}
+
+
+
+/* end new search bar */
+
+div#content {
+	width: 990px;
+}
+div#content .inner {
+	width: 972px;
+	padding: 13px 0 0 17px !important;
+}
+
+.section{}
+ #searchform {
+	/* width: 956px !important; */
+}
+#mainContent {
+	width: 650px;	
+}
+#sidebar, ul.widgets {
+	width: 272px;
+	padding-right:16px;
+}
+
+ol.jobs dd.title {
+	width: 310px;
+	padding-right: 10px;
+}
+ol.jobs dd.location {
+	width: 140px;
+	padding-right: 10px;
+}
+ol.jobs dd.date, ol.resumes dd.date {
+	width: 70px;
+	text-align: right;
+}
+
+.wider #mainContent, .wider .section {
+	width: 950px !important
+}
+.wider ol.jobs dd.title {
+	width: 510px !important;
+}
+.wider ol.jobs dd.location {
+	width: 240px !important;
+}
+.wider #searchform {
+	width: 950px !important
+}
+.wider #searchform div div {
+	width: 942px !important
+}
+.wider #searchform input.text {
+	width: 875px;
+}
+
+#topNav ul {
+/*	width: 988px; */
+}
+
+ul.widgets li.widget {
+	width: 260px;
+}
+ul.widgets li.widget-submit div {
+	width: 254px;
+}

@@ -1,0 +1,6 @@
+ui-tooltip|Cream
+ui-tooltip-plain|Plain
+ui-tooltip-dark|Dark
+ui-tooltip-red|Red
+ui-tooltip-green|Green
+ui-tooltip-blue|Blue

@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en">
+
+  <file datatype="plaintext" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="000" resname="IDS_BT_CLOSE">
+        <source>Close</source>
+      </trans-unit> 
+      <trans-unit id="000a" resname="IDS_BT_CANCEL">
+        <source>Cancel</source>
+      </trans-unit>
+       <trans-unit id="000b" resname="IDS_BT_TOGGLEVIDEO">
+        <source>Toggle video</source>
+      </trans-unit>
+      <trans-unit id="001" resname="IDS_MALE">
+        <source>Male</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_FEMALE">
+        <source>Female</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_COUPLE">
+        <source>Couple</source>
+      </trans-unit>
+       <trans-unit id="004" resname="IDS_ADMIN">
+        <source>Admin</source>
+      </trans-unit>
+       <trans-unit id="005" resname="IDS_HIDDEN">
+        <source>Hidden</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_USERNAME">
+        <source>Username</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_BT_CONNECT">
+        <source>Connect Me To The Chat</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_CONNECTING">
+        <source>Connecting...</source>
+      </trans-unit>
+      
+      
+      <!-- The following strings are used in the top status bar area -->
+      
+      <trans-unit id="008a" resname="IDS_TIMELEFT">
+        <source>Time left: </source>
+      </trans-unit>
+      <trans-unit id="008b" resname="IDS_FREEVIDTIME">
+        <source>Free vid time: </source>
+      </trans-unit>
+      <trans-unit id="008c" resname="IDS_TIMEONLINE">
+        <source>Online for: </source>
+      </trans-unit>
+	  
+      <trans-unit id="009" resname="IDS_BT_INVITE">
+        <source>Invite</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_BT_BANNEDIPS">
+        <source>Bans</source>
+      </trans-unit> 
+      <trans-unit id="011" resname="IDS_BT_SETTINGS">
+        <source>Settings</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_BT_LEAVECHAT">
+        <source>Leave chat</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_BT_ROOMS">
+        <source>Rooms</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_TIMEEXPIRED">
+        <source>Your time has expired</source>
+      </trans-unit>
+      <trans-unit id="014a" resname="IDS_FREEVIDTIMEEXPIRED">
+        <source>Your free video time for today expired!</source>
+      </trans-unit>
+      
+       <!-- The following strings are used mostly in the your camera window -->
+      
+      <trans-unit id="016" resname="IDS_BT_STARTMIC">
+        <source>Start your Mic</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_BT_STARTCAM">
+        <source>Start your Cam</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_BT_STARTCAMMIC">
+        <source>Start your Cam &amp; Mic</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_BT_NOSTREAMING">
+        <source>Streaming disabled</source>
+      </trans-unit>
+       <trans-unit id="020" resname="IDS_TITLE_YOURCAM">
+        <source>Your webcam</source>
+      </trans-unit>
+       <trans-unit id="021" resname="IDS_TITLE_YOURMIC">
+        <source>Your mic</source>
+      </trans-unit>
+      
+      <trans-unit id="022" resname="IDS_STREAMPUBLIC">
+        <source>AV stream is public</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_STREAMPRIVATE">
+        <source>Permission request is ON</source>
+      </trans-unit>
+       
+       <trans-unit id="024" resname="IDS_MICON">
+        <source>Mic is ON</source>
+      </trans-unit>
+       
+       <trans-unit id="025" resname="IDS_MICOFF">
+        <source>Mic is OFF</source>
+       </trans-unit>
+       
+       <trans-unit id="026" resname="IDS_CAMON">
+        <source>Cam is ON</source>
+      </trans-unit>
+       
+       <trans-unit id="027" resname="IDS_CAMOFF">
+        <source>Cam is OFF</source>
+      </trans-unit>
+      
+      <trans-unit id="028" resname="IDS_NOCAM">
+        <source>No cam detected</source>
+      </trans-unit>
+      
+      <trans-unit id="029" resname="IDS_NOMIC">
+        <source>No mic detected</source>
+      </trans-unit>
+      
+      <trans-unit id="030" resname="IDS_CAMNOTALLOWED">
+        <source>Cams are not allowed</source>
+      </trans-unit>
+      
+      <trans-unit id="031" resname="IDS_MICNOTALLOWED">
+        <source>Mics are not allowed</source>
+      </trans-unit>
+       
+       <trans-unit id="032" resname="IDS_CHANGE">
+        <source>change</source>
+      </trans-unit>
+      
+      <!-- The following strings are used mostly in the others cameras window -->
+      
+       <trans-unit id="033" resname="IDS_OPTIONS">
+        <source>Options for this stream:</source>
+      </trans-unit>
+      
+      <trans-unit id="034" resname="IDS_BT_MUTE">
+        <source>Mute</source>
+      </trans-unit>
+       
+       <trans-unit id="035" resname="IDS_BT_FULLSCREEN">
+        <source>Enter/Exit full screen</source>
+      </trans-unit>   
+      
+       <trans-unit id="036" resname="IDS_TRIPTIME">
+        <source>Trip time: </source>
+      </trans-unit>   
+      
+       <!-- The following strings are used mostly in the INVITE window -->
+       
+      <trans-unit id="037" resname="IDS_TITLE_INVITE">
+        <source>Invite people to this chat</source>
+      </trans-unit>
+       
+       <trans-unit id="038" resname="IDS_BT_COYTOCLIPBOARD">
+        <source>Copy to clipboard</source>
+      </trans-unit>
+      
+       <!-- The following strings are used mostly in the ROOMS window -->
+       
+      <trans-unit id="039" resname="IDS_TITLE_ROOMS">
+        <source>Rooms list</source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_ID">
+        <source>id</source>
+      </trans-unit>
+       <trans-unit id="041" resname="IDS_NAME">
+        <source>name</source>
+      </trans-unit>
+      <trans-unit id="041a" resname="IDS_PRIVATE">
+        <source>private?</source>
+      </trans-unit>
+      <trans-unit id="041b" resname="IDS_PRIVATEYES">
+        <source>yes</source>
+      </trans-unit>
+      <trans-unit id="041c" resname="IDS_PRIVATENO">
+        <source>no</source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_DESCRIPTION">
+        <source>description</source>
+      </trans-unit>
+       <trans-unit id="043" resname="IDS_USERS">
+        <source>users</source>
+      </trans-unit>
+       <trans-unit id="044" resname="IDS_OWNER">
+        <source>owner</source>
+      </trans-unit>
+       <trans-unit id="045" resname="IDS_TIMEALIVE">
+        <source>created</source>
+      </trans-unit>
+       <trans-unit id="046" resname="IDS_BT_JOIN">
+        <source>Join</source>
+      </trans-unit>
+       <trans-unit id="047" resname="IDS_BT_CREATE">
+        <source>Create a new Room</source>
+      </trans-unit>
+       <trans-unit id="048" resname="IDS_BT_DELETE">
+        <source>Delete</source>
+      </trans-unit>
+       <trans-unit id="049" resname="IDS_BT_RESET">
+        <source>Reset</source>
+      </trans-unit>
+ 
+ 
+  <!-- The following strings are used mostly in the BANNED IPS window -->
+  
+      <trans-unit id="050" resname="IDS_TITLE_BANNEDIPS">
+        <source>List of banned ips</source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_IP">
+        <source>IP</source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_BANSTART">
+        <source>Ban start</source>
+      </trans-unit>
+      <trans-unit id="053" resname="IDS_DURATION">
+        <source>duration</source>
+      </trans-unit>
+      <trans-unit id="054" resname="IDS_BANEND">
+        <source>Ban end</source>
+      </trans-unit>
+      <trans-unit id="055" resname="IDS_EXPIRED">
+        <source>expired</source>
+      </trans-unit>
+      <trans-unit id="056" resname="IDS_BT_BANNEWIP">
+        <source>Ban a new IP or username</source>
+      </trans-unit>
+       <trans-unit id="057" resname="IDS_BT_REMOVEBAN">
+        <source>Remove ban</source>
+      </trans-unit>
+      
+      
+      <!-- The following strings are used mostly in the BAN NEW IP window -->
+      
+      <trans-unit id="058" resname="IDS_TITLE_BANNEWIPS">
+        <source>Ban a new IP or username</source>
+      </trans-unit>
+      <trans-unit id="059" resname="IDS_BANTHISIP">
+        <source>Ban this IP:</source>
+      </trans-unit> 
+      <trans-unit id="059a" resname="IDS_BANTHISIPRANGE">
+        <source>You can ban a single IP or IP ranges like this: 127.0.0.1-127.0.0.255</source>
+      </trans-unit>
+      <trans-unit id="060" resname="IDS_BANDURATION">
+        <source>Ban duration:</source>
+      </trans-unit>
+      <trans-unit id="061" resname="IDS_IPBELONGSTO">
+        <source>This IP belonged to: </source>
+      </trans-unit>
+      <trans-unit id="062" resname="IDS_BT_BANIT">
+        <source>Ban it</source>
+      </trans-unit>
+      
+      <!-- The following strings are used mostly in the CREATE ROOM window -->
+      
+      <trans-unit id="063" resname="IDS_TITLE_CREATEROOM">
+        <source>Create a new room</source>
+      </trans-unit>
+      <trans-unit id="064" resname="IDS_ROOMNAME">
+        <source>Room Name:*</source>
+      </trans-unit> 
+      <trans-unit id="065" resname="IDS_ROOMDESCRIPTION">
+        <source>Description:</source>
+      </trans-unit>
+      <trans-unit id="066" resname="IDS_ROOMPASSWORD">
+        <source>Password:</source>
+      </trans-unit>
+      <trans-unit id="067" resname="IDS_ROOMMAXUSERS">
+        <source>Max users:</source>
+      </trans-unit>
+      <trans-unit id="068" resname="IDS_BT_CREATEIT">
+        <source>Create it</source>
+      </trans-unit> 
+      
+       <!-- The following strings are used mostly in the UPLOAD FILE window -->
+       
+       <trans-unit id="069" resname="IDS_TITLE_UPLOAD">
+        <source>Send file to </source>
+      </trans-unit>
+      <trans-unit id="070" resname="IDS_BT_BROWSE">
+        <source>Browse</source>
+      </trans-unit> 
+      <trans-unit id="071" resname="IDS_BT_SENDTHEFILE">
+        <source>Send the file</source>
+      </trans-unit>
+       <trans-unit id="072" resname="IDS_SELECTFILE">
+        <source>Browse file to send...</source>
+      </trans-unit>
+      <trans-unit id="073" resname="IDS_FILESENT">
+        <source>The file has been sent to </source>
+      </trans-unit>
+      <trans-unit id="074" resname="IDS_FILETOLARGE">
+        <source>This file is too large, upload file size is limited to </source>
+      </trans-unit>
+      <trans-unit id="075" resname="IDS_ROOMMAXUSERS">
+        <source>Max users:</source>
+      </trans-unit>
+      <trans-unit id="076" resname="IDS_BT_CREATEIT">
+        <source>Create it</source>
+      </trans-unit>
+      
+        <!-- The following strings are used mostly in the USERS LIST window -->
+      
+      <trans-unit id="077" resname="IDS_TITLE_USERSLIST">
+        <source>Users in active room</source>
+      </trans-unit> 
+       <trans-unit id="078" resname="IDS_SHOWFROMACTIVEROOM">
+        <source>Show:</source>
+      </trans-unit>
+       <trans-unit id="079" resname="IDS_SHOWALL">
+        <source>all users from active room</source>
+      </trans-unit>
+       <trans-unit id="080" resname="IDS_SHOWBLOCKED">
+        <source>all blocked users </source>
+      </trans-unit>    
+       <trans-unit id="081" resname="IDS_SHOWWATCHING">
+        <source>everyone who is watching you </source>
+      </trans-unit>
+       <trans-unit id="082" resname="IDS_SORTBY">
+        <source>Sort by</source>
+      </trans-unit>
+       <trans-unit id="083" resname="IDS_SORTBYNAME">
+        <source>name</source>
+      </trans-unit>    
+       <trans-unit id="084" resname="IDS_SORTBYCAMS">
+        <source>cams on top</source>
+      </trans-unit>
+       <trans-unit id="085" resname="IDS_SORTBYTIME">
+        <source>time online</source>
+      </trans-unit> 
+      
+      
+       <!-- The following strings are used mostly in the USER ITEM SIDE PANEL window -->
+      
+      <trans-unit id="086" resname="IDS_OPTIONSFOR">
+        <source>Options for </source>
+      </trans-unit> 
+      <trans-unit id="087" resname="IDS_BT_WATCH">
+        <source>Watch his/her A/V stream </source>
+      </trans-unit> 
+      <trans-unit id="088" resname="IDS_BT_BUZZ">
+        <source>Buzz</source>
+      </trans-unit> 
+      <trans-unit id="089" resname="IDS_BT_SENDFILE">
+        <source>Send file...</source>
+      </trans-unit> 
+      <trans-unit id="090" resname="IDS_BT_BLOCK">
+        <source>Block entirely</source>
+      </trans-unit>
+      <trans-unit id="091" resname="IDS_BT_UNBLOCK">
+        <source>Unblock</source>
+      </trans-unit> 
+      <trans-unit id="092" resname="IDS_BT_KICK">
+        <source>Kick</source>
+      </trans-unit> 
+      <trans-unit id="093" resname="IDS_BT_BAN">
+        <source>Ban...</source>
+      </trans-unit> 
+      <trans-unit id="094" resname="IDS_ONLINEFOR">
+        <source>Online for: </source>
+      </trans-unit>
+      <trans-unit id="095" resname="IDS_BT_PROFILE">
+        <source>Open Profile</source>
+      </trans-unit>
+      <trans-unit id="096" resname="IDS_BT_PM">
+        <source>Send Private Message</source>
+      </trans-unit>
+      
+      
+      <!-- The following strings are used mostly in VARIOUS OTHER AREAS -->
+     
+     <trans-unit id="097" resname="IDS_NEEDTOBELOGGEDIN">
+        <source>To join the chat you need to register first (or upgrade your user level if needed)!</source>
+      </trans-unit> 
+      <trans-unit id="098" resname="IDS_CONNECTIONLOST">
+        <source>The connection with the media server was lost: your Internet connection dropped or the server stopped working.</source>
+      </trans-unit> 
+      <trans-unit id="099" resname="IDS_NOCONNECTION">
+        <source>The connection with the video chat server could not be made.</source>
+      </trans-unit>
+      <trans-unit id="100" resname="IDS_BT_RECONNECT">
+        <source>Reconnect me to the video chat server...</source>
+      </trans-unit>
+      <trans-unit id="101" resname="IDS_BT_LOGIN">
+        <source>Go to the login page</source>
+      </trans-unit>
+      <trans-unit id="102" resname="IDS_BT_REGISTER">
+        <source>Become a member of this website</source>
+      </trans-unit>
+       <trans-unit id="103" resname="IDS_BT_ROOMFULL">
+        <source>Could not join room with id IDIDID, the room is full!</source>
+      </trans-unit>
+      <trans-unit id="104" resname="IDS_BT_NOROOM">
+        <source>Could not join room with id IDIDID, the room might not exist!</source>
+      </trans-unit>
+      <trans-unit id="105" resname="IDS_BT_JOINERROR">
+        <source>Error on the video chat server, could not join room, check the video server logs for errors!</source>
+      </trans-unit>
+      
+      <!-- The following strings are used mostly in the RICH TEXT CHAT window -->
+      
+      <trans-unit id="106" resname="IDS_TITLE_RICHTEXTCHAT">
+        <source>Rich text chat</source>
+      </trans-unit>
+      <trans-unit id="107" resname="IDS_CHATWELCOMESUPERMESSAGE">
+        <source>Welcome to the AVChat 3.0 User Interface ( http://www.avchat.net  ). To send a message to the other users type in your message in the input text field at the bottom and press &lt;b&gt;ENTER&lt;/b&gt;.</source>
+      </trans-unit>
+      <trans-unit id="108" resname="IDS_ROOMWELCOME">
+        <source>Welcome to the ROOMNAME room!</source>
+      </trans-unit>
+      <trans-unit id="109" resname="IDS_CHATQUIT">
+        <source>USERNAME has quit the chat!</source>
+      </trans-unit>
+      <trans-unit id="110" resname="IDS_ROOMJOIN">
+        <source>USERNAME has joined the room!</source>
+      </trans-unit>
+      <trans-unit id="111" resname="IDS_ROOMLEFT">
+        <source>USERNAME has left the room!</source>
+      </trans-unit> 
+      <trans-unit id="112" resname="IDS_KICKED">
+        <source>USERNAME has been kicked by ADMINUSERNAME!!!</source>
+      </trans-unit>        
+      <trans-unit id="113" resname="IDS_BANNED">
+        <source>USERNAME has been banned by ADMINUSERNAME!!!</source>
+      </trans-unit>
+      <trans-unit id="114" resname="IDS_BT_DOWNLOADFILE">
+        <source>Click here to download it!</source>
+      </trans-unit>   
+        <trans-unit id="115" resname="IDS_PRIVATEFILE">
+        <source>You've recieved a private file from USERNAME</source>
+      </trans-unit>
+      <trans-unit id="116" resname="IDS_PUBLICFILE">
+        <source>USERNAME uploaded a file</source>
+      </trans-unit>
+       <trans-unit id="117" resname="IDS_BT_ACCEPT">
+        <source>Accept</source>
+      </trans-unit>
+       <trans-unit id="118" resname="IDS_ACCEPTED">
+        <source>Permission Granted</source>
+      </trans-unit>      
+        <trans-unit id="119" resname="IDS_BT_DENY">
+        <source>Deny</source>
+      </trans-unit>
+         <trans-unit id="120" resname="IDS_DENIED">
+        <source>Permission Denied</source>
+      </trans-unit>   
+      <trans-unit id="121" resname="IDS_USN_REQUESTS_PERMISSION">
+        <source>requests permission to view your webcam,</source>
+      </trans-unit>  
+      <trans-unit id="122" resname="IDS_REQUESTING_PERMISSION">
+        <source>Requesting permission...</source>
+      </trans-unit>
+     <trans-unit id="123" resname="IDS_BUZZED">
+        <source>buzzed you!</source>
+      </trans-unit>       
+      
+	  
+	  <!-- The following strings are used mostly in the YOUTUBE LINK window -->
+	  <trans-unit id="124" resname="IDS_TITLE_YTURL">
+        <source>Enter a YouTube movie URL</source>
+      </trans-unit> 
+	  <trans-unit id="125" resname="IDS_BT_ADDYTURL">
+        <source>Add it</source>
+      </trans-unit> 
+	   
+	   <!-- The following strings are used mostly in the REQUEST PASS FOR PRIVATE ROOM  window -->
+	  <trans-unit id="126" resname="IDS_TITLE_PASSREQUEST">
+        <source>Enter the password for this room:</source>
+      </trans-unit>  
+	  <trans-unit id="127" resname="IDS_BT_SUBMIT">
+        <source>Submit!</source>
+      </trans-unit>  
+	 
+	   <!-- The following are added after the initial release of the AVChat 3 video chat software -->
+	   <trans-unit id="128" resname="IDS_BT_SEND">
+        <source>Send</source>
+      </trans-unit>
+      <trans-unit id="129" resname="IDS_YOU_BUZZED">
+        <source>You buzzed</source>
+      </trans-unit>
+      <trans-unit id="130" resname="IDS_PRIVATE_CHAT_WITH">
+        <source>Private chat with </source>
+      </trans-unit>
+      <trans-unit id="131" resname="IDS_BANAUTHOR">
+        <source>Author</source>
+      </trans-unit>  
+      <trans-unit id="132" resname="IDS_BANAUTHORIP">
+        <source>Author IP</source>
+      </trans-unit>
+      <trans-unit id="133" resname="IDS_SORTBYGENDER">
+        <source>Sort by gender</source>
+      </trans-unit>
+      <trans-unit id="134" resname="IDS_PLAYSOUNDONMESSAGE">
+        <source>Play sound on new messages</source>
+      </trans-unit>
+      <trans-unit id="135" resname="IDS_PERSONLEFTROOMWHILEIWASWATCHINGHER">
+        <source>You are not frequenting the same rooms anymore</source>
+      </trans-unit>
+      <trans-unit id="136" resname="IDS_LOADING">
+        <source>Loading...</source>
+      </trans-unit>
+      <trans-unit id="137" resname="IDS_FILENOTFOUND">
+        <source>File not found!</source>
+      </trans-unit>
+      
+      <trans-unit id="138" resname="IDS_CANTKICKADMIN">
+        <source>(admins can't be kicked)</source>
+      </trans-unit>
+      <trans-unit id="139" resname="IDS_CANTBANADMIN">
+        <source>(admins can't be banned)</source>
+      </trans-unit>
+      <trans-unit id="140" resname="IDS_CANTBLOCKADMIN">
+        <source>(admins can't be blocked)</source>
+      </trans-unit>
+      <trans-unit id="141" resname="IDS_YOU_HAVE_BEEN_KICKED">
+        <source>You have been kicked!</source>
+      </trans-unit>
+      <trans-unit id="142" resname="IDS_YOU_HAVE_BEEN_BANED">
+        <source>You have been banned!</source>
+      </trans-unit>
+      <trans-unit id="143" resname="IDS_AUDIO_ONLY">
+        <source>Audio Only Stream</source>
+      </trans-unit>
+      <trans-unit id="144" resname="IDS_JOINING_ROOMS">
+        <source>Joining Room...</source>
+      </trans-unit>
+      <trans-unit id="145" resname="IDS_IS_TYPING">
+        <source>is typing...</source>
+      </trans-unit>
+      <trans-unit id="146" resname="IDS_ARE_TYPING">
+        <source>are typing...</source>
+      </trans-unit>
+      <trans-unit id="147" resname="IDS_AUTOSCROLL">
+        <source>Auto Scroll</source>
+      </trans-unit>
+      <trans-unit id="148" resname="IDS_BT_CLOSE_ROOM">
+        <source>Close Room </source>
+      </trans-unit>
+       <trans-unit id="149" resname="IDS_ROOM_CLOSED">
+        <source>[CLOSED] </source>
+      </trans-unit>
+      
+      
+      <trans-unit id="150" resname="IDS_TOOLTIP_BOLD">
+        <source>Bold text</source>
+      </trans-unit>
+      <trans-unit id="151" resname="IDS_TOOLTIP_ITALIC">
+        <source>Italic text</source>
+      </trans-unit>
+      <trans-unit id="152" resname="IDS_TOOLTIP_UNDERLINE">
+        <source>Underline text</source>
+      </trans-unit>
+      <trans-unit id="153" resname="IDS_TOOLTIP_ADDVID">
+        <source>Add YouTube video</source>
+      </trans-unit>
+       <trans-unit id="154" resname="IDS_TOOLTIP_ADDFILE">
+        <source>Upload file to room</source>
+      </trans-unit>
+      <trans-unit id="155" resname="IDS_TOOLTIP_ADDEMOTE">
+        <source>Add emote icon</source>
+      </trans-unit>
+      <trans-unit id="156" resname="IDS_TOOLTIP_SENDTEXT">
+        <source>Send text message</source>
+      </trans-unit>
+      <trans-unit id="157" resname="IDS_TOOLTIP_STARTSTREAMING">
+        <source>Start streaming your cam/mic</source>
+      </trans-unit>
+      <trans-unit id="158" resname="IDS_TOOLTIP_BTJL">
+        <source>Show join/leave messages</source>
+      </trans-unit>
+      <trans-unit id="159" resname="IDS_AUTHORIP">
+        <source>owner IP</source>
+      </trans-unit>
+      <trans-unit id="160" resname="IDS_TOOLTIP_PREVIEW">
+        <source>Show images/YouTube previews</source>
+      </trans-unit>
+       <trans-unit id="161" resname="IDS_MUTE">
+        <source>Mute</source>
+      </trans-unit>
+       <trans-unit id="162" resname="IDS_UNMUTE">
+        <source>Unmute</source>
+      </trans-unit>
+      <trans-unit id="163" resname="IDS_VIEWERS">
+        <source>viewers</source>
+      </trans-unit>
+      <trans-unit id="164" resname="IDS_IDLEFOR">
+        <source>Idle for: </source>
+      </trans-unit>
+      <trans-unit id="165" resname="IDS_SENDFILETO">
+        <source>Send file to: </source>
+      </trans-unit>
+      <trans-unit id="166" resname="IDS_EXTENSIONDENIED">
+        <source>Files with this extension can not be uploaded</source>
+      </trans-unit>
+      <trans-unit id="167" resname="IDS_UPLOADFAILED">
+        <source>Upload failed. Something happened on the web server. Check the the web server logs for errors.</source>
+      </trans-unit>
+      <trans-unit id="168" resname="IDS_YOU_HAVE_BEEN_KICKED_IDLE">
+        <source>You have been disconected because you've reached the maximum idle time!</source>
+      </trans-unit>
+      <trans-unit id="169" resname="IDS_BT_REOPEN_ROOM">
+        <source>Reopen Room</source>
+      </trans-unit>
+      <trans-unit id="170" resname="IDS_DOWNFORMAINTENANCE">
+        <source>Video chat is down for maintenance.</source>
+      </trans-unit>
+      <trans-unit id="171" resname="IDS_STR_BLOCKEDUSERS">
+        <source>blocked users</source>
+      </trans-unit>
+      <trans-unit id="172" resname="IDS_STR_VIEWERS">
+        <source>viewers</source>
+      </trans-unit>
+      <trans-unit id="173" resname="IDS_ROOMSALLPRIVATE">
+        <source>Only private rooms are allowed!</source>
+      </trans-unit>
+      <trans-unit id="174" resname="IDS_BT_WHO">
+      	<source>(who is?)</source>
+      </trans-unit>
+      <trans-unit id="175" resname="IDS_BT_EDIT_ROOM">
+      	<source>Edit</source>
+      </trans-unit>
+      <trans-unit id="176" resname="IDS_TITLE_EDITROOM">
+      	<source>Edit this room</source>
+      </trans-unit>
+      <trans-unit id="177" resname="IDS_BT_EDITIT">
+       <source>Edit it</source>
+      </trans-unit>
+      <trans-unit id="178" resname="IDS_BT_STOPVIEWINGCAM">
+       <source>Stop him/her from viewing you</source>
+      </trans-unit>
+      <trans-unit id="179" resname="IDS_LOOKINGAT">
+       <source>Looking at: </source>
+      </trans-unit>
+      <trans-unit id="180" resname="IDS_CONVERSATIONLEFT">
+        <source>USERNAME has left the conversation.</source>
+      </trans-unit> 
+      <trans-unit id="181" resname="IDS_TOOLTIP_CLEAR">
+        <source>Clear text chat</source>
+      </trans-unit>
+      <trans-unit id="182" resname="IDS_BANTHISUSER">
+        <source>Ban this user: </source>
+      </trans-unit>
+       <trans-unit id="183" resname="IDS_BT_UPGRADE">
+        <source>Upgrade </source>
+      </trans-unit>
+      <trans-unit id="184" resname="IDS_TITLE_BANNEDUSERNAMES">
+       <source>List of banned usernames</source>
+      </trans-unit>
+      <trans-unit id="185" resname="IDS_BT_MUTE_STREAMS">
+       <source>Mute</source>
+      </trans-unit>
+       <trans-unit id="186" resname="IDS_BT_GIFT">
+       <source>Send Gift</source>
+      </trans-unit>
+       <trans-unit id="187" resname="IDS_TOOLTIP_PMS">
+       <source>Ignore New Private Messages</source>
+      </trans-unit>
+      <trans-unit id="188" resname="IDS_BT_KICK_FROM_ROOM">
+       <source>Kick from this room</source>
+      </trans-unit>
+      <trans-unit id="189" resname="IDS_CHATFULL">
+       <source>Chat is full, come back later.</source>
+      </trans-unit> 
+      <trans-unit id="190" resname="IDS_NOBROADCAST">
+       <source>This user is not broadcasting anymore.</source>
+      </trans-unit>
+      <trans-unit id="191" resname="IDS_YOU_HAVE_BEEN_SILENCED">
+      	<source>You have been silenced by an admin for</source>
+      </trans-unit>
+      <trans-unit id="192" resname="IDS_SECONDS">
+      	<source>seconds</source>
+      </trans-unit>
+       <trans-unit id="193" resname="IDS_BT_SILENCE_FROM_ROOM">
+      	<source>Silence user on this room</source>
+      </trans-unit>
+      
+      <trans-unit id="194" resname="IDS_CANTSILENCEADMIN">
+      	<source>(admins can't be silenced)</source>
+      </trans-unit>
+      <trans-unit id="195" resname="IDS_BLOCK_BUZZ_SOUND">
+       <source>Block buzz sounds</source>
+      </trans-unit>
+      <trans-unit id="196" resname="IDS_ERASE_ROOMS_SCREENS">
+      	<source>Erase all from room screens</source>
+      </trans-unit>
+      
+      <trans-unit id="197" resname="IDS_BT_STOP_STREAM">
+      	<source>Stop streaming</source>
+      </trans-unit>
+      
+      <trans-unit id="198" resname="IDS_P2T">
+      	<source>Push to talk</source>
+      </trans-unit>
+      
+        <trans-unit id="199" resname="IDS_P2TOFF">
+      	<source>p2t is off</source>
+      </trans-unit>
+	  
+	  <trans-unit id="200" resname="IDS_SEARCH">
+      	<source>Search...</source>
+      </trans-unit>
+	  
+	  <trans-unit id="201" resname="IDS_BT_WRONGPASS">
+        <source>Could not join room because the password is incorrect!</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="202" resname="IDS_NSFW_EXTRA">
+        <source>Check if sending NSFW content</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="203" resname="IDS_NSFW_NOTIFICATION">
+        <source>USERNAME uploaded a NSFW file</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="204" resname="IDS_NSFW_NOTIFICATION2">
+        <source>A NSFW content was sent</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="205" resname="IDS_NSFW">
+        <source>NSFW CONTENT</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="206" resname="IDS_USER_NOT_FOUND">
+        <source>User not found</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="207" resname="IDS_USERNAME_TAKEN">
+        <source>The Username is already taken. Please sign in with a different user name</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="208" resname="IDS_RATHER_NOT_SAY">
+        <source>Rather not say</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="209" resname="IDS_LOGIN_AS_GUEST">
+        <source>Login as a guest</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="210" resname="IDS_REGISTER">
+        <source>Register</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="211" resname="IDS_REGISTER_INFO">
+        <source>Register today to get access to the best video chat technology can offer! Send private messages and create your own room today!</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="212" resname="IDS_GO_TO_REGISTER">
+        <source>Go to the Registration Page</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="213" resname="IDS_SIGN_IN">
+        <source>Sign in</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="214" resname="IDS_ALREADY_HAVE_ACCOUNT">
+        <source>Already have an account on this website?</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="215" resname="IDS_SIGN_IN_PAGE">
+        <source>Go to the Sign In Page</source>
+	  </trans-unit>
+	  
+	   <trans-unit id="216" resname="IDS_OR_USE_EXISTING_ACCOUNT">
+        <source>Or use existing account</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="217" resname="IDS_TAB_GUEST">
+        <source>Enter Chat</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="218" resname="IDS_TAB_REGISTER">
+        <source>Register &amp; Sign In</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="219" resname="IDS_VIEW_ONLINE">
+        <source>There are NUMBER people in the chat</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="220" resname="IDS_NEED_TO_UPGRADE">
+        <source>You need to upgrade to a higher user level to access this page.</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="221" resname="IDS_TOOLTIP_CHATHISTORY">
+        <source>Show room chat history.</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="222" resname="IDS_TITLE_CHATHISTORY">
+        <source>Chat history.</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="223" resname="IDS_BT_RELOAD">
+        <source>Reload</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="224" resname="IDS_TOOLTIP_BLOCKVIEWREQUESTS">
+        <source>Block all view stream requests</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="225" resname="IDS_INVALID_USERNAME">
+        <source>The username is invalid</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="226" resname="IDS_MOBILE_WELCOME">
+        <source>Welcome to AVChat 3.0 Mobile Client</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="227" resname="IDS_MOBILE_WELCOME_ONCONNECT">
+        <source>Welcome To AVChat</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="228" resname="IDS_MOBILE_CHOOSE_GENDER">
+        <source>Choose a gender:</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="229" resname="IDS_MOBILE_BTNLOGIN_AREA">
+        <source>Login area</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="230" resname="IDS_MOBILE_WELCOME_USER">
+        <source>Welcome</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="231" resname="IDS_MOBILE_INROOM">
+        <source>In Room:</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="232" resname="IDS_MOBILE_OWNER">
+        <source>Owner:</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="233" resname="IDS_MOBILE_ISPRIVATE">
+        <source>Is Private:</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="234" resname="IDS_MOBILE_BTN_USERSLIST">
+        <source>Users</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="235" resname="IDS_MOBILE_USERS_INROOM">
+        <source>Users in room:</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="236" resname="IDS_MOBILE_CLICK_TO_TYPE">
+        <source>Click here to type a message</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="237" resname="IDS_MOBILE_WELCOME_TO_ROOM">
+        <source>to room</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="238" resname="IDS_BAN_FROM_ROOM">
+        <source>Ban from this room</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="239" resname="IDS_BANNED_FROM_ROOM">
+        <source>USERNAME has been banned from the room by ADMINUSERNAME!!!</source>
+      </trans-unit>
+	  
+	  <trans-unit id="240" resname="IDS_YOU_HAVE_BEEN_BANNED_FROM_ROOM">
+        <source>You have been banned from the room!</source>
+      </trans-unit>
+	  
+	  <trans-unit id="241" resname="IDS_BANNED_FROM_ROOM_FOR_TIME">
+        <source>You have been banned from the room for PERIOD! You still have to wait REMAININGTIME minutes of penalty.</source>
+      </trans-unit>
+	  
+	  <trans-unit id="242" resname="IDS_BANNED_FROM_ROOM_TITLE">
+        <source>Ban USER from this room for duration:</source>
+      </trans-unit>
+	  
+	  <trans-unit id="243" resname="IDS_PROMOTE_TO_MOD">
+        <source>Promote to moderator of this room</source>
+      </trans-unit>
+	  
+	  <trans-unit id="244" resname="IDS_PROMOTED_IN_ROOM">
+        <source>USERNAME has been promoted to room moderator by ADMINUSERNAME!!!</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="245" resname="IDS_PROMOTED_NOTIFICATION">
+        <source>You have been promoted to room moderator in room ROOMNAME. Please re-enter the room.</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="246" resname="IDS_REPORT_USER">
+        <source>Report this user</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="247" resname="IDS_BT_REPORT">
+        <source>Report</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="248" resname="IDS_REPORT_TITLE">
+        <source>Report USERNAME for:</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="249" resname="IDS_REPORT_ADD_INFO">
+        <source>Additional information (max 200 characters)</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="250" resname="IDS_REPORT_SUCCESS">
+        <source>USERNAME was successfully reported! Uploading a snapshot, this may take a few moments.</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="251" resname="IDS_SITE_ID">
+        <source>Site ID</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="252" resname="IDS_REASON">
+        <source>Report reason</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="253" resname="IDS_DESCRIPTION">
+        <source>Additional information</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="254" resname="IDS_ROOM_ID">
+        <source>Room ID</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="255" resname="IDS_ROOM_NAME">
+        <source>Room name</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="256" resname="IDS_LIST_REPORTED_USERS">
+        <source>List of reported users</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="257" resname="IDS_REMOVE_REPORT">
+        <source>Remove report</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="258" resname="IDS_CAMSNAP_URL">
+        <source>Webcam snapshot URL</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="259" resname="IDS_TEXTSNAP_URL">
+        <source>Textchat snapshot URL</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="260" resname="IDS_VIEW_CAMSNAP">
+        <source>View camera snapshot</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="261" resname="IDS_VIEW_TEXTSNAP">
+        <source>View textchat snapshot</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="262" resname="IDS_ADD_WELCOME_MSG">
+        <source>Welcome message</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="263" resname="IDS_CONTINUE">
+        <source>Continue</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="264" resname="IDS_REPORT_REASON_1">
+        <source>Strong language</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="265" resname="IDS_REPORT_REASON_2">
+        <source>Violation of web-site terms</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="266" resname="IDS_REPORT_REASON_3">
+        <source>Obscenity</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="267" resname="IDS_REPORT_REASON_4">
+        <source>Harrassment</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="268" resname="IDS_REPORT_REASON_5">
+        <source>Inappropriate behaviour</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="269" resname="IDS_BTN_REPORTS">
+        <source>Reports</source>
+	  </trans-unit>
+	  
+	  <trans-unit id="270" resname="IDS_REPORT_DATE">
+        <source>Date added</source>
+	  </trans-unit>
+	  
+    </body>
+  </file>
+
+</xliff>

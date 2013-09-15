@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emoticons>
+	<e text=";)" url="emoticons/standardPack/;).swf" w="16" h="16"></e>
+	<e text="B-)" url="emoticons/standardPack/B-).swf" w="16" h="16"></e>
+	<e text=":-D" url="emoticons/standardPack/grin.swf" w="16" h="16"></e>
+	<e text=":-h:" url="emoticons/standardPack/heart.swf" w="16" h="16"></e>
+	<e text=":hm:" url="emoticons/standardPack/hmm.swf" w="16" h="16"></e>
+	<e text="???" url="emoticons/standardPack/questionmark.swf" w="16" h="16"></e>
+	<e text=":slp:" url="emoticons/standardPack/sleep.swf" w="22" h="16"></e>
+	<e text=":)" url="emoticons/standardPack/smile.swf" w="16" h="16"></e>
+	<e text=":-w:" url="emoticons/standardPack/whistle.swf" w="22" h="16"></e>
+	<e text=":drinks:" url="emoticons/standardPack/drinks.gif" w="51" h="28"></e>
+	<e text=":empathy:" url="emoticons/standardPack/empathy.gif" w="41" h="25"></e>
+</emoticons>
